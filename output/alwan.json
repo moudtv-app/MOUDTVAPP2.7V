@@ -1,6 +1,6 @@
 {
   "channels": {
-    "-alwan_fdcf6d9387": {
+    "-alwan_8a5965775b": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
@@ -11,7 +11,7 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd1/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 1"
     },
-    "-alwan_af180e690f": {
+    "-alwan_575ee5675a": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -22,7 +22,7 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd2/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 2"
     },
-    "-alwan_c102b26603": {
+    "-alwan_206fec4539": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -33,7 +33,7 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd3/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 3"
     },
-    "-alwan_cc6631cf48": {
+    "-alwan_68aa4b2a41": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -44,7 +44,7 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd4/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 4"
     },
-    "-alwan_324699952a": {
+    "-alwan_833c0e0fe4": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -55,7 +55,7 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd5/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 5"
     },
-    "-alwan_840684568a": {
+    "-alwan_b17d0ecbe2": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -66,62 +66,62 @@
       ],
       "streamUrl": "https://primetv.cc.cd/alwhd6/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=ALWAN SPORT 6"
     },
-    "-alwan_3843d452af": {
+    "-alwan_31ef31ff8c": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 1 | الوان 1",
       "order": 7,
       "servers": [
-        "https://fas10.fastapistorage.store/sokaspr/inpcnugabcpg/index.html|name=ALWAN SPORT 1 | الوان 1"
+        "https://fas10.fastapistorage.shop/sokaspr/inpcnugabcpg/index.html|name=ALWAN SPORT 1 | الوان 1"
       ],
-      "streamUrl": "https://fas10.fastapistorage.store/sokaspr/inpcnugabcpg/index.html|name=ALWAN SPORT 1 | الوان 1"
+      "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/inpcnugabcpg/index.html|name=ALWAN SPORT 1 | الوان 1"
     },
-    "-alwan_7ee70a6ce9": {
+    "-alwan_bfc10419c9": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 10 | الوان 10",
       "order": 8,
       "servers": [
-        "https://fas10.fastobjectstorage.shop/sokaspr/tcvvfnldbejm/index.html|name=ALWAN SPORT 10 | الوان 10"
+        "https://fas10.fastapistorage.shop/sokaspr/tcvvfnldbejm/index.html|name=ALWAN SPORT 10 | الوان 10"
       ],
-      "streamUrl": "https://fas10.fastobjectstorage.shop/sokaspr/tcvvfnldbejm/index.html|name=ALWAN SPORT 10 | الوان 10"
+      "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/tcvvfnldbejm/index.html|name=ALWAN SPORT 10 | الوان 10"
     },
-    "-alwan_ee4bd1209d": {
+    "-alwan_8cf4a37096": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 2 | الوان 2",
       "order": 9,
       "servers": [
-        "https://hyp10.hyperdatacloud.shop/sokaspr/kakmewljihgf/index.html|name=ALWAN SPORT 2 | الوان 2"
+        "https://fas10.fastapistorage.shop/sokaspr/kakmewljihgf/index.html|name=ALWAN SPORT 2 | الوان 2"
       ],
-      "streamUrl": "https://hyp10.hyperdatacloud.shop/sokaspr/kakmewljihgf/index.html|name=ALWAN SPORT 2 | الوان 2"
+      "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/kakmewljihgf/index.html|name=ALWAN SPORT 2 | الوان 2"
     },
-    "-alwan_27a8c9ecb2": {
+    "-alwan_403590f93e": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 3 | الوان 3",
       "order": 10,
       "servers": [
-        "https://fas10.fastapistorage.store/sokaspr/etbcmdlouvrc/index.html|name=ALWAN SPORT 3 | الوان 3"
+        "https://dat10.databoostcloud.shop/sokaspr/etbcmdlouvrc/index.html|name=ALWAN SPORT 3 | الوان 3"
       ],
-      "streamUrl": "https://fas10.fastapistorage.store/sokaspr/etbcmdlouvrc/index.html|name=ALWAN SPORT 3 | الوان 3"
+      "streamUrl": "https://dat10.databoostcloud.shop/sokaspr/etbcmdlouvrc/index.html|name=ALWAN SPORT 3 | الوان 3"
     },
-    "-alwan_af44fcb478": {
+    "-alwan_688d9e4021": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 4 | الوان 4",
       "order": 11,
       "servers": [
-        "https://dat10.databoostcloud.shop/sokaspr/htyosaunwrre/index.html|name=ALWAN SPORT 4 | الوان 4"
+        "https://fas10.fastdatastore.shop/sokaspr/htyosaunwrre/index.html|name=ALWAN SPORT 4 | الوان 4"
       ],
-      "streamUrl": "https://dat10.databoostcloud.shop/sokaspr/htyosaunwrre/index.html|name=ALWAN SPORT 4 | الوان 4"
+      "streamUrl": "https://fas10.fastdatastore.shop/sokaspr/htyosaunwrre/index.html|name=ALWAN SPORT 4 | الوان 4"
     },
-    "-alwan_d59705adb0": {
+    "-alwan_846b9fb89e": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
@@ -132,49 +132,49 @@
       ],
       "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/hbeijnaykpqf/index.html|name=ALWAN SPORT 5 | الوان 5"
     },
-    "-alwan_9119988f47": {
+    "-alwan_d9b42fac64": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 6 | الوان 6",
       "order": 13,
       "servers": [
-        "https://fas10.fastobjectstorage.shop/sokaspr/ktcwvzocpcsp/index.html|name=ALWAN SPORT 6 | الوان 6"
+        "https://fas10.fastdatastore.shop/sokaspr/ktcwvzocpcsp/index.html|name=ALWAN SPORT 6 | الوان 6"
       ],
-      "streamUrl": "https://fas10.fastobjectstorage.shop/sokaspr/ktcwvzocpcsp/index.html|name=ALWAN SPORT 6 | الوان 6"
+      "streamUrl": "https://fas10.fastdatastore.shop/sokaspr/ktcwvzocpcsp/index.html|name=ALWAN SPORT 6 | الوان 6"
     },
-    "-alwan_fedfedbcf5": {
+    "-alwan_6585aaafa5": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 7 | الوان 7",
       "order": 14,
       "servers": [
-        "https://hyp10.hyperdatacloud.shop/sokaspr/aqmqgkfzkbde/index.html|name=ALWAN SPORT 7 | الوان 7"
+        "https://fas10.fastapistorage.shop/sokaspr/aqmqgkfzkbde/index.html|name=ALWAN SPORT 7 | الوان 7"
       ],
-      "streamUrl": "https://hyp10.hyperdatacloud.shop/sokaspr/aqmqgkfzkbde/index.html|name=ALWAN SPORT 7 | الوان 7"
+      "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/aqmqgkfzkbde/index.html|name=ALWAN SPORT 7 | الوان 7"
     },
-    "-alwan_c1efb70e15": {
+    "-alwan_de57a9d32a": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 8 | الوان 8",
       "order": 15,
       "servers": [
-        "https://fas10.fastobjectstorage.shop/sokaspr/aarwbfebxcqe/index.html|name=ALWAN SPORT 8 | الوان 8"
+        "https://fas10.fastdatastore.shop/sokaspr/aarwbfebxcqe/index.html|name=ALWAN SPORT 8 | الوان 8"
       ],
-      "streamUrl": "https://fas10.fastobjectstorage.shop/sokaspr/aarwbfebxcqe/index.html|name=ALWAN SPORT 8 | الوان 8"
+      "streamUrl": "https://fas10.fastdatastore.shop/sokaspr/aarwbfebxcqe/index.html|name=ALWAN SPORT 8 | الوان 8"
     },
-    "-alwan_12e2032a1a": {
+    "-alwan_669a460e9e": {
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "name": "ALWAN SPORT 9 | الوان 9",
       "order": 16,
       "servers": [
-        "https://hyp10.hyperdatacloud.shop/sokaspr/trwjffapavva/index.html|name=ALWAN SPORT 9 | الوان 9"
+        "https://fas10.fastapistorage.shop/sokaspr/trwjffapavva/index.html|name=ALWAN SPORT 9 | الوان 9"
       ],
-      "streamUrl": "https://hyp10.hyperdatacloud.shop/sokaspr/trwjffapavva/index.html|name=ALWAN SPORT 9 | الوان 9"
+      "streamUrl": "https://fas10.fastapistorage.shop/sokaspr/trwjffapavva/index.html|name=ALWAN SPORT 9 | الوان 9"
     }
   }
 }
