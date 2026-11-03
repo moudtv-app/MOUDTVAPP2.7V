@@ -1,0 +1,53 @@
+name: Update beIN Links
+
+on:
+  schedule:
+    # 3 مرات يومياً بتوقيت UTC: 00:00، 08:00، 16:00
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run script
+        env:
+          REDPERCH_COOKIE: ${{ secrets.REDPERCH_COOKIE }}
+          APP_WEBHOOK_URL: ${{ secrets.APP_WEBHOOK_URL }}
+        run: |
+          python bein_all_in_one.py
+
+      - name: Commit and push updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🔄 Auto-update beIN links [skip ci]"
+          file_pattern: 'output/*.m3u8 output/*.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Upload as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bein-links-${{ github.run_number }}
+          path: output/
+          retention-days: 7
