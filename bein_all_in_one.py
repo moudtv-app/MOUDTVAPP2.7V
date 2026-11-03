@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 bein_all_in_one.py
-سكربت متكامل يجلب ويصنف القنوات الرياضية (بين، عربية، الوان) مع فحص السيرفرات
+سكربت متكامل (بدون فحص) لجلب وتصنيف القنوات الرياضية (بين، عربية، الوان)
 """
 
 import os
@@ -17,7 +17,6 @@ try:
     from curl_cffi import requests as curl_requests
 except ImportError:
     curl_requests = None
-    print("⚠️ curl_cffi غير مثبّت")
 
 try:
     from Crypto.Cipher import AES
@@ -25,7 +24,6 @@ try:
     HAS_CRYPTO = True
 except ImportError:
     HAS_CRYPTO = False
-    print("⚠️ pycryptodome غير مثبّت")
 
 import requests
 
@@ -33,10 +31,11 @@ OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ═══════════════════════════════════════════════════════════
-#  إعدادات الفحص (تفعيل الفحص لضمان عمل الروابط)
-#  ⚠️ تفعيل هذا الخيار سيجعل السكريبت يستغرق وقتاً طويلاً (10-20 دقيقة)
+#  إعدادات الفحص (تم إيقافه للسرعة القصوى)
 # ═══════════════════════════════════════════════════════════
-CHECK_SERVERS = True 
+CHECK_SERVERS = False 
+MAX_SERVERS_TO_CHECK = 3 
+CHECK_TIMEOUT = 3         
 
 # ═══════════════════════════════════════════════════════════
 #  الشعارات
@@ -62,7 +61,7 @@ CHANNEL_LOGOS = {
 }
 
 # ═══════════════════════════════════════════════════════════
-#  المصدر 1: DramaLive (بيانات مشفرة)
+#  المصدر 1: DramaLive
 # ═══════════════════════════════════════════════════════════
 KEY = b"0123456789abcdef"
 IV  = b"fedcba9876543210"
@@ -81,9 +80,9 @@ def api_call(endpoint, payload, host="live.publicdataroute.cc", is_redirect=Fals
     headers = {"Content-Type": "application/json; charset=utf-8", "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; M2007J20CG MIUI/V12.0.9.0.QJGMIXM)"}
     try:
         if curl_requests:
-            r = curl_requests.post(url, data=enc, headers=headers, timeout=20, impersonate="chrome", verify=False)
+            r = curl_requests.post(url, data=enc, headers=headers, timeout=15, impersonate="chrome", verify=False)
         else:
-            r = requests.post(url, data=enc, headers=headers, timeout=20, verify=False)
+            r = requests.post(url, data=enc, headers=headers, timeout=15, verify=False)
         if r.status_code in [200, 201]:
             return json.loads(aes_decrypt(r.text.strip()))
     except Exception:
@@ -122,33 +121,22 @@ def get_channel_data(channel_id):
     return None
 
 def check_url(url):
-    if not CHECK_SERVERS: return True
-    try:
-        r = requests.get(url, impersonate="chrome", timeout=8, verify=False, allow_redirects=True)
-        if r.status_code == 200:
-            c = r.content[:500]
-            if (b"#EXTM3U" in c or b"#EXT-X" in c or b"<MPD" in c or b"<mpd" in c or c.startswith(b"\x47") or b".ts" in r.text.lower() or b"<html" in c or b"<!DOCTYPE" in c):
-                return True
-        return False
-    except Exception:
-        return False
+    # تم إيقاف الفحص تماماً
+    return True
 
 # ═══════════════════════════════════════════════════════════
-#  تجميع قنوات beIN
+#  تجميع القنوات
 # ═══════════════════════════════════════════════════════════
 def get_bein_channels():
     print("\n🎯 [جلب قنوات beIN SPORTS]")
     bein_names = ["beIN SPORTS NEWS", "beIN SPORTS 1", "beIN SPORTS 2", "beIN SPORTS 3", "beIN SPORTS 4", "beIN SPORTS 5", "beIN SPORTS 6", "beIN SPORTS 7", "beIN SPORTS 8", "beIN SPORTS 9"]
     results = {}
-    
     resp = api_call("getLiveByTopic", {**base_payload(), "type": "tv", "topic": "arabic_sport"})
     if resp and "live" in resp:
         for c in resp["live"]:
             name_lower = c.get("name", "").lower()
-            # التحقق إذا كانت القناة من beIN
             if "bein" in name_lower or "beinsport" in name_lower:
                 custom_name = c.get("name").title()
-                # توحيد الأسماء
                 for b_name in bein_names:
                     if b_name.lower() in custom_name.lower() or custom_name.lower().replace("beinsport", "bein sports") == b_name.lower():
                         custom_name = b_name
@@ -164,18 +152,15 @@ def get_bein_channels():
                         res = resolve_redirect(r_url, ch_id)
                         if res and res not in links: links.append(res)
                     
-                    working = [l for l in links if check_url(l)]
-                    if working:
-                        print(f"✅ {len(working)}")
+                    # بدون فحص - نأخذ كل السيرفرات
+                    if links:
+                        print(f"✅ {len(links)}")
                         if custom_name not in results: results[custom_name] = []
-                        results[custom_name].extend(working)
+                        results[custom_name].extend(links)
                     else: print("❌")
                 else: print("❌")
     return results
 
-# ═══════════════════════════════════════════════════════════
-#  تجميع القنوات العربية
-# ═══════════════════════════════════════════════════════════
 ARABIC_SPORTS = {
     "stc tv", "stc tv 2", "ad sport 1", "ad sport 2", "ad sport premium 1", "ad sport premium 2",
     "dubai sports 1", "dubai sports 2", "dubai sports 3", "dubai racing 1", "dubai racing 2",
@@ -197,9 +182,7 @@ def get_arabic_channels():
         name = c.get("name", "")
         n_lower = name.lower()
         
-        # استبعاد قنوات beIN والوان
         if "bein" in n_lower or "beinsport" in n_lower or "alwan" in n_lower: continue
-        # التأكد من أنها رياضية
         if not any(ar in n_lower for ar in ARABIC_SPORTS) and not re.search(r"[\u0600-\u06FF]", n_lower): continue
         
         ch_id = c.get("id_live")
@@ -214,34 +197,24 @@ def get_arabic_channels():
                 res = resolve_redirect(r_url, ch_id)
                 if res and res not in links: links.append(res)
                 
-            working = [l for l in links if check_url(l)]
-            if working:
-                print(f"✅ {len(working)}")
+            if links:
+                print(f"✅ {len(links)}")
                 if custom_name not in results: results[custom_name] = []
-                results[custom_name].extend(working)
+                results[custom_name].extend(links)
             else: print("❌")
         else: print("❌")
     return results
 
-# ═══════════════════════════════════════════════════════════
-#  تجميع قنوات الوان
-# ═══════════════════════════════════════════════════════════
 def get_alwan_channels():
     print("\n🎯 [جلب قنوات ALWAN SPORTS]")
     results = {}
-    
-    # من مصدر primetv
     for i in range(1, 7):
         name = f"ALWAN SPORT {i}"
         url = f"https://primetv.cc.cd/alwhd{i}/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App"
-        print(f"  {name} (Primetv)...", end=" ", flush=True)
-        if check_url(url.split("|")[0]):
-            print("✅")
-            if name not in results: results[name] = []
-            results[name].append(url)
-        else: print("❌")
+        print(f"  {name} (Primetv)... ✅")
+        if name not in results: results[name] = []
+        results[name].append(url)
 
-    # من مصدر DramaLive (topic)
     resp = api_call("getLiveByTopic", {**base_payload(), "type": "tv", "topic": "arabic_sport"})
     if resp and "live" in resp:
         for c in resp["live"]:
@@ -258,17 +231,16 @@ def get_alwan_channels():
                         res = resolve_redirect(r_url, ch_id)
                         if res and res not in links: links.append(res)
                     
-                    working = [l for l in links if check_url(l)]
-                    if working:
-                        print(f"✅ {len(working)}")
+                    if links:
+                        print(f"✅ {len(links)}")
                         if custom_name not in results: results[custom_name] = []
-                        results[custom_name].extend(working)
+                        results[custom_name].extend(links)
                     else: print("❌")
                 else: print("❌")
     return results
 
 # ═══════════════════════════════════════════════════════════
-#  دالة الحفظ (تصدير JSON و M3U8)
+#  الحفظ
 # ═══════════════════════════════════════════════════════════
 def save_files(data, prefix, category_id):
     final_json = {"channels": {}}
@@ -298,34 +270,23 @@ def save_files(data, prefix, category_id):
         json.dump(final_json, f, ensure_ascii=False, indent=2)
     with open(os.path.join(OUTPUT_DIR, f"{prefix}.m3u8"), "w", encoding="utf-8") as f:
         f.write("\n".join(m3u8_lines))
-    
-    print(f"✅ تم حفظ: output/{prefix}.json و output/{prefix}.m3u8")
+    print(f"✅ تم حفظ: {prefix}.json و {prefix}.m3u8")
 
 # ═══════════════════════════════════════════════════════════
 #  main
 # ═══════════════════════════════════════════════════════════
 def main():
     start_time = time.time()
+    print("⏳ البدء (بدون فحص - سرعة قصوى)...")
     
-    print("⏳ البدء في جلب القنوات... (قد يستغرق 10-20 دقيقة بسبب الفحص)")
-    
-    # 1. قنوات beIN
     bein_data = get_bein_channels()
-    if bein_data:
-        # -Oy71oID8jDKWM314zRb هو تصنيف beIN MO في تطبيقك
-        save_files(bein_data, "bein", "-Oy71oID8jDKWM314zRb")
+    if bein_data: save_files(bein_data, "bein", "-Oy71oID8jDKWM314zRb")
 
-    # 2. القنوات العربية
     arabic_data = get_arabic_channels()
-    if arabic_data:
-        # -OzEkaXpB8w2bevneCNC هو تصنيف رياضة AR في تطبيقك
-        save_files(arabic_data, "arabic", "-OzEkaXpB8w2bevneCNC")
+    if arabic_data: save_files(arabic_data, "arabic", "-OzEkaXpB8w2bevneCNC")
 
-    # 3. قنوات الوان
     alwan_data = get_alwan_channels()
-    if alwan_data:
-        # -Oz-D3gFEv7WZ3nQYrSt هو تصنيف الوان الرياضية في تطبيقك
-        save_files(alwan_data, "alwan", "-Oz-D3gFEv7WZ3nQYrSt")
+    if alwan_data: save_files(alwan_data, "alwan", "-Oz-D3gFEv7WZ3nQYrSt")
 
     elapsed = time.time() - start_time
     print(f"\n🎉 انتهى كل شيء في {elapsed:.1f} ثانية!")
