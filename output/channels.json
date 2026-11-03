@@ -1,0 +1,216 @@
+{
+  "channels": {
+    "-Generated_a9f09abe2d": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 1",
+      "order": 1,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd11/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1",
+        "https://rap8.rapiddatavault.shop/pages/qpgwghpbzzci/index.html|name=Source 2",
+        "https://aid7.aidatacenter.cfd/hd/ihidyijeeecw/index.html|name=Source 3",
+        "https://dev9.developerplatform.cyou/fk/cutojxgbsqci/index.html|name=Source 4",
+        "https://ais7.aispeedcenter.cyou/hd/ihidyijeeecw/index.html|name=Source 5",
+        "https://tossequip.net/e/86xmv29g1aw01|name=Source 6"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd11/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1|https://rap8.rapiddatavault.shop/pages/qpgwghpbzzci/index.html|name=Source 2|https://aid7.aidatacenter.cfd/hd/ihidyijeeecw/index.html|name=Source 3|https://dev9.developerplatform.cyou/fk/cutojxgbsqci/index.html|name=Source 4|https://ais7.aispeedcenter.cyou/hd/ihidyijeeecw/index.html|name=Source 5|https://tossequip.net/e/86xmv29g1aw01|name=Source 6"
+    },
+    "-Generated_0467eb4a7d": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 2",
+      "order": 2,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd22/index.m3u8|name=DramaLive 1",
+        "https://ult6.ultrafreehardstarsfeedmoon.shop/pages/unbckvlepkaz/index.html|name=Source 2",
+        "https://ult10.ultrahardsoftstarsfeedmoonsystems.shop/pages/llcrvgjhgzhe/index.html|name=Source 3",
+        "https://cus10.customapidatahostingservices.shop/pages/sgihvtvoswhv/index.html|name=Source 4",
+        "https://dep10.deployapiplatform.cfd/pages/sgihvtvoswhv/index.html|name=Source 5",
+        "https://tossequip.net/e/d269auac4m2zi|name=Source 6"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd22/index.m3u8|name=DramaLive 1|https://ult6.ultrafreehardstarsfeedmoon.shop/pages/unbckvlepkaz/index.html|name=Source 2|https://ult10.ultrahardsoftstarsfeedmoonsystems.shop/pages/llcrvgjhgzhe/index.html|name=Source 3|https://cus10.customapidatahostingservices.shop/pages/sgihvtvoswhv/index.html|name=Source 4|https://dep10.deployapiplatform.cfd/pages/sgihvtvoswhv/index.html|name=Source 5|https://tossequip.net/e/d269auac4m2zi|name=Source 6"
+    },
+    "-Generated_1fb1aebd2d": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 3",
+      "order": 3,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd33/index.m3u8|name=DramaLive 1",
+        "https://ult8.ultraopenhardstarsfeedmoon.shop/sd/kkkrllwvutap/index.html|name=Source 2",
+        "https://dat7.datasupernet.cyou/hd/calecruolsyi/index.html|name=Source 3",
+        "https://dev9.developerplatform.cyou/fk/hlxwywcbfgsp/index.html|name=Source 4",
+        "https://tossequip.net/e/pq1go379p3ks|name=Source 5"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd33/index.m3u8|name=DramaLive 1|https://ult8.ultraopenhardstarsfeedmoon.shop/sd/kkkrllwvutap/index.html|name=Source 2|https://dat7.datasupernet.cyou/hd/calecruolsyi/index.html|name=Source 3|https://dev9.developerplatform.cyou/fk/hlxwywcbfgsp/index.html|name=Source 4|https://tossequip.net/e/pq1go379p3ks|name=Source 5"
+    },
+    "-Generated_d06f7a6e6d": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 4",
+      "order": 4,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd44/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1",
+        "https://ult8.ultrafreesoftstarsfeedmoon.shop/sd/toroddlgpfnt/index.html|name=Source 2",
+        "https://dat7.datasupernet.cyou/hd/nzxopecqryzq/index.html|name=Source 3",
+        "https://dev9.developerplatform.cyou/fk/djoqaleaklka/index.html|name=Source 4",
+        "https://ais7.aispeedcenter.cyou/hd/nzxopecqryzq/index.html|name=Source 5",
+        "https://tossequip.net/e/vg4qdam2zddfv|name=Source 6"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd44/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1|https://ult8.ultrafreesoftstarsfeedmoon.shop/sd/toroddlgpfnt/index.html|name=Source 2|https://dat7.datasupernet.cyou/hd/nzxopecqryzq/index.html|name=Source 3|https://dev9.developerplatform.cyou/fk/djoqaleaklka/index.html|name=Source 4|https://ais7.aispeedcenter.cyou/hd/nzxopecqryzq/index.html|name=Source 5|https://tossequip.net/e/vg4qdam2zddfv|name=Source 6"
+    },
+    "-Generated_8f6b84d3f4": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 5",
+      "order": 5,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd55/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1",
+        "https://ult8.ultraopenmoonhardsoftstars.shop/sd/weunucpdjfmv/index.html|name=Source 2",
+        "https://ais7.aispeedcenter.cyou/hd/awwtwhyngzci/index.html|name=Source 3",
+        "https://dev9.developerplatform.cyou/fk/porvlszepkot/index.html|name=Source 4",
+        "https://dat7.datasupernet.cyou/hd/awwtwhyngzci/index.html|name=Source 5",
+        "https://tossequip.net/e/d269au3cxb8jq|name=Source 6"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd55/tracks-v1a1/mono.tbin.m3u8|name=DramaLive 1|https://ult8.ultraopenmoonhardsoftstars.shop/sd/weunucpdjfmv/index.html|name=Source 2|https://ais7.aispeedcenter.cyou/hd/awwtwhyngzci/index.html|name=Source 3|https://dev9.developerplatform.cyou/fk/porvlszepkot/index.html|name=Source 4|https://dat7.datasupernet.cyou/hd/awwtwhyngzci/index.html|name=Source 5|https://tossequip.net/e/d269au3cxb8jq|name=Source 6"
+    },
+    "-Generated_e41ec54845": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 6",
+      "order": 6,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd66/index.m3u8|name=DramaLive 1",
+        "https://ult8.ultrafreesoftstarsfeedmoon.shop/sd/amusiuvwwvkr/index.html|name=Source 2",
+        "https://ais7.aispeedcenter.cyou/hd/wtgtaushknmh/index.html|name=Source 3",
+        "https://dev9.developerplatform.cyou/fk/uiyzlccfwtyc/index.html|name=Source 4",
+        "https://dat7.datasupernet.cyou/hd/wtgtaushknmh/index.html|name=Source 5",
+        "https://tossequip.net/e/twou7x1innxqi|name=Source 6"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd66/index.m3u8|name=DramaLive 1|https://ult8.ultrafreesoftstarsfeedmoon.shop/sd/amusiuvwwvkr/index.html|name=Source 2|https://ais7.aispeedcenter.cyou/hd/wtgtaushknmh/index.html|name=Source 3|https://dev9.developerplatform.cyou/fk/uiyzlccfwtyc/index.html|name=Source 4|https://dat7.datasupernet.cyou/hd/wtgtaushknmh/index.html|name=Source 5|https://tossequip.net/e/twou7x1innxqi|name=Source 6"
+    },
+    "-Generated_2a47085a20": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 7",
+      "order": 7,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd77/index.m3u8|name=DramaLive 1",
+        "https://ult8.ultraopenmoonhardsoftstars.shop/sd/fmijpfymdvfh/index.html|name=Source 2",
+        "https://ais7.aispeedcenter.cyou/hd/drjyagmxafvl/index.html|name=Source 3",
+        "https://tossequip.net/e/twou7xhihrzug|name=Source 4"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd77/index.m3u8|name=DramaLive 1|https://ult8.ultraopenmoonhardsoftstars.shop/sd/fmijpfymdvfh/index.html|name=Source 2|https://ais7.aispeedcenter.cyou/hd/drjyagmxafvl/index.html|name=Source 3|https://tossequip.net/e/twou7xhihrzug|name=Source 4"
+    },
+    "-Generated_41e2cbb67b": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 8",
+      "order": 8,
+      "servers": [
+        "http://primetv.cc.cd/beinfhd88/index.m3u8|name=DramaLive 1",
+        "https://ult8.ultraopenhardstarsiossystems.shop/sd/dnraoluvoofr/index.html|name=Source 2",
+        "https://dat7.datasupernet.cyou/hd/uhfphslekvav/index.html|name=Source 3",
+        "https://tossequip.net/e/yxterg64xlvlx|name=Source 4"
+      ],
+      "streamUrl": "http://primetv.cc.cd/beinfhd88/index.m3u8|name=DramaLive 1|https://ult8.ultraopenhardstarsiossystems.shop/sd/dnraoluvoofr/index.html|name=Source 2|https://dat7.datasupernet.cyou/hd/uhfphslekvav/index.html|name=Source 3|https://tossequip.net/e/yxterg64xlvlx|name=Source 4"
+    },
+    "-Generated_787c162eb4": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS 9",
+      "order": 9,
+      "servers": [
+        "https://man9.manageapiplatform.cfd/malasp2/uchcldcymnmh/index.html|name=Source 1",
+        "https://tossequip.net/e/sudwknj5fkz3h|name=Source 2"
+      ],
+      "streamUrl": "https://man9.manageapiplatform.cfd/malasp2/uchcldcymnmh/index.html|name=Source 1|https://tossequip.net/e/sudwknj5fkz3h|name=Source 2"
+    },
+    "-Generated_2bb9327bc6": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "beIN SPORTS NEWS",
+      "order": 10,
+      "servers": [
+        "https://bus10.businessapihostingplatform.shop/pages/rqllxaciitpm/index.html|name=Source 1"
+      ],
+      "streamUrl": "https://bus10.businessapihostingplatform.shop/pages/rqllxaciitpm/index.html|name=Source 1"
+    },
+    "-Generated_392699d953": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 1",
+      "order": 11,
+      "servers": [
+        "https://primetv.cc.cd/alwhd1/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd1/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    },
+    "-Generated_51ecf6bca4": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 2",
+      "order": 12,
+      "servers": [
+        "https://primetv.cc.cd/alwhd2/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd2/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    },
+    "-Generated_4d84b5d3c1": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 3",
+      "order": 13,
+      "servers": [
+        "https://primetv.cc.cd/alwhd3/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd3/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    },
+    "-Generated_d8984fb8e7": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 4",
+      "order": 14,
+      "servers": [
+        "https://primetv.cc.cd/alwhd4/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd4/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    },
+    "-Generated_37f7fca46e": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 5",
+      "order": 15,
+      "servers": [
+        "https://primetv.cc.cd/alwhd5/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd5/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    },
+    "-Generated_1c326b32f6": {
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "name": "ALWAN SPORT 6",
+      "order": 16,
+      "servers": [
+        "https://primetv.cc.cd/alwhd6/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+      ],
+      "streamUrl": "https://primetv.cc.cd/alwhd6/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App|name=DramaLive 1"
+    }
+  }
+}
