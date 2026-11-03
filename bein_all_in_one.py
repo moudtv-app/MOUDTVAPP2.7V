@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 bein_all_in_one.py
-سكربت موحّد لجلب روابط beIN Sports وتصديرها بصيغة JSON و M3U8 لتطبيق MOUD TV
+سكربت موحّد لجلب روابط beIN Sports وتصديرها بصيغة JSON و M3U8
 """
 
 import os
@@ -10,7 +10,6 @@ import base64
 import json
 import re
 import time
-import sys
 import uuid
 
 try:
@@ -31,6 +30,28 @@ import requests
 
 OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ═══════════════════════════════════════════════════════════
+#  الشعارات الخاصة بالقنوات
+# ═══════════════════════════════════════════════════════════
+CHANNEL_LOGOS = {
+    "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+    "beIN SPORTS 2": "https://i.ibb.co/jkvhHK8X/1746540948199.png",
+    "beIN SPORTS 3": "https://i.ibb.co/RkqLyt1G/1746540954929.png",
+    "beIN SPORTS 4": "https://i.ibb.co/qP7GZCX/1746540949804.png",
+    "beIN SPORTS 5": "https://i.ibb.co/9HcbW8JB/1746540954072.png",
+    "beIN SPORTS 6": "https://i.ibb.co/TMmMz3r8/1746540949013.png",
+    "beIN SPORTS 7": "https://i.ibb.co/LDf6XWy5/1746540947397.png",
+    "beIN SPORTS 8": "https://i.ibb.co/LzJYf9xt/1746540951661.png",
+    "beIN SPORTS 9": "https://i.ibb.co/4gYJdLNw/1746540953273.png",
+    "beIN SPORTS NEWS": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+    "ALWAN SPORT 1": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
+    "ALWAN SPORT 2": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 3": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 4": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 5": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 6": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+}
 
 # ═══════════════════════════════════════════════════════════
 #  المصدر 1: publicdataroute (DramaLive)
@@ -233,7 +254,7 @@ def main():
             servers_array.append(f"{link}|name={server_name}")
             
             # إضافة السيرفر للـ M3U8
-            m3u8_lines.append(f'#EXTINF:-1 tvg-id="{ch_name.replace(" ", "_")}",{ch_name} - {server_name}')
+            m3u8_lines.append(f'#EXTINF:-1 tvg-id="{ch_name.replace(" ", "_")}" tvg-logo="{CHANNEL_LOGOS.get(ch_name, "")}",{ch_name} - {server_name}')
             m3u8_lines.append(link)
             
         # إنشاء قناة جديدة بنفس هيكل تطبيقك في JSON
@@ -241,7 +262,7 @@ def main():
         final_json["channels"][ch_id] = {
             "category": "-Oy71oID8jDKWM314zRb", # تصنيف beIN SPORTS MO
             "live": True,
-            "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+            "logo": CHANNEL_LOGOS.get(ch_name, "https://i.ibb.co/Z9j8xcc/1746540952466.png"),
             "name": ch_name,
             "order": order_counter,
             "servers": servers_array,
