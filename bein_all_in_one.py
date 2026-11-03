@@ -240,21 +240,14 @@ def main():
     for ch_name, links in all_data.items():
         servers_array = []
         for idx, link in enumerate(links, 1):
-            # تسمية السيرفرات حسب المصدر
-            if "publicdataroute" in link or ".LS.V2" in link or ".m3u8" in link:
-                server_name = f"DramaLive {idx}"
-            elif "redperch" in link:
-                server_name = f"Server {idx}"
-            elif "primetv" in link:
-                server_name = f"Alwan PR {idx}"
-            else:
-                server_name = f"Source {idx}"
+            # --- التعديل هنا: إزالة أسماء المصادر وجعل الاسم هو اسم القناة ---
+            server_name = ch_name 
                 
             # إضافة السيرفر للـ JSON
             servers_array.append(f"{link}|name={server_name}")
             
             # إضافة السيرفر للـ M3U8
-            m3u8_lines.append(f'#EXTINF:-1 tvg-id="{ch_name.replace(" ", "_")}" tvg-logo="{CHANNEL_LOGOS.get(ch_name, "")}",{ch_name} - {server_name}')
+            m3u8_lines.append(f'#EXTINF:-1 tvg-id="{ch_name.replace(" ", "_")}" tvg-logo="{CHANNEL_LOGOS.get(ch_name, "")}",{ch_name}')
             m3u8_lines.append(link)
             
         # إنشاء قناة جديدة بنفس هيكل تطبيقك في JSON
