@@ -1,0 +1,2241 @@
+{
+  "app": "MOUD TV",
+  "updatedAt": "2026-11-04T19:53:19.831059+00:00",
+  "totalChannels": 128,
+  "channels": {
+    "bein_Bein S. News": {
+      "id": "live_tv_beinsportnews",
+      "name": "Bein S. News",
+      "logo": "logos/Bein_S__News.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://clo10.clouddataspeed.shop/pages/ucwvijgenfhw/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 1": {
+      "id": "live_tv_beinsport1",
+      "name": "Bein S. 1",
+      "logo": "logos/Bein_S__1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://aid8.aidatacenter.cyou/sd/eejsiagssnfm/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/duxrqkolkrbk/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://rel11.reliableapidatahosting.shop/fk/fkidwyjpopdy/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/86xmv29g1aw01",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 2": {
+      "id": "live_tv_beinsport2",
+      "name": "Bein S. 2",
+      "logo": "logos/Bein_S__2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sup6.superfastnet.cfd/pages/tldokfztqpga/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult10.ultraiossoftstarsfeedmoon.shop/pages/ugdjkgencscg/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/fk/snzeicyqivif/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult11.ultraandroidfeedmoonhardsoft.shop/fk/snzeicyqivif/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d269auac4m2zi",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 3": {
+      "id": "live_tv_beinsport3",
+      "name": "Bein S. 3",
+      "logo": "logos/Bein_S__3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat9.datasupernet.cyou/sd2/bivngibvgpdu/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/bycsrgcyvall/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://rel11.reliableapidatahosting.shop/fk/qseaxkcchuoy/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/pq1go379p3ks",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 4": {
+      "id": "live_tv_beinsport4",
+      "name": "Bein S. 4",
+      "logo": "logos/Bein_S__4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bui9.buildapiplatform.cfd/sd2/uyveclvrydzq/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/mnmkvgxvxdrh/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://nex11.nextgenerationapihosting.shop/fk/auvaweaykgge/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/vg4qdam2zddfv",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 5": {
+      "id": "live_tv_beinsport5",
+      "name": "Bein S. 5",
+      "logo": "logos/Bein_S__5.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://rap8.rapidapistore.shop/sd/hkitmmigpoah/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/ekoxasrghjhs/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/ploichjsyzaw/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d269au3cxb8jq",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 6": {
+      "id": "live_tv_beinsport6",
+      "name": "Bein S. 6",
+      "logo": "logos/Bein_S__6.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/zxrwdgmksjog/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aif7.aifastcenter.cfd/hd/epcimpnjnpnb/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://rel11.reliableapidatahosting.shop/fk/qlkttldpxdiq/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/epcimpnjnpnb/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/twou7x1innxqi",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 7": {
+      "id": "live_tv_beinsport7",
+      "name": "Bein S. 7",
+      "logo": "logos/Bein_S__7.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/znfzpneknyke/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aif7.aifastcenter.cfd/hd/egqhrjkwcruq/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/twou7xhihrzug",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 8": {
+      "id": "live_tv_beinsport8",
+      "name": "Bein S. 8",
+      "logo": "logos/Bein_S__8.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/fywxrynqgzrc/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/wnjwericyyek/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/yxterg64xlvlx",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. 9": {
+      "id": "live_tv_beinsport9",
+      "name": "Bein S. 9",
+      "logo": "logos/Bein_S__9.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://aif7.aifastcenter.cfd/hd/fmagyxxnusam/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/sudwknj5fkz3h",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. En 1": {
+      "id": "live_tv_beinsport11",
+      "name": "Bein S. En 1",
+      "logo": "logos/Bein_S__En_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://github.com/kusnadipepenk/ntn/raw/master/bs1.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/ahywdmaiojzs/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/lavhlvnunx33l",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. En 2": {
+      "id": "live_tv_beinsport12",
+      "name": "Bein S. En 2",
+      "logo": "logos/Bein_S__En_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://github.com/kusnadipepenk/ntn/raw/master/bs2.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/chliyinkfxew/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/efuz1bjn2p6ej",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. En 3": {
+      "id": "live_tv_beinsport13",
+      "name": "Bein S. En 3",
+      "logo": "logos/Bein_S__En_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d26pd01cn90n2",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. En 4": {
+      "id": "live_tv_beinsport14",
+      "name": "Bein S. En 4",
+      "logo": "logos/Bein_S__En_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/ul23u70stbhyy",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Fr 1": {
+      "id": "live_tv_beinsportfr1",
+      "name": "Bein S. Fr 1",
+      "logo": "logos/Bein_S__Fr_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/mzclddabepxb/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/ul205qusekq4g",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Fr 2": {
+      "id": "live_tv_beinsportfr2",
+      "name": "Bein S. Fr 2",
+      "logo": "logos/Bein_S__Fr_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1102/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/hxhvlcfmmisg/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/sudwk915fxxop",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Tr 1": {
+      "id": "live_tv_beinsporttr1",
+      "name": "Bein S. Tr 1",
+      "logo": "logos/Bein_S__Tr_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/movdgpdaoydp/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d26pd6mc31cgz",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Tr 2": {
+      "id": "live_tv_beinsporttr2",
+      "name": "Bein S. Tr 2",
+      "logo": "logos/Bein_S__Tr_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/jmerjevq2mte6",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Tr 3": {
+      "id": "live_tv_beinsporttr3",
+      "name": "Bein S. Tr 3",
+      "logo": "logos/Bein_S__Tr_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/r47nr706o29m1",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein S. Tr 4": {
+      "id": "live_tv_beinsporttr4",
+      "name": "Bein S. Tr 4",
+      "logo": "logos/Bein_S__Tr_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/yxtfyiv49g0mp",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sport ": {
+      "id": "live_tv_beinsportopen",
+      "name": "Bein Sport ",
+      "logo": "logos/Bein_Sport_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://135.125.109.73:9000/beinsport4_.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://man9.manageapiplatform.cfd/malasp2/zablawczfgny/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Xtra 1": {
+      "id": "live_tv_beinsportxtra1",
+      "name": "Bein Xtra 1",
+      "logo": "logos/Bein_Xtra_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df975e2b27cf5000921c102/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=2.9.3-b879e400d5df7a969d4bff8863fe5cb02c7120e6&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=b702181a-c1d6-4ee2-9481-753f471e2ce7&deviceLat=40.8364&deviceLon=-74.1403&deviceMake=Opera&deviceModel=Opera&deviceType=web&deviceVersion=66.0.3515.44&includeExtendedEvents=false&serverSideAds=tr&sid=855d6801-c912-428d-b620-ede4dd0c3b15&userId=",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Max. 1": {
+      "id": "live_tv_beinsport1max",
+      "name": "Bein Max. 1",
+      "logo": "logos/Bein_Max__1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://clo10.cloudbackend.cyou/pages/ucwvijgenfhw/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/7i35d1gzs1wt",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Max. 2": {
+      "id": "live_tv_beinsport2max",
+      "name": "Bein Max. 2",
+      "logo": "logos/Bein_Max__2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://cen10.centerspeedai.cyou/pages/ucwvijgenfhw/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/acghmioldgzb2",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports France 3 ": {
+      "id": "live_tv_sport_BeinSportsFrance3",
+      "name": "Bein Sports France 3 ",
+      "logo": "logos/Bein_Sports_France_3_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1103/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_beIN SPORTS 2": {
+      "id": "live_tv_new_auto_1cfea04ed47cef11892641f8dbfed034",
+      "name": "beIN SPORTS 2",
+      "logo": "logos/beIN_SPORTS_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_beIN SPORTS 3": {
+      "id": "live_tv_new_auto_e5e7457a641febc76361c09985bf27b6",
+      "name": "beIN SPORTS 3",
+      "logo": "logos/beIN_SPORTS_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports En Español ": {
+      "id": "live_tv_sport_beINSPORTSenEspañol",
+      "name": "Bein Sports En Español ",
+      "logo": "logos/Bein_Sports_En_Espa_ol_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_beIN SPORTS 1": {
+      "id": "live_tv_new_auto_83090a45836201840d6b5fcb2e1de21e",
+      "name": "beIN SPORTS 1",
+      "logo": "logos/beIN_SPORTS_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Mena 4 ": {
+      "id": "live_tv_sport_beINSportsMENA4",
+      "name": "Bein Sports Mena 4 ",
+      "logo": "logos/Bein_Sports_Mena_4_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/vg4qdam2zddfv",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Mena 5 ": {
+      "id": "live_tv_sport_beINSportsMENA5",
+      "name": "Bein Sports Mena 5 ",
+      "logo": "logos/Bein_Sports_Mena_5_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d269au3cxb8jq",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Max 5 France ": {
+      "id": "live_tv_sport_beINSportsMax5France",
+      "name": "Bein Sports Max 5 France ",
+      "logo": "logos/Bein_Sports_Max_5_France_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api-proxad.dc2.oqee.net/playlist/v1/live/973/1/live.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Max 6 France ": {
+      "id": "live_tv_sport_beINSportsMax6France",
+      "name": "Bein Sports Max 6 France ",
+      "logo": "logos/Bein_Sports_Max_6_France_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api-proxad.dc2.oqee.net/playlist/v1/live/974/1/live.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Australia 1": {
+      "id": "live_tv_sport_beINSPORTSAustralia1",
+      "name": "Bein Sports Australia 1",
+      "logo": "logos/Bein_Sports_Australia_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/7i358j1z1qtyq",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Australia 2": {
+      "id": "live_tv_sport_beINSPORTSAustralia2",
+      "name": "Bein Sports Australia 2",
+      "logo": "logos/Bein_Sports_Australia_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/g8yjuwyvwvvbu",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Xtra": {
+      "id": "live_tv_new_auto_485a47e38a3334d49e6a8cca23c5c806",
+      "name": "Bein Sports Xtra",
+      "logo": "logos/Bein_Sports_Xtra.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Xtra En Espanol": {
+      "id": "live_tv_new_auto_19995854d6a090ef8c78905cf4d22821",
+      "name": "Bein Sports Xtra En Espanol",
+      "logo": "logos/Bein_Sports_Xtra_En_Espanol.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://201.190.41.246:9060/play/a03y/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_beIN SPORTS 4": {
+      "id": "live_tv_new_auto_b0d80bc209ad6222009b5187a6fd39f9",
+      "name": "beIN SPORTS 4",
+      "logo": "logos/beIN_SPORTS_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_beIN SPORTS 5": {
+      "id": "live_tv_new_auto_1982cf9df4ef9c08dae3fa462609824f",
+      "name": "beIN SPORTS 5",
+      "logo": "logos/beIN_SPORTS_5.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Haber": {
+      "id": "live_tv_new_auto_cf726c06b02face0d834533f4d509a1f",
+      "name": "Bein Sports Haber",
+      "logo": "logos/Bein_Sports_Haber.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Mena 8 ": {
+      "id": "live_tv_sport_beINSportsMENA8",
+      "name": "Bein Sports Mena 8 ",
+      "logo": "logos/Bein_Sports_Mena_8_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/yxterg64xlvlx",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Mena 9 ": {
+      "id": "live_tv_sport_beINSportsMENA9",
+      "name": "Bein Sports Mena 9 ",
+      "logo": "logos/Bein_Sports_Mena_9_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/sudwknj5fkz3h",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Mena Xtra 1": {
+      "id": "live_tv_sport_beINSportsMENAXtra1",
+      "name": "Bein Sports Mena Xtra 1",
+      "logo": "logos/Bein_Sports_Mena_Xtra_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/1n5ympyb4f8dp",
+          "headers": {}
+        }
+      ]
+    },
+    "bein_Bein Sports Malaysia": {
+      "id": "live_tv_sport_beINSportsMalaysia",
+      "name": "Bein Sports Malaysia",
+      "logo": "logos/Bein_Sports_Malaysia.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/r471l1r6gnego",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Oman Sport | عمان الرياضية": {
+      "id": "live_tv_omansport",
+      "name": "Oman Sport | عمان الرياضية",
+      "logo": "logos/Oman_Sport________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Sharjah Sports | الشارقة الرياضية": {
+      "id": "live_tv_uaealsharqasport",
+      "name": "Sharjah Sports | الشارقة الرياضية",
+      "logo": "logos/Sharjah_Sports___________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8?v=531453698",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 1 | الكاس 1": {
+      "id": "live_tv_alkaas1",
+      "name": "Alkass 1 | الكاس 1",
+      "logo": "logos/Alkass_1_________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/dyxhslzfrunz/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 2 | الكاس 2": {
+      "id": "live_tv_alkaas2",
+      "name": "Alkass 2 | الكاس 2",
+      "logo": "logos/Alkass_2_________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/hfrzvgrfnyxz/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 3 | الكاس 3": {
+      "id": "live_tv_alkaas3",
+      "name": "Alkass 3 | الكاس 3",
+      "logo": "logos/Alkass_3_________3.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/opffgsphptlq/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 4 | الكاس 4": {
+      "id": "live_tv_alkaas4",
+      "name": "Alkass 4 | الكاس 4",
+      "logo": "logos/Alkass_4_________4.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/xkwkojrlbcag/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 5 | الكاس 5": {
+      "id": "live_tv_alkaas5",
+      "name": "Alkass 5 | الكاس 5",
+      "logo": "logos/Alkass_5_________5.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/oqltterqkchh/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 6 | الكاس 6": {
+      "id": "live_tv_alkaas6",
+      "name": "Alkass 6 | الكاس 6",
+      "logo": "logos/Alkass_6_________6.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/jszhjkwxptqo/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 7 | الكاس 7": {
+      "id": "live_tv_alkaas7",
+      "name": "Alkass 7 | الكاس 7",
+      "logo": "logos/Alkass_7_________7.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/kltkxkrkgdvj/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Alkass 8 | الكاس 8": {
+      "id": "live_tv_panel_6fab914aad266fad1917de79c0615fee",
+      "name": "Alkass 8 | الكاس 8",
+      "logo": "logos/Alkass_8_________8.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/tbtffmbwplyd/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Shasha 1 | شاشا 1": {
+      "id": "live_tv_panel_7e16e23a4360f798dd1db9f330fdb170",
+      "name": "Shasha 1 | شاشا 1",
+      "logo": "logos/Shasha_1________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/eprszhmnoerp/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Shasha 2 | شاشا 2": {
+      "id": "live_tv_panel_0baae01698e34ddffa019e4d7cd1a5a9",
+      "name": "Shasha 2 | شاشا 2",
+      "logo": "logos/Shasha_2________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/bkghexlrvydg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Stc Tv": {
+      "id": "live_tv_sport_STCTV",
+      "name": "Stc Tv",
+      "logo": "logos/Stc_Tv.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/hejmwlpwzdqn/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Stc Tv 2": {
+      "id": "live_tv_panel_6318043e297af250693d6c2ee239aee0",
+      "name": "Stc Tv 2",
+      "logo": "logos/Stc_Tv_2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/otedvjwkhmrx/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Thmanyah 1 | ثمانية 1": {
+      "id": "live_tv_panel_9df3b16322fceee120cf2f1493d86bf6",
+      "name": "Thmanyah 1 | ثمانية 1",
+      "logo": "logos/Thmanyah_1__________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/mmqulexhcwwm/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Thmanyah 2 | ثمانية 2": {
+      "id": "live_tv_panel_3be9ec6c73ec25174edae53bca13d544",
+      "name": "Thmanyah 2 | ثمانية 2",
+      "logo": "logos/Thmanyah_2__________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/axsqzpzokjnr/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Thmanyah 3 | ثمانية 3": {
+      "id": "live_tv_panel_dd37ff862b7845bd1dbe86c6e2b6cc1d",
+      "name": "Thmanyah 3 | ثمانية 3",
+      "logo": "logos/Thmanyah_3__________3.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/uwrozgfrnekx/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ad Sport 1 | ابو ظبي الرياضية 1": {
+      "id": "live_tv_abudabyspoort1",
+      "name": "Ad Sport 1 | ابو ظبي الرياضية 1",
+      "logo": "logos/Ad_Sport_1____________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/abudhabi_sports_1/abudhabi_sports_1_dash_enc/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://ais10.aispeednet.cyou/sokaspr/kulmjbjvqols/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ad Sport 2 | ابو ظبي الرياضية 2": {
+      "id": "live_tv_abodabyspoort2",
+      "name": "Ad Sport 2 | ابو ظبي الرياضية 2",
+      "logo": "logos/Ad_Sport_2____________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/abudhabi_sports_2/abudhabi_sports_2_dash_enc/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/xnmabkibpcla/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ad Sport Premium 1 | ابو ظبي الرياضية بريميوم 1": {
+      "id": "live_tv_Adsportpremium1",
+      "name": "Ad Sport Premium 1 | ابو ظبي الرياضية بريميوم 1",
+      "logo": "logos/Ad_Sport_Premium_1____________________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/bdbdqortdmbe/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/7i35gncz55izi",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ad Sport Premium 2 | ابو ظبي الرياضية بريميوم 2": {
+      "id": "live_tv_ADSportpremium2",
+      "name": "Ad Sport Premium 2 | ابو ظبي الرياضية بريميوم 2",
+      "logo": "logos/Ad_Sport_Premium_2____________________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/qwhxzptkjdsh/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/acghntilvln30",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Dubai Sports 1 | دبي الرياضية 1": {
+      "id": "live_tv_dubaispoort1",
+      "name": "Dubai Sports 1 | دبي الرياضية 1",
+      "logo": "logos/Dubai_Sports_1________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/eicyhoiudros/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Dubai Sports 2 | دبي الرياضية 2": {
+      "id": "live_tv_dubaispoort2",
+      "name": "Dubai Sports 2 | دبي الرياضية 2",
+      "logo": "logos/Dubai_Sports_2________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/opkwwobylbfz/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Al Iraqiya Sports | العراقية الرياضية": {
+      "id": "live_tv_iraqsport",
+      "name": "Al Iraqiya Sports | العراقية الرياضية",
+      "logo": "logos/Al_Iraqiya_Sports____________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Al Rabiaa Iraq Sport | الرابعة العراقية الرياضية": {
+      "id": "live_tv_iraq4sport",
+      "name": "Al Rabiaa Iraq Sport | الرابعة العراقية الرياضية",
+      "logo": "logos/Al_Rabiaa_Iraq_Sport____________________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/rmfebwxmyvsh/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Al Rabiaa Iraq | الرابعة العراقية": {
+      "id": "live_tv_iraq4",
+      "name": "Al Rabiaa Iraq | الرابعة العراقية",
+      "logo": "logos/Al_Rabiaa_Iraq___________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourbusiness.cfd/sokanorm/qmwmgkjbfifa/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ktv Sport Plus | الكويت الرياضية بلس": {
+      "id": "live_tv_kwsportplus",
+      "name": "Ktv Sport Plus | الكويت الرياضية بلس",
+      "logo": "logos/Ktv_Sport_Plus______________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ktv Sport | الكويت الرياضية": {
+      "id": "live_tv_kwsport",
+      "name": "Ktv Sport | الكويت الرياضية",
+      "logo": "logos/Ktv_Sport__________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Libya Sport 1 | ليبيا الرياضية 1": {
+      "id": "live_tv_panel_fa6bb49ad0c64b807bdd5cf579f37c8d",
+      "name": "Libya Sport 1 | ليبيا الرياضية 1",
+      "logo": "logos/Libya_Sport_1__________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/ogrvuqplffac/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Libya Sport 2 | ليبيا الرياضية 2": {
+      "id": "live_tv_panel_6451581726e7837a9181f164e311e315",
+      "name": "Libya Sport 2 | ليبيا الرياضية 2",
+      "logo": "logos/Libya_Sport_2__________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/hreimoiemtcg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Almaghribia 5 | المغربية 5": {
+      "id": "live_tv_morrowcow5",
+      "name": "Almaghribia 5 | المغربية 5",
+      "logo": "logos/Almaghribia_5____________5.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://185.9.2.18/chid_205/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_205/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Arryadia 3 | الرياضية المغربية 3": {
+      "id": "live_tv_morrowcowsport",
+      "name": "Arryadia 3 | الرياضية المغربية 3",
+      "logo": "logos/Arryadia_3_____________________3.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://149.100.11.252:8000/play/a065/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Mbc 1 | ام بي سي 1": {
+      "id": "live_tv_mbc1",
+      "name": "Mbc 1 | ام بي سي 1",
+      "logo": "logos/Mbc_1____________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://c78b2b245115439fa65004296fd1d93d.mediatailor.eu-west-1.amazonaws.com/v1/master/065e37dd36f6dc7043679a61592f17340f3617b6/bitmovin-prod-live-apps/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8?aws.manifestfilter=video_height:144-576;video_codec:H264&video_height=144-576&video_codec=H264",
+          "headers": {}
+        },
+        {
+          "url": "https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/MBC_1HD/DASH/MBC_1HD.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MB1/MB1.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_374/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://cdn8.fntvchannel.com/v1/master/02eeb1726c343dc9c30c32e93dee82013e157021/FNTV-CHANNEL_CDN77/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://mbc-1-usa-ak.akamaized.net/out/v1/8c1ce74bfd0743aab1026ef5b2aecfa4/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://mbc1-enc.edgenextcdn.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://d2ow8h651gs7dx.cloudfront.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://mbc1-usa-enc.edgenextcdn.net/out/v1/8c1ce74bfd0743aab1026ef5b2aecfa4/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-mbc1na-prod-dub.shahid.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Al Ahly | الاهلي": {
+      "id": "live_tv_alahlytv",
+      "name": "Al Ahly | الاهلي",
+      "logo": "logos/Al_Ahly_________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/anejjvpphydg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Al Zamalek | الزمالك": {
+      "id": "live_tv_egzamalek",
+      "name": "Al Zamalek | الزمالك",
+      "logo": "logos/Al_Zamalek__________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/jxjwhoicnrzh/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_On Sport 2 | أون سبورت 2": {
+      "id": "live_tv_onsport2",
+      "name": "On Sport 2 | أون سبورت 2",
+      "logo": "logos/On_Sport_2_____________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://fastly.live.brightcove.com/6386122937112/us-east-1/6416013238001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWN3Ymx1LmVncmVzcy5zenkzeHgiLCJhY2NvdW50X2lkIjoiNjQxNjAxMzIzODAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE2MDEzMjM4MDAxIl0sImp0aSI6IjYzODYxMjI5MzcxMTIifQ.HPPHHVyUxLnEyCqaO6AP7j1iCOBrMGE-zTe-7mV1-24/playlist-hls.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.site/mirsp/ccysvuxtgtwd/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_On Sport 3 | أون سبورت 3": {
+      "id": "live_tv_onsport3",
+      "name": "On Sport 3 | أون سبورت 3",
+      "logo": "logos/On_Sport_3_____________3.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/qzurdtzgktfv/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_On Sport | أون سبورت": {
+      "id": "live_tv_onsport",
+      "name": "On Sport | أون سبورت",
+      "logo": "logos/On_Sport____________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://fastly.live.brightcove.com/6386030131112/us-east-1/6416013238001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWN3Ymx1LmVncmVzcy5zenkzeHgiLCJhY2NvdW50X2lkIjoiNjQxNjAxMzIzODAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE2MDEzMjM4MDAxIl0sImp0aSI6IjYzODYwMzAxMzExMTIifQ.aZa3dfTqySgbsPGs64c0_JTfvR1mKUmvdlDJ1WTeDgo/playlist-hls.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/rwwwmlczevjg/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/rwwwmlczevjg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ssc 1 | اس اس سي 1": {
+      "id": "live_tv_sassc1",
+      "name": "Ssc 1 | اس اس سي 1",
+      "logo": "logos/Ssc_1____________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shahid-sports-1-enc.edgenextcdn.net/out/v1/0169cfa282614ebe97ef0201da87bb04/index.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ssc 2 | اس اس سي 2": {
+      "id": "live_tv_sassc2",
+      "name": "Ssc 2 | اس اس سي 2",
+      "logo": "logos/Ssc_2____________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shahid-sports-2-enc.edgenextcdn.net/out/v1/589aa6b16ce942388695b5b214f4ae93/index.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ssc 3 | اس اس سي 3": {
+      "id": "live_tv_sassc3",
+      "name": "Ssc 3 | اس اس سي 3",
+      "logo": "logos/Ssc_3____________3.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://live-event-3-enc.edgenextcdn.net/out/v1/1117b28b859948afa6d5660460b392df/index.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ssc 4K": {
+      "id": "live_tv_panel_72feda02cb2346203611e4173cbb916d",
+      "name": "Ssc 4K",
+      "logo": "logos/Ssc_4K.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://4k-event2-new-25fps-enc.edgenextcdn.net/out/v1/c40564684d074b29a21efcf70725df3c/index.mpd?aws.manifestfilter=video_height:2160-2160;audio_language:audio2",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Ssc Action Waleed": {
+      "id": "live_tv_sasscactionwaleed",
+      "name": "Ssc Action Waleed",
+      "logo": "logos/Ssc_Action_Waleed.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shls-live-event2-prod-dub.shahid.net/out/v1/0456ede1a39145d98b3d8c8062ddc998/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Watania 1 | الوطنية التونسية 1": {
+      "id": "live_tv_tuniswatanya1",
+      "name": "Watania 1 | الوطنية التونسية 1",
+      "logo": "logos/Watania_1____________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://live.watania1.tn:1935/live/watanya1.stream/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://fl1002.bozztv.com/ga-elwatania1/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://new.cache-stream.workers.dev/stream/UCdvWVsmQBROkgcGzVep73oA/live.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://ythls.armelin.one/channel/UCdvWVsmQBROkgcGzVep73oA.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://stream.castr.com/62c18c3f14d09a0b7e5355a5/live_1b36cfb0ba2411ee9700956e0f7084c8/index.fmp4.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/jtlkipqxnigk/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Watania 2 | الوطنية التونسية 2": {
+      "id": "live_tv_tuniswatanya2",
+      "name": "Watania 2 | الوطنية التونسية 2",
+      "logo": "logos/Watania_2____________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://live.watania2.tn:1935/live/watanya2.stream/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR",
+          "headers": {}
+        },
+        {
+          "url": "https://fl1002.bozztv.com/ga-elwatania2/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://new.cache-stream.workers.dev/stream/UCJW9gatYczI191TunQxMGbA/live.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://ythls.armelin.one/channel/UCJW9gatYczI191TunQxMGbA.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/yukqhlbxgpwr/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Watania Sports | الوطنية الرياضية": {
+      "id": "live_tv_panel_9fc42f4d613f510677c5fbc7cc18bece",
+      "name": "Watania Sports | الوطنية الرياضية",
+      "logo": "logos/Watania_Sports___________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/clvskdagsgof/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Algeria 1 | الجزائر 1": {
+      "id": "live_tv_aljeria1",
+      "name": "Algeria 1 | الجزائر 1",
+      "logo": "logos/Algeria_1___________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://149.62.177.98:8000/play/a00i/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://cdn02.hta.dz/abr_htatv/PROGRAMME_NATIONAL/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.online/mirsp/pddpjphqivmu/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Algeria 6 | الجزائر 6": {
+      "id": "live_tv_aljeria6",
+      "name": "Algeria 6 | الجزائر 6",
+      "logo": "logos/Algeria_6___________6.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://cdn02.hta.dz/abr_htatv/TV_6_HD/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/kkhwutmzdunz/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Arryadia Hd Morocco ": {
+      "id": "live_tv_sport_ArryadiaHDMorocco",
+      "name": "Arryadia Hd Morocco ",
+      "logo": "logos/Arryadia_Hd_Morocco_.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Bahrain Sport 1 | البحرين الرياضية 1": {
+      "id": "live_tv_bahrainspoort",
+      "name": "Bahrain Sport 1 | البحرين الرياضية 1",
+      "logo": "logos/Bahrain_Sport_1____________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Bahrain Sport 2 | البحرين الرياضية 2": {
+      "id": "live_tv_bahrainspoort2",
+      "name": "Bahrain Sport 2 | البحرين الرياضية 2",
+      "logo": "logos/Bahrain_Sport_2____________________2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Jordan Sport | الاردن الرياضية": {
+      "id": "live_tv_jordansport",
+      "name": "Jordan Sport | الاردن الرياضية",
+      "logo": "logos/Jordan_Sport__________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Mbc Action | ام بي سي أكشن": {
+      "id": "live_tv_mbcaction",
+      "name": "Mbc Action | ام بي سي أكشن",
+      "logo": "logos/Mbc_Action________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-action/8ea6ca1108d03e03da5e61372354f5c8/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/MBC_Action_HD/DASH/MBC_Action_HD.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBAH/MBAH.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_378/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapisolutions.monster/mirsp/kzdiquhncmpb/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Mbc Iraq | ام بي سي العراق": {
+      "id": "live_tv_mbciraq",
+      "name": "Mbc Iraq | ام بي سي العراق",
+      "logo": "logos/Mbc_Iraq__________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
+          "headers": {}
+        },
+        {
+          "url": "https://c78b2b245115439fa65004296fd1d93d.mediatailor.eu-west-1.amazonaws.com/v1/master/065e37dd36f6dc7043679a61592f17340f3617b6/bitmovin-prod-live-apps/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://iraq-prod-dub-enc.edgenextcdn.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Mbc Masr 1 |  ام بي سي مصر 1": {
+      "id": "live_tv_mbcmsr",
+      "name": "Mbc Masr 1 |  ام بي سي مصر 1",
+      "logo": "logos/Mbc_Masr_1_________________1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBMS/MBMS.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_742/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-masr-prod-dub.shahid.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://masr-usa-enc.edgenextcdn.net/out/v1/5fcaf05b5cd64b3cb4a969e0470080c8/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Mbc Masr 2 | Mbc مصر 2": {
+      "id": "live_tv_mbcmasr2",
+      "name": "Mbc Masr 2 | Mbc مصر 2",
+      "logo": "logos/Mbc_Masr_2___Mbc_____2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-mediacdn-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/7eaa7c0393e9a9637ae311aac75eb40e/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-masr2-enc.edgenextcdn.net/out/v1/4a88c8fc947448b7bcee4961447bf677/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBMS2/MBMS2.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_743/mono.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Rfc | البطولة الملكية للقتال": {
+      "id": "live_tv_panel_893b184d1f465b0b0cda19b43d862ac3",
+      "name": "Rfc | البطولة الملكية للقتال",
+      "logo": "logos/Rfc_________________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://fast.kwikmotion.com/roya/rfc_live/playlist/kmfast_4.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://fast.kwikmotion.com/roya/rfc_live/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Yemen Tv | قناة اليمن الفضائية": {
+      "id": "live_tv_yamentv",
+      "name": "Yemen Tv | قناة اليمن الفضائية",
+      "logo": "logos/Yemen_Tv______________________.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://live.yementv.tv/memfs/c79810a8-85f6-414f-980b-0ae14ad5228d.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 1 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports1Cyprus",
+      "name": "Cytavision Sports 1 Cyprus",
+      "logo": "logos/Cytavision_Sports_1_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/fkl7hjoepmshf",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 2 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports2Cyprus",
+      "name": "Cytavision Sports 2 Cyprus",
+      "logo": "logos/Cytavision_Sports_2_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/5sct9bikrp1rc",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 3 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports3Cyprus",
+      "name": "Cytavision Sports 3 Cyprus",
+      "logo": "logos/Cytavision_Sports_3_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/7i35d6pz18wpq",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 4 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports4Cyprus",
+      "name": "Cytavision Sports 4 Cyprus",
+      "logo": "logos/Cytavision_Sports_4_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/k5aiom5fzn6t1",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 5 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports5Cyprus",
+      "name": "Cytavision Sports 5 Cyprus",
+      "logo": "logos/Cytavision_Sports_5_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d2691kecsppf3",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 6 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports6Cyprus",
+      "name": "Cytavision Sports 6 Cyprus",
+      "logo": "logos/Cytavision_Sports_6_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/g8yjfsdv94gdm",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Cytavision Sports 7 Cyprus": {
+      "id": "live_tv_sport_CytavisionSports7Cyprus",
+      "name": "Cytavision Sports 7 Cyprus",
+      "logo": "logos/Cytavision_Sports_7_Cyprus.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/acghmnhlvk80l",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Multivision Sports": {
+      "id": "live_tv_new_auto_ed715ab0fa009f1e1c4be8f5c8da649b",
+      "name": "Multivision Sports",
+      "logo": "logos/Multivision_Sports.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Thmanyah 1": {
+      "id": "live_tv_sport_Thmanyah1",
+      "name": "Thmanyah 1",
+      "logo": "logos/Thmanyah_1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/ul23ue8s6u2ro",
+          "headers": {}
+        }
+      ]
+    },
+    "arabic_Thmanyah 2": {
+      "id": "live_tv_sport_Thmanyah2",
+      "name": "Thmanyah 2",
+      "logo": "logos/Thmanyah_2.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/cd4dzvlavpej",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 1": {
+      "id": "alwan_1",
+      "name": "ALWAN SPORT 1",
+      "logo": "logos/ALWAN_SPORT_1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd1/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 2": {
+      "id": "alwan_2",
+      "name": "ALWAN SPORT 2",
+      "logo": "logos/ALWAN_SPORT_2.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd2/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 3": {
+      "id": "alwan_3",
+      "name": "ALWAN SPORT 3",
+      "logo": "logos/ALWAN_SPORT_3.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd3/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 4": {
+      "id": "alwan_4",
+      "name": "ALWAN SPORT 4",
+      "logo": "logos/ALWAN_SPORT_4.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd4/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 5": {
+      "id": "alwan_5",
+      "name": "ALWAN SPORT 5",
+      "logo": "logos/ALWAN_SPORT_5.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd5/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 6": {
+      "id": "alwan_6",
+      "name": "ALWAN SPORT 6",
+      "logo": "logos/ALWAN_SPORT_6.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd6/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 1 | الوان 1": {
+      "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
+      "name": "ALWAN SPORT 1 | الوان 1",
+      "logo": "logos/ALWAN_SPORT_1_________1.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/kxmasdenpuss/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 2 | الوان 2": {
+      "id": "live_tv_panel_ef7d778167c988ca75470ce5db8427b0",
+      "name": "ALWAN SPORT 2 | الوان 2",
+      "logo": "logos/ALWAN_SPORT_2_________2.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aisupernet.cfd/sokaspr/uenvtpmnlebj/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 3 | الوان 3": {
+      "id": "live_tv_panel_7b6fb9cf2640af7bbd8601b32e455ffb",
+      "name": "ALWAN SPORT 3 | الوان 3",
+      "logo": "logos/ALWAN_SPORT_3_________3.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/qyvgqlltjnfu/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 4 | الوان 4": {
+      "id": "live_tv_panel_5eef9db481b3fbdeea149cde5d57f2d3",
+      "name": "ALWAN SPORT 4 | الوان 4",
+      "logo": "logos/ALWAN_SPORT_4_________4.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/dgbbyhsruxyq/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 5 | الوان 5": {
+      "id": "live_tv_panel_b1b5e8abc911830387f5d508d74e04a6",
+      "name": "ALWAN SPORT 5 | الوان 5",
+      "logo": "logos/ALWAN_SPORT_5_________5.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aispeednet.cfd/sokaspr/jsxzcpclrmpk/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 6 | الوان 6": {
+      "id": "live_tv_panel_422094ee009638e65e671fc509ebd93d",
+      "name": "ALWAN SPORT 6 | الوان 6",
+      "logo": "logos/ALWAN_SPORT_6_________6.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aispeednet.cfd/sokaspr/jkesquqihubk/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 7 | الوان 7": {
+      "id": "live_tv_panel_d34db3a50e972154d6a434967590e6ef",
+      "name": "ALWAN SPORT 7 | الوان 7",
+      "logo": "logos/ALWAN_SPORT_7_________7.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aispeednet.cfd/sokaspr/jrzlglohbjmx/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 8 | الوان 8": {
+      "id": "live_tv_panel_2e54ad7eafec0cbb5941eb00584287a8",
+      "name": "ALWAN SPORT 8 | الوان 8",
+      "logo": "logos/ALWAN_SPORT_8_________8.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/istcilujgdsb/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 9 | الوان 9": {
+      "id": "live_tv_panel_e038053974b209d668902a60346b4e6f",
+      "name": "ALWAN SPORT 9 | الوان 9",
+      "logo": "logos/ALWAN_SPORT_9_________9.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aispeednet.cyou/sokaspr/jtwgfhlqqepe/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "alwan_ALWAN SPORT 10 | الوان 10": {
+      "id": "live_tv_panel_5dcdaef7f316e8ffb9a5fc4c21f9e988",
+      "name": "ALWAN SPORT 10 | الوان 10",
+      "logo": "logos/ALWAN_SPORT_10_________10.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/cgygbhnablvc/index.html",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}

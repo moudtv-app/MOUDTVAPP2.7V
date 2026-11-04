@@ -1,33 +1,39 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ALWAN_SPORT_1" tvg-logo="https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",ALWAN SPORT 1
-https://primetv.cc.cd/alwhd1/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_2" tvg-logo="https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",ALWAN SPORT 2
-https://primetv.cc.cd/alwhd2/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_3" tvg-logo="https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",ALWAN SPORT 3
-https://primetv.cc.cd/alwhd3/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_4" tvg-logo="https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",ALWAN SPORT 4
-https://primetv.cc.cd/alwhd4/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_5" tvg-logo="https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",ALWAN SPORT 5
-https://primetv.cc.cd/alwhd5/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_6" tvg-logo="https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",ALWAN SPORT 6
-https://primetv.cc.cd/alwhd6/index.m3u8|User-Agent=VLC/3.0&otherHeaders=X-Media-Access-Token: StreamAuthorized_Native_App
-#EXTINF:-1 tvg-id="ALWAN_SPORT_1_|_الوان_1" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 1 | الوان 1
-https://api10.apiforyourwebsite.cfd/sokaspr/kxmasdenpuss/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_2_|_الوان_2" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 2 | الوان 2
-https://ais10.aispeednet.cyou/sokaspr/uenvtpmnlebj/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_3_|_الوان_3" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 3 | الوان 3
-https://ais10.aispeednet.cyou/sokaspr/qyvgqlltjnfu/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_4_|_الوان_4" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 4 | الوان 4
-https://api10.apidatahostingsolutions.shop/sokaspr/dgbbyhsruxyq/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_5_|_الوان_5" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 5 | الوان 5
+#EXTINF:-1 tvg-name="ALWAN SPORT 1" tvg-logo="logos/ALWAN_SPORT_1.jpg",ALWAN SPORT 1
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd1/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 2" tvg-logo="logos/ALWAN_SPORT_2.jpg",ALWAN SPORT 2
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd2/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 3" tvg-logo="logos/ALWAN_SPORT_3.jpg",ALWAN SPORT 3
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd3/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 4" tvg-logo="logos/ALWAN_SPORT_4.jpg",ALWAN SPORT 4
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd4/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 5" tvg-logo="logos/ALWAN_SPORT_5.jpg",ALWAN SPORT 5
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd5/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 6" tvg-logo="logos/ALWAN_SPORT_6.jpg",ALWAN SPORT 6
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd6/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 1 | الوان 1" tvg-logo="logos/ALWAN_SPORT_1_________1.png",ALWAN SPORT 1 | الوان 1
+https://swi10.swiftstorageapi.shop/sokaspr/kxmasdenpuss/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 2 | الوان 2" tvg-logo="logos/ALWAN_SPORT_2_________2.png",ALWAN SPORT 2 | الوان 2
+https://ais10.aisupernet.cfd/sokaspr/uenvtpmnlebj/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 3 | الوان 3" tvg-logo="logos/ALWAN_SPORT_3_________3.png",ALWAN SPORT 3 | الوان 3
+https://api10.apidatahostingsolutions.shop/sokaspr/qyvgqlltjnfu/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 4 | الوان 4" tvg-logo="logos/ALWAN_SPORT_4_________4.png",ALWAN SPORT 4 | الوان 4
+https://api10.apiforyourwebsite.cfd/sokaspr/dgbbyhsruxyq/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 5 | الوان 5" tvg-logo="logos/ALWAN_SPORT_5_________5.png",ALWAN SPORT 5 | الوان 5
 https://ais10.aispeednet.cfd/sokaspr/jsxzcpclrmpk/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_6_|_الوان_6" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 6 | الوان 6
-https://ais10.aispeednet.cyou/sokaspr/jkesquqihubk/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_7_|_الوان_7" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 7 | الوان 7
-https://api10.apidatahostingsolutions.shop/sokaspr/jrzlglohbjmx/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_8_|_الوان_8" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 8 | الوان 8
-https://api10.apiforyourproduct.cfd/sokaspr/istcilujgdsb/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_9_|_الوان_9" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 9 | الوان 9
+#EXTINF:-1 tvg-name="ALWAN SPORT 6 | الوان 6" tvg-logo="logos/ALWAN_SPORT_6_________6.png",ALWAN SPORT 6 | الوان 6
+https://ais10.aispeednet.cfd/sokaspr/jkesquqihubk/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 7 | الوان 7" tvg-logo="logos/ALWAN_SPORT_7_________7.png",ALWAN SPORT 7 | الوان 7
+https://ais10.aispeednet.cfd/sokaspr/jrzlglohbjmx/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 8 | الوان 8" tvg-logo="logos/ALWAN_SPORT_8_________8.png",ALWAN SPORT 8 | الوان 8
+https://swi10.swiftstorageapi.shop/sokaspr/istcilujgdsb/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 9 | الوان 9" tvg-logo="logos/ALWAN_SPORT_9_________9.png",ALWAN SPORT 9 | الوان 9
 https://ais10.aispeednet.cyou/sokaspr/jtwgfhlqqepe/index.html
-#EXTINF:-1 tvg-id="ALWAN_SPORT_10_|_الوان_10" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",ALWAN SPORT 10 | الوان 10
-https://api10.apiforyourwebsite.cfd/sokaspr/cgygbhnablvc/index.html
+#EXTINF:-1 tvg-name="ALWAN SPORT 10 | الوان 10" tvg-logo="logos/ALWAN_SPORT_10_________10.png",ALWAN SPORT 10 | الوان 10
+https://api10.apidatahostingsolutions.shop/sokaspr/cgygbhnablvc/index.html
