@@ -1,379 +1,427 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 """
-MOUD TV - Channel Collector & Monitor
-مراقبة مصادر القنوات وتحديث الملفات تلقائياً.
-للمصادر وواجهات API المصرح باستخدامها.
+MOUD TV - ULTIMATE COLLECTOR
+يجمع بين جلب البيانات المشفرة (DramaLive) والفحص الذكي (Smart Monitor)
 """
 
 import os
+import re
 import json
 import time
+import base64
 import hashlib
 import logging
-from datetime import datetime, timezone
-
 import requests
 
-# =====================================
-# الإعدادات
-# =====================================
+from copy import deepcopy
+from datetime import datetime, timezone
+from urllib.parse import urlparse
+
+try:
+    from curl_cffi import requests as curl_requests
+except ImportError:
+    curl_requests = None
+
+try:
+    from Crypto.Cipher import AES
+    from Crypto.Util.Padding import pad, unpad
+    HAS_CRYPTO = True
+except ImportError:
+    HAS_CRYPTO = False
+    print("⚠️ pycryptodome غير مثبّت")
+
+# ==================================================
+# SETTINGS
+# ==================================================
+APP_NAME = "MOUD TV"
+VERSION = "3.0 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
+LOGO_DIR = os.path.join(OUTPUT_DIR, "logos")
 
-CHECK_INTERVAL = 60       # كل 60 ثانية
-REQUEST_TIMEOUT = 20
-
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(HISTORY_DIR, exist_ok=True)
+os.makedirs(LOGO_DIR, exist_ok=True)
 
 logging.basicConfig(
     filename=os.path.join(OUTPUT_DIR, "changes.log"),
     level=logging.INFO,
-    format="%(asctime)s | %(message)s"
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    encoding="utf-8"
 )
 
-# =====================================
-# المصادر المصرح بها
-# ضع روابط JSON الخاصة بك هنا
-# =====================================
+CHECK_TIMEOUT = 8
+DOWNLOAD_LOGOS = True
+KEEP_HISTORY = True
 
-SOURCES = {
-    "dramalive_bein": {
-        "url": "YOUR_AUTHORIZED_BEIN_JSON_API",
-        "category": "bein"
-    },
-
-    "dramalive_arabic": {
-        "url": "YOUR_AUTHORIZED_ARABIC_JSON_API",
-        "category": "arabic"
-    },
-
-    "dramalive_alwan": {
-        "url": "YOUR_AUTHORIZED_ALWAN_JSON_API",
-        "category": "alwan"
-    },
-
-    "prime_alwan": {
-        "url": "YOUR_AUTHORIZED_PRIME_JSON_API",
-        "category": "alwan"
-    },
-
-    "bein": {
-        "url": "YOUR_AUTHORIZED_BEIN_SOURCE_API",
-        "category": "bein"
-    },
-
-    "arabic": {
-        "url": "YOUR_AUTHORIZED_ARABIC_SOURCE_API",
-        "category": "arabic"
-    }
+# ==================================================
+# CHANNEL LOGOS (الاحتياطية)
+# ==================================================
+CHANNEL_LOGOS = {
+    "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+    "beIN SPORTS 2": "https://i.ibb.co/jkvhHK8X/1746540948199.png",
+    "beIN SPORTS 3": "https://i.ibb.co/RkqLyt1G/1746540954929.png",
+    "beIN SPORTS 4": "https://i.ibb.co/qP7GZCX/1746540949804.png",
+    "beIN SPORTS 5": "https://i.ibb.co/9HcbW8JB/1746540954072.png",
+    "beIN SPORTS 6": "https://i.ibb.co/TMmMz3r8/1746540949013.png",
+    "beIN SPORTS 7": "https://i.ibb.co/LDf6XWy5/1746540947397.png",
+    "beIN SPORTS 8": "https://i.ibb.co/LzJYf9xt/1746540951661.png",
+    "beIN SPORTS 9": "https://i.ibb.co/4gYJdLNw/1746540953273.png",
+    "beIN SPORTS NEWS": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+    "ALWAN SPORT 1": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
+    "ALWAN SPORT 2": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 3": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 4": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 5": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "ALWAN SPORT 6": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    "DEFAULT": "https://i.ibb.co/Z9j8xcc/1746540952466.png"
 }
 
-session = requests.Session()
-session.headers.update({
-    "User-Agent": "MOUD-TV-Monitor/1.0",
-    "Accept": "application/json"
-})
+# ==================================================
+# HELPERS
+# ==================================================
+def utc_now():
+    return datetime.now(timezone.utc).isoformat()
 
-# =====================================
-# جلب البيانات
-# =====================================
+def sha256(data):
+    raw = json.dumps(data, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
-def fetch_data(url):
-    if not url.startswith("https://"):
-        raise ValueError("يجب استخدام HTTPS للمصدر")
+def safe_name(name):
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", name)
 
-    response = session.get(
-        url,
-        timeout=REQUEST_TIMEOUT
-    )
-
-    response.raise_for_status()
-    return response.json()
-
-
-# =====================================
-# توحيد شكل القنوات
-# =====================================
-
-def normalize_channels(data):
-
-    if isinstance(data, dict):
-        channels = (
-            data.get("channels")
-            or data.get("live")
-            or data.get("data")
-            or []
-        )
-    elif isinstance(data, list):
-        channels = data
-    else:
-        channels = []
-
-    result = {}
-
-    for channel in channels:
-
-        if not isinstance(channel, dict):
-            continue
-
-        name = str(channel.get("name", "")).strip()
-        if not name:
-            continue
-
-        logo = channel.get("logo", "")
-        urls = channel.get("servers", [])
-
-        if isinstance(urls, str):
-            urls = [urls]
-
-        if not urls and channel.get("url"):
-            urls = [channel["url"]]
-
-        servers = []
-
-        for item in urls:
-            if isinstance(item, dict):
-                link = item.get("url", "")
-            else:
-                link = str(item)
-
-            if link.startswith(("https://", "http://")):
-                if link not in servers:
-                    servers.append(link)
-
-        if not servers:
-            continue
-
-        result[name] = {
-            "name": name,
-            "logo": logo,
-            "live": True,
-            "servers": servers
-        }
-
-    return result
-
-
-# =====================================
-# بصمة البيانات لاكتشاف التغيير
-# =====================================
-
-def calculate_hash(data):
-
-    content = json.dumps(
-        data,
-        ensure_ascii=False,
-        sort_keys=True
-    )
-
-    return hashlib.sha256(
-        content.encode("utf-8")
-    ).hexdigest()
-
-
-def read_old_data(filename):
-
-    if not os.path.exists(filename):
-        return None
-
+def is_http_url(url):
     try:
-        with open(filename, "r", encoding="utf-8") as file:
-            return json.load(file)
-    except (OSError, json.JSONDecodeError):
-        return None
+        parsed = urlparse(str(url))
+        return parsed.scheme in ("http", "https") and bool(parsed.netloc)
+    except Exception:
+        return False
 
+def load_json(path):
+    if not os.path.exists(path): return None
+    try:
+        with open(path, "r", encoding="utf-8") as f: return json.load(f)
+    except (OSError, json.JSONDecodeError): return None
 
-# =====================================
-# حفظ JSON و M3U
-# =====================================
+def save_json(path, data):
+    temp_path = path + ".tmp"
+    with open(temp_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(temp_path, path)
 
-def save_source(source_name, channels):
+# ==================================================
+# LOGO DOWNLOADER
+# ==================================================
+def download_logo(url, channel_name):
+    if not DOWNLOAD_LOGOS or not is_http_url(url): return url
+    try:
+        parsed = urlparse(url)
+        if parsed.scheme != "https": return url
+        response = requests.get(url, timeout=CHECK_TIMEOUT, stream=True)
+        response.raise_for_status()
+        content_type = response.headers.get("Content-Type", "").lower()
+        extensions = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp", "image/gif": ".gif"}
+        extension = next((ext for mime, ext in extensions.items() if mime in content_type), None)
+        if not extension: return url
+        filename = safe_name(channel_name) + extension
+        path = os.path.join(LOGO_DIR, filename)
+        with open(path, "wb") as f:
+            for chunk in response.iter_content(8192):
+                if chunk: f.write(chunk)
+        return "logos/" + filename
+    except Exception as e:
+        logging.warning(f"Logo download failed: {channel_name} | {e}")
+        return url
 
-    json_path = os.path.join(
-        OUTPUT_DIR,
-        source_name + ".json"
-    )
+# ==================================================
+# DRAMALIVE DECRYPTION
+# ==================================================
+KEY = b"0123456789abcdef"
+IV  = b"fedcba9876543210"
 
-    m3u_path = os.path.join(
-        OUTPUT_DIR,
-        source_name + ".m3u8"
-    )
+def aes_encrypt(data: str) -> str:
+    ct = AES.new(KEY, AES.MODE_CBC, IV).encrypt(pad(data.encode(), 16))
+    return base64.b64encode(ct).decode() + ":" + base64.b64encode(IV).decode()
 
-    output = {
-        "source": source_name,
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
-        "channels": channels
+def aes_decrypt(enc: str) -> str:
+    p = enc.split(":")
+    return unpad(AES.new(KEY, AES.MODE_CBC, base64.b64decode(p[1])).decrypt(base64.b64decode(p[0])), 16).decode()
+
+def api_call(endpoint, payload, host="live.publicdataroute.cc", is_redirect=False):
+    enc = aes_encrypt(json.dumps(payload, separators=(",", ":")))
+    url = f"https://{host}/redirect/{endpoint}" if is_redirect else f"https://{host}/api/live/livedrama/v13.0.0/{endpoint}"
+    headers = {"Content-Type": "application/json; charset=utf-8", "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; M2007J20CG MIUI/V12.0.9.0.QJGMIXM)"}
+    try:
+        if curl_requests:
+            r = curl_requests.post(url, data=enc, headers=headers, timeout=15, impersonate="chrome", verify=False)
+        else:
+            r = requests.post(url, data=enc, headers=headers, timeout=15, verify=False)
+        if r.status_code in [200, 201]:
+            return json.loads(aes_decrypt(r.text.strip()))
+    except Exception:
+        pass
+    return None
+
+def base_payload():
+    return {
+        "user_id": "_4244_1793052507021_notloggedin.com_dramalive3",
+        "device_id": "6e38bfe9-fe7e-4baf-81ae-99d214928f27",
+        "device_api": "29", "version_name": "185", "language": "ar",
+        "timezone": "Africa/Casablanca", "device_type": "phone",
+        "KEY_ACTIVATED_TYPE": "202122", "store": "playStore",
+        "isStoreVersion": True, "isPremium": False, "isCoupon_active": False, "hideAds": False,
+        "appCount": json.dumps({"adsFailed": 6, "adsLoaded": 0, "adsShowed": 0, "runCount": 14}),
+        "mainServer": "http://main.backendcoreapi.com/api/live/livedrama/v13.0.0/",
     }
 
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(
-            output,
-            f,
-            ensure_ascii=False,
-            indent=2
-        )
+def resolve_redirect(redirect_url, ch_id):
+    payload = base_payload()
+    payload.update({"id": ch_id, "url": redirect_url, "agent": "redirect"})
+    data = api_call("getLiveByRedirect", payload, "redirect.publicdataroute.cc", is_redirect=True)
+    if data and data.get("result") == 0:
+        try:
+            return json.loads(data.get("data", {}).get("url", "")).get("url")
+        except Exception:
+            pass
+    return None
 
-    lines = ["#EXTM3U"]
+def get_channel_data(channel_id):
+    payload = base_payload()
+    payload["id"] = channel_id
+    data = api_call("getLiveAllStreamsById", payload)
+    if data and data.get("result") == 0:
+        return data.get("live", {})
+    return None
 
-    for channel in channels.values():
+# ==================================================
+# FETCHERS
+# ==================================================
+def fetch_bein():
+    print("\n🎯 [جلب قنوات beIN SPORTS]")
+    bein_names = ["beIN SPORTS NEWS", "beIN SPORTS 1", "beIN SPORTS 2", "beIN SPORTS 3", "beIN SPORTS 4", "beIN SPORTS 5", "beIN SPORTS 6", "beIN SPORTS 7", "beIN SPORTS 8", "beIN SPORTS 9"]
+    results = {}
+    resp = api_call("getLiveByTopic", {**base_payload(), "type": "tv", "topic": "arabic_sport"})
+    if resp and "live" in resp:
+        for c in resp["live"]:
+            name_lower = c.get("name", "").lower()
+            if "bein" in name_lower or "beinsport" in name_lower:
+                custom_name = c.get("name").title()
+                for b_name in bein_names:
+                    if b_name.lower() in custom_name.lower() or custom_name.lower().replace("beinsport", "bein sports") == b_name.lower():
+                        custom_name = b_name
+                        break
+                ch_id = c.get("id_live")
+                print(f"  {custom_name}...", end=" ", flush=True)
+                live = get_channel_data(ch_id)
+                if live:
+                    text = (live.get("url", "") or "") + " " + (live.get("backup", "") or "")
+                    links = list(dict.fromkeys(re.findall(r"https?://[^\s\"\x27\\]+\.(?:m3u8|mpd)[^\s\"\x27\\]*", text)))
+                    for r_url in re.findall(r"http://\.LS\.V2[^\s\"\x27\\]+/s", text):
+                        res = resolve_redirect(r_url, ch_id)
+                        if res and res not in links: links.append(res)
+                    if links:
+                        print(f"✅ {len(links)}")
+                        results[custom_name] = {
+                            "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                            "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
+                            "servers": [{"url": l, "headers": {}} for l in links]
+                        }
+                    else: print("❌")
+                else: print("❌")
+    return results
 
-        name = channel["name"]
-        logo = channel["logo"]
+ARABIC_SPORTS = {
+    "stc tv", "stc tv 2", "ad sport 1", "ad sport 2", "ad sport premium 1", "ad sport premium 2",
+    "dubai sports 1", "dubai sports 2", "dubai sports 3", "dubai racing 1", "dubai racing 2",
+    "al iraqiya sports", "al rabiaa iraq sport", "al rabiaa iraq", "libya sport 1", "libya sport 2",
+    "almaghribia 5", "arryadia 3", "arryadia", "mbc 1", "al ahly", "al zamalek", "on sport", 
+    "on sport 1", "on sport 2", "on sport 3", "ksa sports 1", "ksa sports 2", "ksa sports 3", 
+    "ksa sport 1", "ksa sport 2", "ksa sport 3", "ssc 1", "ssc 2", "ssc 3", "ssc 4k", 
+    "ssc action waleed", "ssc action", "thmanyah 1", "thmanyah 2", "thmanyah 3", "watania 1", 
+    "watania 2", "watania sports", "algeria 1", "algeria 6",
+}
 
-        for url in channel["servers"]:
+def fetch_arabic():
+    print("\n🎯 [جلب القنوات الرياضية العربية]")
+    results = {}
+    resp = api_call("getLiveByTopic", {**base_payload(), "type": "tv", "topic": "arabic_sport"})
+    if not resp or "live" not in resp: return results
 
-            lines.append(
-                f'#EXTINF:-1 tvg-name="{name}" '
-                f'tvg-logo="{logo}",{name}'
-            )
+    for c in resp["live"]:
+        name = c.get("name", "")
+        n_lower = name.lower()
+        if "bein" in n_lower or "beinsport" in n_lower or "alwan" in n_lower: continue
+        if not any(ar in n_lower for ar in ARABIC_SPORTS) and not re.search(r"[\u0600-\u06FF]", n_lower): continue
+        
+        ch_id = c.get("id_live")
+        custom_name = name.title()
+        print(f"  {custom_name}...", end=" ", flush=True)
+        live = get_channel_data(ch_id)
+        if live:
+            text = (live.get("url", "") or "") + " " + (live.get("backup", "") or "")
+            links = list(dict.fromkeys(re.findall(r"https?://[^\s\"\x27\\]+\.(?:m3u8|mpd)[^\s\"\x27\\]*", text)))
+            for r_url in re.findall(r"http://\.LS\.V2[^\s\"\x27\\]+/s", text):
+                res = resolve_redirect(r_url, ch_id)
+                if res and res not in links: links.append(res)
+            if links:
+                print(f"✅ {len(links)}")
+                results[custom_name] = {
+                    "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                    "category": "-OzEkaXpB8w2bevneCNC", "live": True, "streamType": "m3u8",
+                    "servers": [{"url": l, "headers": {}} for l in links]
+                }
+            else: print("❌")
+        else: print("❌")
+    return results
 
-            lines.append(url)
-
-    with open(m3u_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
-
-
-# =====================================
-# مقارنة التحديثات
-# =====================================
-
-def monitor_source(source_name, config):
-
-    try:
-
-        print(f"\n[FETCH] {source_name}")
-
-        raw_data = fetch_data(config["url"])
-        channels = normalize_channels(raw_data)
-
-        if not channels:
-            print("[WARNING] لا توجد قنوات في البيانات")
-            return
-
-        json_path = os.path.join(
-            OUTPUT_DIR,
-            source_name + ".json"
-        )
-
-        old_data = read_old_data(json_path)
-        old_channels = (
-            old_data.get("channels", {})
-            if isinstance(old_data, dict)
-            else {}
-        )
-
-        old_hash = calculate_hash(old_channels)
-        new_hash = calculate_hash(channels)
-
-        if old_hash == new_hash:
-            print("[UNCHANGED] لا توجد تغييرات")
-            return
-
-        old_names = set(old_channels)
-        new_names = set(channels)
-
-        added = new_names - old_names
-        removed = old_names - new_names
-
-        changed = {
-            name for name in old_names & new_names
-            if old_channels[name] != channels[name]
+def fetch_alwan():
+    print("\n🎯 [جلب قنوات ALWAN SPORTS]")
+    results = {}
+    for i in range(1, 7):
+        name = f"ALWAN SPORT {i}"
+        url = f"https://primetv.cc.cd/alwhd{i}/index.m3u8"
+        headers = {"User-Agent": "VLC/3.0", "X-Media-Access-Token": "StreamAuthorized_Native_App"}
+        print(f"  {name} (Primetv)... ✅")
+        results[name] = {
+            "id": f"alwan_{i}", "name": name, "logo": CHANNEL_LOGOS.get(name, CHANNEL_LOGOS["DEFAULT"]),
+            "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
+            "servers": [{"url": url, "headers": headers}]
         }
 
-        # الاحتفاظ بنسخة قبل التحديث
-        if old_data is not None:
+    resp = api_call("getLiveByTopic", {**base_payload(), "type": "tv", "topic": "arabic_sport"})
+    if resp and "live" in resp:
+        for c in resp["live"]:
+            name = c.get("name", "")
+            if "alwan" in name.lower():
+                ch_id = c.get("id_live")
+                custom_name = name.title().replace("Alwan", "ALWAN SPORT")
+                print(f"  {custom_name}...", end=" ", flush=True)
+                live = get_channel_data(ch_id)
+                if live:
+                    text = (live.get("url", "") or "") + " " + (live.get("backup", "") or "")
+                    links = list(dict.fromkeys(re.findall(r"https?://[^\s\"\x27\\]+\.(?:m3u8|mpd)[^\s\"\x27\\]*", text)))
+                    for r_url in re.findall(r"http://\.LS\.V2[^\s\"\x27\\]+/s", text):
+                        res = resolve_redirect(r_url, ch_id)
+                        if res and res not in links: links.append(res)
+                    if links:
+                        print(f"✅ {len(links)}")
+                        if custom_name in results: results[custom_name]["servers"].extend([{"url": l, "headers": {}} for l in links])
+                        else:
+                            results[custom_name] = {
+                                "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                                "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
+                                "servers": [{"url": l, "headers": {}} for l in links]
+                            }
+                    else: print("❌")
+                else: print("❌")
+    return results
 
-            timestamp = datetime.now().strftime(
-                "%Y%m%d_%H%M%S"
-            )
+# ==================================================
+# M3U EXPORT & SAVE
+# ==================================================
+def create_m3u(channels):
+    lines = ["#EXTM3U"]
+    for channel in channels.values():
+        name = channel["name"]
+        logo = channel.get("logo", "")
+        for server in channel["servers"]:
+            url = server["url"]
+            headers = server.get("headers", {})
+            lines.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}",{name}')
+            if headers:
+                if headers.get("User-Agent"): lines.append("#EXTVLCOPT:http-user-agent=" + headers["User-Agent"])
+                if headers.get("Referer"): lines.append("#EXTVLCOPT:http-referrer=" + headers["Referer"])
+            lines.append(url)
+    return "\n".join(lines) + "\n"
 
-            backup = os.path.join(
-                HISTORY_DIR,
-                f"{source_name}_{timestamp}.json"
-            )
+def save_source(source_name, channels):
+    data = {"app": APP_NAME, "version": VERSION, "source": source_name, "updatedAt": utc_now(), "channels": channels}
+    json_path = os.path.join(OUTPUT_DIR, source_name + ".json")
+    m3u_path = os.path.join(OUTPUT_DIR, source_name + ".m3u8")
+    
+    save_json(json_path, data)
+    temp = m3u_path + ".tmp"
+    with open(temp, "w", encoding="utf-8") as f: f.write(create_m3u(channels))
+    os.replace(temp, m3u_path)
 
-            with open(backup, "w", encoding="utf-8") as f:
-                json.dump(
-                    old_data,
-                    f,
-                    ensure_ascii=False,
-                    indent=2
-                )
+def monitor_source(source_name, fetcher_func):
+    print(f"\n[SCAN] {source_name}")
+    try:
+        channels = fetcher_func()
+        if not channels:
+            print("[WARNING] Empty source")
+            return {}
+
+        # تنزيل الشعارات
+        for name, ch in channels.items():
+            if DOWNLOAD_LOGOS and is_http_url(ch["logo"]):
+                ch["logo"] = download_logo(ch["logo"], name)
+
+        json_path = os.path.join(OUTPUT_DIR, source_name + ".json")
+        old_file = load_json(json_path)
+        old_channels = old_file.get("channels", {}) if isinstance(old_file, dict) else {}
+
+        # الفحص الذكي
+        old_hash = sha256(old_channels)
+        new_hash = sha256(channels)
+
+        if old_hash == new_hash:
+            print("[UNCHANGED] No changes")
+            return channels
+
+        # حفظ التاريخ
+        if KEEP_HISTORY and old_file:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            save_json(os.path.join(HISTORY_DIR, f"{source_name}_{timestamp}.json"), old_file)
 
         save_source(source_name, channels)
-
-        message = (
-            f"{source_name} | "
-            f"Added: {len(added)} | "
-            f"Removed: {len(removed)} | "
-            f"Changed: {len(changed)}"
-        )
-
-        logging.info(message)
-
-        print("[UPDATED]", message)
-
-        if added:
-            print("  + New:", ", ".join(sorted(added)))
-
-        if removed:
-            print("  - Removed:", ", ".join(sorted(removed)))
-
-        if changed:
-            print("  * Modified:", ", ".join(sorted(changed)))
+        print(f"[UPDATED] {len(channels)} channels")
+        return channels
 
     except Exception as error:
+        logging.exception(f"Source error: {source_name}")
+        print("[ERROR]", source_name, str(error))
+        return None
 
-        logging.error(
-            "%s | ERROR | %s",
-            source_name,
-            str(error)
-        )
-
-        print("[ERROR]", source_name, error)
-
-
-# =====================================
-# المراقبة المستمرة
-# =====================================
-
+# ==================================================
+# MAIN
+# ==================================================
 def main():
+    print("=" * 50)
+    print("MOUD TV ULTIMATE COLLECTOR")
+    print("Version:", VERSION)
+    print("=" * 50)
 
-    print("=" * 45)
-    print("MOUD TV - AUTO CHANNEL MONITOR")
-    print("Monitoring interval:", CHECK_INTERVAL, "seconds")
-    print("=" * 45)
+    all_sources = {}
+    all_sources["bein"] = monitor_source("bein", fetch_bein)
+    all_sources["arabic"] = monitor_source("arabic", fetch_arabic)
+    all_sources["alwan"] = monitor_source("alwan", fetch_alwan)
 
-    while True:
+    # دمج الكل
+    merged = {}
+    for source_name, channels in all_sources.items():
+        if channels is None: continue
+        for name, channel in channels.items():
+            merged[f"{source_name}_{name}"] = deepcopy(channel)
 
-        start = time.time()
+    if merged:
+        data = {"app": APP_NAME, "updatedAt": utc_now(), "totalChannels": len(merged), "channels": merged}
+        json_path = os.path.join(OUTPUT_DIR, "all_channels.json")
+        m3u_path = os.path.join(OUTPUT_DIR, "all_channels.m3u8")
+        
+        old = load_json(json_path)
+        if not old or sha256(old.get("channels", {})) != sha256(merged):
+            save_json(json_path, data)
+            temp = m3u_path + ".tmp"
+            with open(temp, "w", encoding="utf-8") as f: f.write(create_m3u(merged))
+            os.replace(temp, m3u_path)
+            print(f"[UNIFIED] {len(merged)} channels saved")
+        else:
+            print("[UNIFIED] Unchanged")
 
-        for source_name, config in SOURCES.items():
-            monitor_source(source_name, config)
-
-        elapsed = time.time() - start
-
-        print(
-            f"\n[WAIT] انتهت الدورة خلال {elapsed:.1f} ثانية"
-        )
-
-        print(
-            f"إعادة المراقبة بعد {CHECK_INTERVAL} ثانية..."
-        )
-
-        time.sleep(CHECK_INTERVAL)
-
+    print("\n✅ Done!")
 
 if __name__ == "__main__":
-
-    try:
-        main()
-
-    except KeyboardInterrupt:
-        print("\nتم إيقاف المراقبة.")
+    main()
