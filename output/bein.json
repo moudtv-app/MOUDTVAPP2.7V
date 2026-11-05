@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "3.0 Ultimate",
   "source": "bein",
-  "updatedAt": "2026-11-05T05:49:57.921149+00:00",
+  "updatedAt": "2026-11-05T16:18:57.986166+00:00",
   "channels": {
     "Bein S. News": {
       "id": "live_tv_beinsportnews",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://cre10.createapihub.cfd/pages/bmlcddqeutbl/index.html",
+          "url": "https://con10.connectapis.cfd/pages/bmlcddqeutbl/index.html",
           "headers": {}
         }
       ]
@@ -27,15 +27,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dev8.developerworks.cyou/sd/fqymfphqxasg/index.html",
+          "url": "https://dep8.deployapihub.cfd/sd/fqymfphqxasg/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/duxrqkolkrbk/index.html",
+          "url": "https://aif7.aifastcenter.cfd/hd/xykvjqpvuirq/index.html",
           "headers": {}
         },
         {
-          "url": "https://bus11.businessapihostingplatform.shop/fk/vxjqcocwybim/index.html",
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/vxjqcocwybim/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://bac8.backendfactory.cyou/sd/fqymfphqxasg/index.html",
           "headers": {}
         },
         {
@@ -53,19 +57,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult6.ultraossoftstarsfeedmoon.shop/pages/aenwzgcdphaw/index.html",
+          "url": "https://ult6.ultraossoftstarsfeedmoon.shop/pages/xtbrimcowgjw/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult10.ultrasystemshardstarsfeedmoon.shop/pages/ioybvoiqbaak/index.html",
+          "url": "https://use10.useapiplatform.cfd/pages/ioybvoiqbaak/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrahardsoftstarsfeedmoonbuild.shop/fk/qkiyolmfwvhq/index.html",
+          "url": "https://ult11.ultrabuildossoftstarsfeed.shop/fk/qkiyolmfwvhq/index.html",
           "headers": {}
         },
         {
-          "url": "https://sup6.superdatanet.cfd/pages/aenwzgcdphaw/index.html",
+          "url": "https://sup6.superspeedai.cfd/pages/xtbrimcowgjw/index.html",
           "headers": {}
         },
         {
@@ -83,15 +87,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://cre9.createapiplatform.cfd/sd2/scmyhepzcima/index.html",
+          "url": "https://bui9.buildapiplatform.cfd/sd2/scmyhepzcima/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/bycsrgcyvall/index.html",
+          "url": "https://aid7.aidatacenter.cfd/hd/wifauwbjxexg/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/dkgxxbomgzqp/index.html",
+          "url": "https://bus11.businessapihostingplatform.shop/fk/dkgxxbomgzqp/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://bac9.backendworks.cyou/sd2/scmyhepzcima/index.html",
           "headers": {}
         },
         {
@@ -109,19 +117,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.dataengine.cyou/sd2/fzvvqqsxmdkr/index.html",
+          "url": "https://dat9.datasupernet.cyou/sd2/fzvvqqsxmdkr/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/mnmkvgxvxdrh/index.html",
+          "url": "https://aid7.aidatacenter.cfd/hd/wguvgwuojypf/index.html",
           "headers": {}
         },
         {
-          "url": "https://rel11.reliableapidatahosting.shop/fk/mpglkcsdvzen/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://dat9.datasuperai.cfd/sd2/fzvvqqsxmdkr/index.html",
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/mpglkcsdvzen/index.html",
           "headers": {}
         },
         {
@@ -143,11 +147,15 @@
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/ekoxasrghjhs/index.html",
+          "url": "https://aif7.aifastcenter.cfd/hd/gfdezonxgfdi/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/bfrsroaksqoz/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/bfrsroaksqoz/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/gfdezonxgfdi/index.html",
           "headers": {}
         },
         {
@@ -165,15 +173,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/xcswljfsvika/index.html",
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/xcswljfsvika/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/epcimpnjnpnb/index.html",
+          "url": "https://aid7.aidatacenter.cfd/hd/rfqhtixulbbr/index.html",
           "headers": {}
         },
         {
-          "url": "https://bus11.businessapihostingplatform.shop/fk/ujyjqtnhxfwt/index.html",
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/ujyjqtnhxfwt/index.html",
           "headers": {}
         },
         {
@@ -191,11 +199,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/yvsculoanvtp/index.html",
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/yvsculoanvtp/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/egqhrjkwcruq/index.html",
+          "url": "https://aif7.aifastcenter.cfd/hd/wvvxhqoaevsb/index.html",
           "headers": {}
         },
         {
@@ -213,11 +221,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/bvxmfphminod/index.html",
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/bvxmfphminod/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/wnjwericyyek/index.html",
+          "url": "https://aif7.aifastcenter.cfd/hd/xwvajfaeyaph/index.html",
           "headers": {}
         },
         {
@@ -235,7 +243,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/fmagyxxnusam/index.html",
+          "url": "https://aif7.aifastcenter.cfd/hd/tvvpktookatk/index.html",
           "headers": {}
         },
         {
@@ -257,7 +265,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/pxjkqgzargvf/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/pxjkqgzargvf/index.html",
           "headers": {}
         },
         {
@@ -279,7 +287,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/eyblrffihpfe/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/eyblrffihpfe/index.html",
           "headers": {}
         },
         {
@@ -329,7 +337,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/fcltqvqkbeug/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/fcltqvqkbeug/index.html",
           "headers": {}
         },
         {
@@ -351,7 +359,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/shxtvjlzeykf/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/shxtvjlzeykf/index.html",
           "headers": {}
         },
         {
@@ -373,7 +381,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/vpklqsetrwab/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/vpklqsetrwab/index.html",
           "headers": {}
         },
         {
@@ -449,7 +457,7 @@
           "headers": {}
         },
         {
-          "url": "https://dev9.developerplatform.cyou/malasp2/zlzkiakxahix/index.html",
+          "url": "https://man9.manageapiplatform.cfd/malasp2/zlzkiakxahix/index.html",
           "headers": {}
         }
       ]
@@ -486,6 +494,104 @@
         }
       ]
     },
+    "Bein Xtra 3": {
+      "id": "live_tv_panel_3c6d41d177d13945027a50fd6be7a41a",
+      "name": "Bein Xtra 3",
+      "logo": "logos/Bein_Xtra_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/abrnomjbjmdc/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 4": {
+      "id": "live_tv_panel_8d95662e0a3b545136b3c6cdf3be1e83",
+      "name": "Bein Xtra 4",
+      "logo": "logos/Bein_Xtra_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/ztcwnwclchpw/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 5": {
+      "id": "live_tv_panel_9462cebc379e24e0387c6d1c8866c6a3",
+      "name": "Bein Xtra 5",
+      "logo": "logos/Bein_Xtra_5.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/hhodjukxrbow/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 6": {
+      "id": "live_tv_panel_e790533f5071ef5ee53001274a5ac303",
+      "name": "Bein Xtra 6",
+      "logo": "logos/Bein_Xtra_6.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/jxsjuqyktmpm/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 7": {
+      "id": "live_tv_panel_7f900c733795575262ed6935733f5fc4",
+      "name": "Bein Xtra 7",
+      "logo": "logos/Bein_Xtra_7.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/jgnqtsvzdomr/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 8": {
+      "id": "live_tv_panel_8bee15884adb40d5c03865a109f31be1",
+      "name": "Bein Xtra 8",
+      "logo": "logos/Bein_Xtra_8.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/btgoumskclxy/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 9": {
+      "id": "live_tv_panel_080bc830f62d676511d028da2efbcd08",
+      "name": "Bein Xtra 9",
+      "logo": "logos/Bein_Xtra_9.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/lkwxhvylclqn/index.html",
+          "headers": {}
+        }
+      ]
+    },
     "Bein Max. 1": {
       "id": "live_tv_beinsport1max",
       "name": "Bein Max. 1",
@@ -503,7 +609,7 @@
           "headers": {}
         },
         {
-          "url": "https://cen10.centerspeedai.cyou/pages/bmlcddqeutbl/index.html",
+          "url": "https://con10.connectapis.cfd/pages/bmlcddqeutbl/index.html",
           "headers": {}
         },
         {
@@ -529,7 +635,7 @@
           "headers": {}
         },
         {
-          "url": "https://cen10.centerspeedai.cyou/pages/bmlcddqeutbl/index.html",
+          "url": "https://clo10.cloudbackend.cyou/pages/bmlcddqeutbl/index.html",
           "headers": {}
         },
         {
@@ -604,6 +710,20 @@
       "servers": [
         {
           "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena 2 ": {
+      "id": "live_tv_sport_beINSportsMENA2",
+      "name": "Bein Sports Mena 2 ",
+      "logo": "logos/Bein_Sports_Mena_2_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d269auac4m2zi",
           "headers": {}
         }
       ]

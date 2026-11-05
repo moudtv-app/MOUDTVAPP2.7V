@@ -1,0 +1,822 @@
+{
+  "app": "MOUD TV",
+  "version": "3.0 Ultimate",
+  "source": "bein",
+  "updatedAt": "2026-11-05T05:49:57.921149+00:00",
+  "channels": {
+    "Bein S. News": {
+      "id": "live_tv_beinsportnews",
+      "name": "Bein S. News",
+      "logo": "logos/Bein_S__News.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://cre10.createapihub.cfd/pages/bmlcddqeutbl/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 1": {
+      "id": "live_tv_beinsport1",
+      "name": "Bein S. 1",
+      "logo": "logos/Bein_S__1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dev8.developerworks.cyou/sd/fqymfphqxasg/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/duxrqkolkrbk/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://bus11.businessapihostingplatform.shop/fk/vxjqcocwybim/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/86xmv29g1aw01",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 2": {
+      "id": "live_tv_beinsport2",
+      "name": "Bein S. 2",
+      "logo": "logos/Bein_S__2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult6.ultraossoftstarsfeedmoon.shop/pages/aenwzgcdphaw/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult10.ultrasystemshardstarsfeedmoon.shop/pages/ioybvoiqbaak/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult11.ultrahardsoftstarsfeedmoonbuild.shop/fk/qkiyolmfwvhq/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://sup6.superdatanet.cfd/pages/aenwzgcdphaw/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d269auac4m2zi",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 3": {
+      "id": "live_tv_beinsport3",
+      "name": "Bein S. 3",
+      "logo": "logos/Bein_S__3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://cre9.createapiplatform.cfd/sd2/scmyhepzcima/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/bycsrgcyvall/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/dkgxxbomgzqp/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/pq1go379p3ks",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 4": {
+      "id": "live_tv_beinsport4",
+      "name": "Bein S. 4",
+      "logo": "logos/Bein_S__4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat9.dataengine.cyou/sd2/fzvvqqsxmdkr/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/mnmkvgxvxdrh/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://rel11.reliableapidatahosting.shop/fk/mpglkcsdvzen/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://dat9.datasuperai.cfd/sd2/fzvvqqsxmdkr/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/vg4qdam2zddfv",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 5": {
+      "id": "live_tv_beinsport5",
+      "name": "Bein S. 5",
+      "logo": "logos/Bein_S__5.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://spe8.speedaicenter.cfd/sd/guxxjojbouii/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/ekoxasrghjhs/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/bfrsroaksqoz/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d269au3cxb8jq",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 6": {
+      "id": "live_tv_beinsport6",
+      "name": "Bein S. 6",
+      "logo": "logos/Bein_S__6.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/xcswljfsvika/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/epcimpnjnpnb/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://bus11.businessapihostingplatform.shop/fk/ujyjqtnhxfwt/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/twou7x1innxqi",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 7": {
+      "id": "live_tv_beinsport7",
+      "name": "Bein S. 7",
+      "logo": "logos/Bein_S__7.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/yvsculoanvtp/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/egqhrjkwcruq/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/twou7xhihrzug",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 8": {
+      "id": "live_tv_beinsport8",
+      "name": "Bein S. 8",
+      "logo": "logos/Bein_S__8.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/bvxmfphminod/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/wnjwericyyek/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/yxterg64xlvlx",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. 9": {
+      "id": "live_tv_beinsport9",
+      "name": "Bein S. 9",
+      "logo": "logos/Bein_S__9.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://aid7.aidatacenter.cfd/hd/fmagyxxnusam/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/sudwknj5fkz3h",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. En 1": {
+      "id": "live_tv_beinsport11",
+      "name": "Bein S. En 1",
+      "logo": "logos/Bein_S__En_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://github.com/kusnadipepenk/ntn/raw/master/bs1.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/pxjkqgzargvf/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/lavhlvnunx33l",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. En 2": {
+      "id": "live_tv_beinsport12",
+      "name": "Bein S. En 2",
+      "logo": "logos/Bein_S__En_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://github.com/kusnadipepenk/ntn/raw/master/bs2.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/eyblrffihpfe/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/efuz1bjn2p6ej",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. En 3": {
+      "id": "live_tv_beinsport13",
+      "name": "Bein S. En 3",
+      "logo": "logos/Bein_S__En_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d26pd01cn90n2",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. En 4": {
+      "id": "live_tv_beinsport14",
+      "name": "Bein S. En 4",
+      "logo": "logos/Bein_S__En_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/ul23u70stbhyy",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Fr 1": {
+      "id": "live_tv_beinsportfr1",
+      "name": "Bein S. Fr 1",
+      "logo": "logos/Bein_S__Fr_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/fcltqvqkbeug/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/ul205qusekq4g",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Fr 2": {
+      "id": "live_tv_beinsportfr2",
+      "name": "Bein S. Fr 2",
+      "logo": "logos/Bein_S__Fr_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1102/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/shxtvjlzeykf/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/sudwk915fxxop",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Tr 1": {
+      "id": "live_tv_beinsporttr1",
+      "name": "Bein S. Tr 1",
+      "logo": "logos/Bein_S__Tr_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/vpklqsetrwab/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/d26pd6mc31cgz",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Tr 2": {
+      "id": "live_tv_beinsporttr2",
+      "name": "Bein S. Tr 2",
+      "logo": "logos/Bein_S__Tr_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/jmerjevq2mte6",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Tr 3": {
+      "id": "live_tv_beinsporttr3",
+      "name": "Bein S. Tr 3",
+      "logo": "logos/Bein_S__Tr_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/r47nr706o29m1",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein S. Tr 4": {
+      "id": "live_tv_beinsporttr4",
+      "name": "Bein S. Tr 4",
+      "logo": "logos/Bein_S__Tr_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/yxtfyiv49g0mp",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sport ": {
+      "id": "live_tv_beinsportopen",
+      "name": "Bein Sport ",
+      "logo": "logos/Bein_Sport_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://135.125.109.73:9000/beinsport4_.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dev9.developerplatform.cyou/malasp2/zlzkiakxahix/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 1": {
+      "id": "live_tv_beinsportxtra1",
+      "name": "Bein Xtra 1",
+      "logo": "logos/Bein_Xtra_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df975e2b27cf5000921c102/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=2.9.3-b879e400d5df7a969d4bff8863fe5cb02c7120e6&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=b702181a-c1d6-4ee2-9481-753f471e2ce7&deviceLat=40.8364&deviceLon=-74.1403&deviceMake=Opera&deviceModel=Opera&deviceType=web&deviceVersion=66.0.3515.44&includeExtendedEvents=false&serverSideAds=tr&sid=855d6801-c912-428d-b620-ede4dd0c3b15&userId=",
+          "headers": {}
+        },
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/lpqgydyulxao/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Xtra 2": {
+      "id": "live_tv_beinsportxtra2",
+      "name": "Bein Xtra 2",
+      "logo": "logos/Bein_Xtra_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api11.apidatahostingplatform.online/adashnorm/lpmezvqieshb/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Max. 1": {
+      "id": "live_tv_beinsport1max",
+      "name": "Bein Max. 1",
+      "logo": "logos/Bein_Max__1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://cen10.centerspeedai.cyou/pages/bmlcddqeutbl/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/7i35d1gzs1wt",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Max. 2": {
+      "id": "live_tv_beinsport2max",
+      "name": "Bein Max. 2",
+      "logo": "logos/Bein_Max__2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://cen10.centerspeedai.cyou/pages/bmlcddqeutbl/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/acghmioldgzb2",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports France 3 ": {
+      "id": "live_tv_sport_BeinSportsFrance3",
+      "name": "Bein Sports France 3 ",
+      "logo": "logos/Bein_Sports_France_3_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://ua.online24.pm/play/1103/350B326FB34F4B8/video.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "beIN SPORTS 2": {
+      "id": "live_tv_new_auto_1cfea04ed47cef11892641f8dbfed034",
+      "name": "beIN SPORTS 2",
+      "logo": "logos/beIN_SPORTS_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "beIN SPORTS 3": {
+      "id": "live_tv_new_auto_e5e7457a641febc76361c09985bf27b6",
+      "name": "beIN SPORTS 3",
+      "logo": "logos/beIN_SPORTS_3.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports En Español ": {
+      "id": "live_tv_sport_beINSPORTSenEspañol",
+      "name": "Bein Sports En Español ",
+      "logo": "logos/Bein_Sports_En_Espa_ol_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "beIN SPORTS 1": {
+      "id": "live_tv_new_auto_83090a45836201840d6b5fcb2e1de21e",
+      "name": "beIN SPORTS 1",
+      "logo": "logos/beIN_SPORTS_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena 4 ": {
+      "id": "live_tv_sport_beINSportsMENA4",
+      "name": "Bein Sports Mena 4 ",
+      "logo": "logos/Bein_Sports_Mena_4_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/vg4qdam2zddfv",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena 5 ": {
+      "id": "live_tv_sport_beINSportsMENA5",
+      "name": "Bein Sports Mena 5 ",
+      "logo": "logos/Bein_Sports_Mena_5_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d269au3cxb8jq",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Max 5 France ": {
+      "id": "live_tv_sport_beINSportsMax5France",
+      "name": "Bein Sports Max 5 France ",
+      "logo": "logos/Bein_Sports_Max_5_France_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api-proxad.dc2.oqee.net/playlist/v1/live/973/1/live.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Max 6 France ": {
+      "id": "live_tv_sport_beINSportsMax6France",
+      "name": "Bein Sports Max 6 France ",
+      "logo": "logos/Bein_Sports_Max_6_France_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api-proxad.dc2.oqee.net/playlist/v1/live/974/1/live.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Australia 1": {
+      "id": "live_tv_sport_beINSPORTSAustralia1",
+      "name": "Bein Sports Australia 1",
+      "logo": "logos/Bein_Sports_Australia_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/7i358j1z1qtyq",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Australia 2": {
+      "id": "live_tv_sport_beINSPORTSAustralia2",
+      "name": "Bein Sports Australia 2",
+      "logo": "logos/Bein_Sports_Australia_2.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/g8yjuwyvwvvbu",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Xtra": {
+      "id": "live_tv_new_auto_485a47e38a3334d49e6a8cca23c5c806",
+      "name": "Bein Sports Xtra",
+      "logo": "logos/Bein_Sports_Xtra.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Xtra En Espanol": {
+      "id": "live_tv_new_auto_19995854d6a090ef8c78905cf4d22821",
+      "name": "Bein Sports Xtra En Espanol",
+      "logo": "logos/Bein_Sports_Xtra_En_Espanol.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://201.190.41.246:9060/play/a03y/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "beIN SPORTS 4": {
+      "id": "live_tv_new_auto_b0d80bc209ad6222009b5187a6fd39f9",
+      "name": "beIN SPORTS 4",
+      "logo": "logos/beIN_SPORTS_4.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "beIN SPORTS 5": {
+      "id": "live_tv_new_auto_1982cf9df4ef9c08dae3fa462609824f",
+      "name": "beIN SPORTS 5",
+      "logo": "logos/beIN_SPORTS_5.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Haber": {
+      "id": "live_tv_new_auto_cf726c06b02face0d834533f4d509a1f",
+      "name": "Bein Sports Haber",
+      "logo": "logos/Bein_Sports_Haber.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena 8 ": {
+      "id": "live_tv_sport_beINSportsMENA8",
+      "name": "Bein Sports Mena 8 ",
+      "logo": "logos/Bein_Sports_Mena_8_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/yxterg64xlvlx",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena 9 ": {
+      "id": "live_tv_sport_beINSportsMENA9",
+      "name": "Bein Sports Mena 9 ",
+      "logo": "logos/Bein_Sports_Mena_9_.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/sudwknj5fkz3h",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Mena Xtra 1": {
+      "id": "live_tv_sport_beINSportsMENAXtra1",
+      "name": "Bein Sports Mena Xtra 1",
+      "logo": "logos/Bein_Sports_Mena_Xtra_1.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/1n5ympyb4f8dp",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports Malaysia": {
+      "id": "live_tv_sport_beINSportsMalaysia",
+      "name": "Bein Sports Malaysia",
+      "logo": "logos/Bein_Sports_Malaysia.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/r471l1r6gnego",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}
