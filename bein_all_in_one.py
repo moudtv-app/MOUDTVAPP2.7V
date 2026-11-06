@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MOUD TV - ULTIMATE COLLECTOR V7.0
-- جلب الشعارات مباشرة من API (إذا توفرت)
-- فصل كل مصدر في ملفاته الخاصة
-- تنزيل الشعارات محلياً
+MOUD TV - ULTIMATE COLLECTOR V9.0
+- إصلاح الشعارات لتظهر في تطبيقك (M3U8) بنسبة 100%
 """
 
 import os
@@ -35,15 +33,13 @@ except ImportError:
 # SETTINGS
 # ==================================================
 APP_NAME = "MOUD TV"
-VERSION = "7.0 Ultimate"
+VERSION = "9.0 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
-LOGO_DIR = os.path.join(OUTPUT_DIR, "logos")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(HISTORY_DIR, exist_ok=True)
-os.makedirs(LOGO_DIR, exist_ok=True)
 
 logging.basicConfig(
     filename=os.path.join(OUTPUT_DIR, "changes.log"),
@@ -52,12 +48,8 @@ logging.basicConfig(
     encoding="utf-8"
 )
 
-CHECK_TIMEOUT = 8
-DOWNLOAD_LOGOS = True
-KEEP_HISTORY = True
-
 # ==================================================
-# قاموس الشعارات الاحتياطي (Fallback)
+# قاموس الشعارات (روابط مباشرة)
 # ==================================================
 CHANNEL_LOGOS = {
     "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
@@ -93,7 +85,6 @@ def utc_now(): return datetime.now(timezone.utc).isoformat()
 def sha256(data):
     raw = json.dumps(data, sort_keys=True, ensure_ascii=False)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
-def safe_name(name): return re.sub(r"[^a-zA-Z0-9_-]", "_", name)
 def is_http_url(url):
     try:
         parsed = urlparse(str(url))
@@ -112,31 +103,12 @@ def save_json(path, data):
     os.replace(temp_path, path)
 
 def get_logo_for_channel(name, api_logo=""):
-    """إذا كان الـ API يوفر شعاراً، استخدمه. وإلا ابحث في القاموس."""
-    if api_logo and is_http_url(api_logo):
-        return api_logo
-        
+    if api_logo and is_http_url(api_logo): return api_logo
     name_upper = name.upper().strip()
     if name_upper in CHANNEL_LOGOS: return CHANNEL_LOGOS[name_upper]
     for key, logo in CHANNEL_LOGOS.items():
         if key != "DEFAULT" and (key in name_upper or name_upper in key): return logo
     return CHANNEL_LOGOS["DEFAULT"]
-
-def download_logo(url, channel_name):
-    if not DOWNLOAD_LOGOS or not is_http_url(url): return url
-    try:
-        response = requests.get(url, timeout=CHECK_TIMEOUT, stream=True)
-        response.raise_for_status()
-        content_type = response.headers.get("Content-Type", "").lower()
-        extensions = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp"}
-        extension = next((ext for mime, ext in extensions.items() if mime in content_type), ".png")
-        filename = safe_name(channel_name) + extension
-        path = os.path.join(LOGO_DIR, filename)
-        with open(path, "wb") as f:
-            for chunk in response.iter_content(8192):
-                if chunk: f.write(chunk)
-        return "logos/" + filename
-    except: return url
 
 # ==================================================
 # المصدر 1: DramaLive (Decryption)
@@ -194,48 +166,7 @@ def get_channel_data(channel_id):
     return None
 
 # ==================================================
-# المصدر 2: OZ-TV Token
-# ==================================================
-def fetch_oz_tv():
-    print("\n🎯 [جلب قنوات OZ-TV]")
-    KEY_OZ = bytes.fromhex("4b7c9f2ae58d1b6c3f9a7e2d5c8b4f1a")
-    MAGIC = b"GFEDCBA@ONMLKJIH"
-    SECRET = bytes(KEY_OZ[i] ^ MAGIC[i] for i in range(16))
-    
-    try: IP = requests.get("https://api.ipify.org", timeout=10).text.strip()
-    except: IP = "196.70.148.78"
-        
-    NOW = int(time.time())
-    EXPIRES = NOW + 21600
-    data = f"{IP}-{NOW}-{EXPIRES}".encode()
-    h = hashlib.sha256(SECRET + data).digest()
-    TOKEN = base64.b64encode(h + b"-" + data).decode()
-    
-    CHANNELS = {
-        "bein_sport_1": "beIN SPORTS 1", "bein_sport_2": "beIN SPORTS 2",
-        "bein_sport_3": "beIN SPORTS 3", "bein_sport_4": "beIN SPORTS 4",
-        "bein_sport_5": "beIN SPORTS 5", "bein_sport_7": "beIN SPORTS 7",
-    }
-    
-    results = {}
-    for ch_id, ch_name in CHANNELS.items():
-        url = f"https://sr.oz-tv.space/{ch_id}/index.m3u8?token={TOKEN}"
-        print(f"  {ch_name}...", end=" ", flush=True)
-        try:
-            r = requests.get(url, headers={"user-agent": "Mozilla/5.0", "x-auth-token": TOKEN}, timeout=15)
-            if r.status_code == 200 and "#EXTM3U" in r.text:
-                print("✅")
-                results[ch_name] = {
-                    "id": ch_id, "name": ch_name, "logo": get_logo_for_channel(ch_name, ""), # لا يوجد شعار في API
-                    "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
-                    "servers": [{"url": url, "headers": {"x-auth-token": TOKEN, "User-Agent": "Mozilla/5.0"}}]
-                }
-            else: print("❌")
-        except: print("❌")
-    return results
-
-# ==================================================
-# FETCHERS (BeIN, Arabic, Alwan)
+# FETCHERS
 # ==================================================
 def fetch_bein_dl():
     print("\n🎯 [جلب قنوات beIN من DramaLive]")
@@ -253,7 +184,6 @@ def fetch_bein_dl():
                         break
                 ch_id = c.get("id_live")
                 
-                # جلب الشعار من الـ API إذا وجد
                 api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
                 final_logo = get_logo_for_channel(custom_name, api_logo)
                 
@@ -291,7 +221,6 @@ def fetch_arabic():
         ch_id = c.get("id_live")
         custom_name = name.title()
         
-        # جلب الشعار من الـ API إذا وجد
         api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
         final_logo = get_logo_for_channel(custom_name, api_logo)
         
@@ -340,7 +269,6 @@ def fetch_alwan_dl():
                 ch_id = c.get("id_live")
                 custom_name = name.title().replace("Alwan", "ALWAN SPORT")
                 
-                # جلب الشعار من الـ API إذا وجد
                 api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
                 final_logo = get_logo_for_channel(custom_name, api_logo)
                 
@@ -366,17 +294,21 @@ def fetch_alwan_dl():
     return results
 
 # ==================================================
-# M3U EXPORT & SAVE
+# M3U EXPORT & SAVE (تم إصلاح الشعارات هنا)
 # ==================================================
 def create_m3u(channels):
     lines = ["#EXTM3U"]
     for channel in channels.values():
         name = channel["name"]
-        logo = channel.get("logo", "")
+        logo = channel.get("logo", "") # هذا الآن رابط كامل 100%
+        
         for server in channel["servers"]:
             url = server["url"]
             headers = server.get("headers", {})
+            
+            # إضافة الشعار كرابط كامل داخل ملف M3U8
             lines.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}",{name}')
+            
             if headers:
                 if headers.get("User-Agent"): lines.append("#EXTVLCOPT:http-user-agent=" + headers["User-Agent"])
                 if headers.get("Referer"): lines.append("#EXTVLCOPT:http-referrer=" + headers["Referer"])
@@ -398,8 +330,7 @@ def monitor_source(source_name, fetcher_func):
     try:
         channels = fetcher_func()
         if not channels: return {}
-        for name, ch in channels.items():
-            if DOWNLOAD_LOGOS and is_http_url(ch["logo"]): ch["logo"] = download_logo(ch["logo"], name)
+        
         json_path = os.path.join(OUTPUT_DIR, source_name + ".json")
         old_file = load_json(json_path)
         old_channels = old_file.get("channels", {}) if isinstance(old_file, dict) else {}
@@ -423,11 +354,10 @@ def monitor_source(source_name, fetcher_func):
 # ==================================================
 def main():
     print("=" * 50)
-    print("MOUD TV ULTIMATE COLLECTOR V7.0")
+    print("MOUD TV ULTIMATE COLLECTOR V9.0")
     print("=" * 50)
 
     monitor_source("bein_dramalive", fetch_bein_dl)
-    monitor_source("bein_oztv", fetch_oz_tv)
     monitor_source("arabic_dramalive", fetch_arabic)
     monitor_source("alwan_primetv", fetch_alwan_prime)
     monitor_source("alwan_dramalive", fetch_alwan_dl)
