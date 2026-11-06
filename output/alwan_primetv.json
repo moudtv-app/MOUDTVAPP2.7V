@@ -1,0 +1,110 @@
+{
+  "app": "MOUD TV",
+  "version": "6.0 Ultimate",
+  "source": "alwan_primetv",
+  "updatedAt": "2026-11-06T01:48:41.365142+00:00",
+  "channels": {
+    "ALWAN SPORT 1": {
+      "id": "alwan_prime_1",
+      "name": "ALWAN SPORT 1",
+      "logo": "logos/ALWAN_SPORT_1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd1/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 2": {
+      "id": "alwan_prime_2",
+      "name": "ALWAN SPORT 2",
+      "logo": "logos/ALWAN_SPORT_2.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd2/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 3": {
+      "id": "alwan_prime_3",
+      "name": "ALWAN SPORT 3",
+      "logo": "logos/ALWAN_SPORT_3.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd3/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 4": {
+      "id": "alwan_prime_4",
+      "name": "ALWAN SPORT 4",
+      "logo": "logos/ALWAN_SPORT_4.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd4/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 5": {
+      "id": "alwan_prime_5",
+      "name": "ALWAN SPORT 5",
+      "logo": "logos/ALWAN_SPORT_5.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd5/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 6": {
+      "id": "alwan_prime_6",
+      "name": "ALWAN SPORT 6",
+      "logo": "logos/ALWAN_SPORT_6.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd6/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    }
+  }
+}

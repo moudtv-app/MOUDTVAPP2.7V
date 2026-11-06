@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="ALWAN SPORT 1" tvg-logo="logos/ALWAN_SPORT_1.jpg",ALWAN SPORT 1
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd1/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 2" tvg-logo="logos/ALWAN_SPORT_2.jpg",ALWAN SPORT 2
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd2/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 3" tvg-logo="logos/ALWAN_SPORT_3.jpg",ALWAN SPORT 3
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd3/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 4" tvg-logo="logos/ALWAN_SPORT_4.jpg",ALWAN SPORT 4
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd4/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 5" tvg-logo="logos/ALWAN_SPORT_5.jpg",ALWAN SPORT 5
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd5/index.m3u8
+#EXTINF:-1 tvg-name="ALWAN SPORT 6" tvg-logo="logos/ALWAN_SPORT_6.jpg",ALWAN SPORT 6
+#EXTVLCOPT:http-user-agent=VLC/3.0
+https://primetv.cc.cd/alwhd6/index.m3u8
