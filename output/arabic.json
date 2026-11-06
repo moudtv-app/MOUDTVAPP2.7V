@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "3.0 Ultimate",
+  "version": "4.0 Ultimate",
   "source": "arabic",
-  "updatedAt": "2026-11-05T16:20:14.296095+00:00",
+  "updatedAt": "2026-11-06T01:41:12.111848+00:00",
   "channels": {
     "Oman Sport | عمان الرياضية": {
       "id": "live_tv_omansport",
@@ -45,7 +45,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/xgqadyqkvvgw/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/xgqadyqkvvgw/index.html",
           "headers": {}
         }
       ]
@@ -59,7 +59,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/haodyhxpqbca/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/haodyhxpqbca/index.html",
           "headers": {}
         }
       ]
@@ -101,7 +101,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/ktkrvzcnvrye/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/ktkrvzcnvrye/index.html",
           "headers": {}
         }
       ]
@@ -115,7 +115,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/tatljrzesfgf/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/tatljrzesfgf/index.html",
           "headers": {}
         }
       ]
@@ -129,7 +129,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/nipjbvmommii/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/nipjbvmommii/index.html",
           "headers": {}
         }
       ]
@@ -179,13 +179,13 @@
     "Stc Tv": {
       "id": "live_tv_sport_STCTV",
       "name": "Stc Tv",
-      "logo": "logos/Stc_Tv.png",
+      "logo": "logos/Stc_Tv.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/bpusmszyztqi/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/bpusmszyztqi/index.html",
           "headers": {}
         }
       ]
@@ -193,13 +193,13 @@
     "Stc Tv 2": {
       "id": "live_tv_panel_6318043e297af250693d6c2ee239aee0",
       "name": "Stc Tv 2",
-      "logo": "logos/Stc_Tv_2.png",
+      "logo": "logos/Stc_Tv_2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/ytvtjablrhya/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/ytvtjablrhya/index.html",
           "headers": {}
         }
       ]
@@ -207,11 +207,15 @@
     "Thmanyah 1 | ثمانية 1": {
       "id": "live_tv_panel_9df3b16322fceee120cf2f1493d86bf6",
       "name": "Thmanyah 1 | ثمانية 1",
-      "logo": "logos/Thmanyah_1__________1.png",
+      "logo": "logos/Thmanyah_1__________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/bjsavhoeycul/index.html",
+          "headers": {}
+        },
         {
           "url": "https://dat3.datahostingapimanagement.monster/mirsp/bjsavhoeycul/index.html",
           "headers": {}
@@ -221,7 +225,7 @@
     "Thmanyah 2 | ثمانية 2": {
       "id": "live_tv_panel_3be9ec6c73ec25174edae53bca13d544",
       "name": "Thmanyah 2 | ثمانية 2",
-      "logo": "logos/Thmanyah_2__________2.png",
+      "logo": "logos/Thmanyah_2__________2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -235,13 +239,13 @@
     "Thmanyah 3 | ثمانية 3": {
       "id": "live_tv_panel_dd37ff862b7845bd1dbe86c6e2b6cc1d",
       "name": "Thmanyah 3 | ثمانية 3",
-      "logo": "logos/Thmanyah_3__________3.png",
+      "logo": "logos/Thmanyah_3__________3.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/pjchrqohjrem/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pjchrqohjrem/index.html",
           "headers": {}
         }
       ]
@@ -249,7 +253,7 @@
     "Ad Sport 1 | ابو ظبي الرياضية 1": {
       "id": "live_tv_abudabyspoort1",
       "name": "Ad Sport 1 | ابو ظبي الرياضية 1",
-      "logo": "logos/Ad_Sport_1____________________1.png",
+      "logo": "logos/Ad_Sport_1____________________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -263,7 +267,7 @@
           "headers": {}
         },
         {
-          "url": "https://bac10.backendcloud.cyou/sokaspr/uooqgxlxwgyx/index.html",
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/uooqgxlxwgyx/index.html",
           "headers": {}
         }
       ]
@@ -271,7 +275,7 @@
     "Ad Sport 2 | ابو ظبي الرياضية 2": {
       "id": "live_tv_abodabyspoort2",
       "name": "Ad Sport 2 | ابو ظبي الرياضية 2",
-      "logo": "logos/Ad_Sport_2____________________2.png",
+      "logo": "logos/Ad_Sport_2____________________2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -285,7 +289,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/dkarjionuchu/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/dkarjionuchu/index.html",
           "headers": {}
         }
       ]
@@ -293,7 +297,7 @@
     "Ad Sport Premium 1 | ابو ظبي الرياضية بريميوم 1": {
       "id": "live_tv_Adsportpremium1",
       "name": "Ad Sport Premium 1 | ابو ظبي الرياضية بريميوم 1",
-      "logo": "logos/Ad_Sport_Premium_1____________________________1.png",
+      "logo": "logos/Ad_Sport_Premium_1____________________________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -315,7 +319,7 @@
     "Ad Sport Premium 2 | ابو ظبي الرياضية بريميوم 2": {
       "id": "live_tv_ADSportpremium2",
       "name": "Ad Sport Premium 2 | ابو ظبي الرياضية بريميوم 2",
-      "logo": "logos/Ad_Sport_Premium_2____________________________2.png",
+      "logo": "logos/Ad_Sport_Premium_2____________________________2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -325,7 +329,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/alcssfdibdrk/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/alcssfdibdrk/index.html",
           "headers": {}
         },
         {
@@ -337,13 +341,13 @@
     "Dubai Sports 1 | دبي الرياضية 1": {
       "id": "live_tv_dubaispoort1",
       "name": "Dubai Sports 1 | دبي الرياضية 1",
-      "logo": "logos/Dubai_Sports_1________________1.png",
+      "logo": "https://i.ibb.co/6P6xYqZ/dubai-sports1.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/ihsrjbsqlwqm/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/ihsrjbsqlwqm/index.html",
           "headers": {}
         }
       ]
@@ -351,13 +355,13 @@
     "Dubai Sports 2 | دبي الرياضية 2": {
       "id": "live_tv_dubaispoort2",
       "name": "Dubai Sports 2 | دبي الرياضية 2",
-      "logo": "logos/Dubai_Sports_2________________2.png",
+      "logo": "https://i.ibb.co/8N5zXvB/dubai-sports2.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/aeheiedrcium/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/aeheiedrcium/index.html",
           "headers": {}
         }
       ]
@@ -463,7 +467,7 @@
     "Almaghribia 5 | المغربية 5": {
       "id": "live_tv_morrowcow5",
       "name": "Almaghribia 5 | المغربية 5",
-      "logo": "logos/Almaghribia_5____________5.png",
+      "logo": "logos/Almaghribia_5____________5.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -481,7 +485,7 @@
     "Arryadia 3 | الرياضية المغربية 3": {
       "id": "live_tv_morrowcowsport",
       "name": "Arryadia 3 | الرياضية المغربية 3",
-      "logo": "logos/Arryadia_3_____________________3.png",
+      "logo": "logos/Arryadia_3_____________________3.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -495,7 +499,7 @@
     "Mbc 1 | ام بي سي 1": {
       "id": "live_tv_mbc1",
       "name": "Mbc 1 | ام بي سي 1",
-      "logo": "logos/Mbc_1____________1.png",
+      "logo": "logos/Mbc_1____________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -557,13 +561,13 @@
     "Al Ahly | الاهلي": {
       "id": "live_tv_alahlytv",
       "name": "Al Ahly | الاهلي",
-      "logo": "logos/Al_Ahly_________.png",
+      "logo": "logos/Al_Ahly_________.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapihub.monster/mirsp/xcugqtkqohvx/index.html",
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/xcugqtkqohvx/index.html",
           "headers": {}
         }
       ]
@@ -571,7 +575,7 @@
     "Al Zamalek | الزمالك": {
       "id": "live_tv_egzamalek",
       "name": "Al Zamalek | الزمالك",
-      "logo": "logos/Al_Zamalek__________.png",
+      "logo": "logos/Al_Zamalek__________.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -585,7 +589,7 @@
     "On Sport 2 | أون سبورت 2": {
       "id": "live_tv_onsport2",
       "name": "On Sport 2 | أون سبورت 2",
-      "logo": "logos/On_Sport_2_____________2.png",
+      "logo": "logos/On_Sport_2_____________2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -595,7 +599,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.online/mirsp/rzfelnyyyrmq/index.html",
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/rzfelnyyyrmq/index.html",
           "headers": {}
         }
       ]
@@ -603,13 +607,13 @@
     "On Sport 3 | أون سبورت 3": {
       "id": "live_tv_onsport3",
       "name": "On Sport 3 | أون سبورت 3",
-      "logo": "logos/On_Sport_3_____________3.png",
+      "logo": "logos/On_Sport_3_____________3.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/qnnsowldifzv/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/qnnsowldifzv/index.html",
           "headers": {}
         }
       ]
@@ -617,7 +621,7 @@
     "On Sport | أون سبورت": {
       "id": "live_tv_onsport",
       "name": "On Sport | أون سبورت",
-      "logo": "logos/On_Sport____________.png",
+      "logo": "logos/On_Sport____________.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -627,11 +631,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapisolutions.monster/mirsp/yghzsmsgpnaa/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://dat3.datahostingapiservices.monster/mirsp/yghzsmsgpnaa/index.html",
+          "url": "https://dat3.datahostingapihub.monster/mirsp/yghzsmsgpnaa/index.html",
           "headers": {}
         }
       ]
@@ -639,7 +639,7 @@
     "Ssc 1 | اس اس سي 1": {
       "id": "live_tv_sassc1",
       "name": "Ssc 1 | اس اس سي 1",
-      "logo": "logos/Ssc_1____________1.png",
+      "logo": "https://i.ibb.co/1K8bB6B/ssc1.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -653,7 +653,7 @@
     "Ssc 2 | اس اس سي 2": {
       "id": "live_tv_sassc2",
       "name": "Ssc 2 | اس اس سي 2",
-      "logo": "logos/Ssc_2____________2.png",
+      "logo": "https://i.ibb.co/Vvz3x4N/ssc2.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -667,7 +667,7 @@
     "Ssc 3 | اس اس سي 3": {
       "id": "live_tv_sassc3",
       "name": "Ssc 3 | اس اس سي 3",
-      "logo": "logos/Ssc_3____________3.png",
+      "logo": "https://i.ibb.co/fYhFz6G/ssc3.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -681,7 +681,7 @@
     "Ssc 4K": {
       "id": "live_tv_panel_72feda02cb2346203611e4173cbb916d",
       "name": "Ssc 4K",
-      "logo": "logos/Ssc_4K.png",
+      "logo": "https://i.ibb.co/xL9yC8Z/ssc4k.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -695,7 +695,7 @@
     "Ssc Action Waleed": {
       "id": "live_tv_sasscactionwaleed",
       "name": "Ssc Action Waleed",
-      "logo": "logos/Ssc_Action_Waleed.png",
+      "logo": "https://i.ibb.co/gJpWqH4/ssc-action.png",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -709,7 +709,7 @@
     "Watania 1 | الوطنية التونسية 1": {
       "id": "live_tv_tuniswatanya1",
       "name": "Watania 1 | الوطنية التونسية 1",
-      "logo": "logos/Watania_1____________________1.png",
+      "logo": "logos/Watania_1____________________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -739,7 +739,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/qttzradptyxf/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/qttzradptyxf/index.html",
           "headers": {}
         }
       ]
@@ -747,7 +747,7 @@
     "Watania 2 | الوطنية التونسية 2": {
       "id": "live_tv_tuniswatanya2",
       "name": "Watania 2 | الوطنية التونسية 2",
-      "logo": "logos/Watania_2____________________2.png",
+      "logo": "logos/Watania_2____________________2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -773,7 +773,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/jrmfusxogrwo/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/jrmfusxogrwo/index.html",
           "headers": {}
         }
       ]
@@ -781,13 +781,13 @@
     "Watania Sports | الوطنية الرياضية": {
       "id": "live_tv_panel_9fc42f4d613f510677c5fbc7cc18bece",
       "name": "Watania Sports | الوطنية الرياضية",
-      "logo": "logos/Watania_Sports___________________.png",
+      "logo": "logos/Watania_Sports___________________.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pmichofskwgk/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/pmichofskwgk/index.html",
           "headers": {}
         }
       ]
@@ -795,7 +795,7 @@
     "Algeria 1 | الجزائر 1": {
       "id": "live_tv_aljeria1",
       "name": "Algeria 1 | الجزائر 1",
-      "logo": "logos/Algeria_1___________1.png",
+      "logo": "logos/Algeria_1___________1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -809,7 +809,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.monster/mirsp/kpscknvhnclb/index.html",
+          "url": "https://dat3.datahostingapiservices.store/mirsp/kpscknvhnclb/index.html",
           "headers": {}
         }
       ]
@@ -817,7 +817,7 @@
     "Algeria 6 | الجزائر 6": {
       "id": "live_tv_aljeria6",
       "name": "Algeria 6 | الجزائر 6",
-      "logo": "logos/Algeria_6___________6.png",
+      "logo": "logos/Algeria_6___________6.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -827,7 +827,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.online/mirsp/caztputaxewk/index.html",
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/caztputaxewk/index.html",
           "headers": {}
         }
       ]
@@ -835,7 +835,7 @@
     "Arryadia Hd Morocco ": {
       "id": "live_tv_sport_ArryadiaHDMorocco",
       "name": "Arryadia Hd Morocco ",
-      "logo": "logos/Arryadia_Hd_Morocco_.png",
+      "logo": "logos/Arryadia_Hd_Morocco_.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -913,7 +913,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.site/mirsp/nzstnnmgybzj/index.html",
+          "url": "https://dat3.datahostingapiservices.online/mirsp/nzstnnmgybzj/index.html",
           "headers": {}
         }
       ]
@@ -1063,7 +1063,7 @@
     "Cytavision Sports 1 Cyprus": {
       "id": "live_tv_sport_CytavisionSports1Cyprus",
       "name": "Cytavision Sports 1 Cyprus",
-      "logo": "logos/Cytavision_Sports_1_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_1_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1077,7 +1077,7 @@
     "Cytavision Sports 2 Cyprus": {
       "id": "live_tv_sport_CytavisionSports2Cyprus",
       "name": "Cytavision Sports 2 Cyprus",
-      "logo": "logos/Cytavision_Sports_2_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_2_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1091,7 +1091,7 @@
     "Cytavision Sports 3 Cyprus": {
       "id": "live_tv_sport_CytavisionSports3Cyprus",
       "name": "Cytavision Sports 3 Cyprus",
-      "logo": "logos/Cytavision_Sports_3_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_3_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1105,7 +1105,7 @@
     "Cytavision Sports 4 Cyprus": {
       "id": "live_tv_sport_CytavisionSports4Cyprus",
       "name": "Cytavision Sports 4 Cyprus",
-      "logo": "logos/Cytavision_Sports_4_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_4_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1119,7 +1119,7 @@
     "Cytavision Sports 5 Cyprus": {
       "id": "live_tv_sport_CytavisionSports5Cyprus",
       "name": "Cytavision Sports 5 Cyprus",
-      "logo": "logos/Cytavision_Sports_5_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_5_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1133,7 +1133,7 @@
     "Cytavision Sports 6 Cyprus": {
       "id": "live_tv_sport_CytavisionSports6Cyprus",
       "name": "Cytavision Sports 6 Cyprus",
-      "logo": "logos/Cytavision_Sports_6_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_6_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1147,7 +1147,7 @@
     "Cytavision Sports 7 Cyprus": {
       "id": "live_tv_sport_CytavisionSports7Cyprus",
       "name": "Cytavision Sports 7 Cyprus",
-      "logo": "logos/Cytavision_Sports_7_Cyprus.png",
+      "logo": "logos/Cytavision_Sports_7_Cyprus.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1161,7 +1161,7 @@
     "Multivision Sports": {
       "id": "live_tv_new_auto_ed715ab0fa009f1e1c4be8f5c8da649b",
       "name": "Multivision Sports",
-      "logo": "logos/Multivision_Sports.png",
+      "logo": "logos/Multivision_Sports.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1175,7 +1175,7 @@
     "Thmanyah 1": {
       "id": "live_tv_sport_Thmanyah1",
       "name": "Thmanyah 1",
-      "logo": "logos/Thmanyah_1.png",
+      "logo": "logos/Thmanyah_1.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",
@@ -1189,7 +1189,7 @@
     "Thmanyah 2": {
       "id": "live_tv_sport_Thmanyah2",
       "name": "Thmanyah 2",
-      "logo": "logos/Thmanyah_2.png",
+      "logo": "logos/Thmanyah_2.jpg",
       "category": "-OzEkaXpB8w2bevneCNC",
       "live": true,
       "streamType": "m3u8",

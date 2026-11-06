@@ -1,0 +1,250 @@
+{
+  "app": "MOUD TV",
+  "version": "3.0 Ultimate",
+  "source": "alwan",
+  "updatedAt": "2026-11-05T16:20:28.574846+00:00",
+  "channels": {
+    "ALWAN SPORT 1": {
+      "id": "alwan_1",
+      "name": "ALWAN SPORT 1",
+      "logo": "logos/ALWAN_SPORT_1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd1/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 2": {
+      "id": "alwan_2",
+      "name": "ALWAN SPORT 2",
+      "logo": "logos/ALWAN_SPORT_2.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd2/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 3": {
+      "id": "alwan_3",
+      "name": "ALWAN SPORT 3",
+      "logo": "logos/ALWAN_SPORT_3.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd3/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 4": {
+      "id": "alwan_4",
+      "name": "ALWAN SPORT 4",
+      "logo": "logos/ALWAN_SPORT_4.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd4/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 5": {
+      "id": "alwan_5",
+      "name": "ALWAN SPORT 5",
+      "logo": "logos/ALWAN_SPORT_5.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd5/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 6": {
+      "id": "alwan_6",
+      "name": "ALWAN SPORT 6",
+      "logo": "logos/ALWAN_SPORT_6.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://primetv.cc.cd/alwhd6/index.m3u8",
+          "headers": {
+            "User-Agent": "VLC/3.0",
+            "X-Media-Access-Token": "StreamAuthorized_Native_App"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 1 | الوان 1": {
+      "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
+      "name": "ALWAN SPORT 1 | الوان 1",
+      "logo": "logos/ALWAN_SPORT_1_________1.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/dmmvytpyqmrp/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 2 | الوان 2": {
+      "id": "live_tv_panel_ef7d778167c988ca75470ce5db8427b0",
+      "name": "ALWAN SPORT 2 | الوان 2",
+      "logo": "logos/ALWAN_SPORT_2_________2.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/dyifuvyzgslg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 3 | الوان 3": {
+      "id": "live_tv_panel_7b6fb9cf2640af7bbd8601b32e455ffb",
+      "name": "ALWAN SPORT 3 | الوان 3",
+      "logo": "logos/ALWAN_SPORT_3_________3.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bac10.backendcloud.cyou/sokaspr/mcqfbxzswdyn/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 4 | الوان 4": {
+      "id": "live_tv_panel_5eef9db481b3fbdeea149cde5d57f2d3",
+      "name": "ALWAN SPORT 4 | الوان 4",
+      "logo": "logos/ALWAN_SPORT_4_________4.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/bayuvkzahjeh/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 5 | الوان 5": {
+      "id": "live_tv_panel_b1b5e8abc911830387f5d508d74e04a6",
+      "name": "ALWAN SPORT 5 | الوان 5",
+      "logo": "logos/ALWAN_SPORT_5_________5.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aisupernet.cfd/sokaspr/vrdfaklzvemg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 6 | الوان 6": {
+      "id": "live_tv_panel_422094ee009638e65e671fc509ebd93d",
+      "name": "ALWAN SPORT 6 | الوان 6",
+      "logo": "logos/ALWAN_SPORT_6_________6.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/bgplxcjizeds/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 7 | الوان 7": {
+      "id": "live_tv_panel_d34db3a50e972154d6a434967590e6ef",
+      "name": "ALWAN SPORT 7 | الوان 7",
+      "logo": "logos/ALWAN_SPORT_7_________7.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aisupernet.cfd/sokaspr/bxtkohczvvea/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 8 | الوان 8": {
+      "id": "live_tv_panel_2e54ad7eafec0cbb5941eb00584287a8",
+      "name": "ALWAN SPORT 8 | الوان 8",
+      "logo": "logos/ALWAN_SPORT_8_________8.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/zetulehfmgxm/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 9 | الوان 9": {
+      "id": "live_tv_panel_e038053974b209d668902a60346b4e6f",
+      "name": "ALWAN SPORT 9 | الوان 9",
+      "logo": "logos/ALWAN_SPORT_9_________9.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/zpvwhplwadzn/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "ALWAN SPORT 10 | الوان 10": {
+      "id": "live_tv_panel_5dcdaef7f316e8ffb9a5fc4c21f9e988",
+      "name": "ALWAN SPORT 10 | الوان 10",
+      "logo": "logos/ALWAN_SPORT_10_________10.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aispeednet.cyou/sokaspr/quwgujwrhpwv/index.html",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}

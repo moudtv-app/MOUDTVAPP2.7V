@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "3.0 Ultimate",
+  "version": "4.0 Ultimate",
   "source": "alwan",
-  "updatedAt": "2026-11-05T16:20:28.574846+00:00",
+  "updatedAt": "2026-11-06T01:41:26.014965+00:00",
   "channels": {
     "ALWAN SPORT 1": {
       "id": "alwan_1",
@@ -109,13 +109,13 @@
     "ALWAN SPORT 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
       "name": "ALWAN SPORT 1 | الوان 1",
-      "logo": "logos/ALWAN_SPORT_1_________1.png",
+      "logo": "logos/ALWAN_SPORT_1_________1.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/dmmvytpyqmrp/index.html",
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/dmmvytpyqmrp/index.html",
           "headers": {}
         }
       ]
@@ -123,13 +123,13 @@
     "ALWAN SPORT 2 | الوان 2": {
       "id": "live_tv_panel_ef7d778167c988ca75470ce5db8427b0",
       "name": "ALWAN SPORT 2 | الوان 2",
-      "logo": "logos/ALWAN_SPORT_2_________2.png",
+      "logo": "logos/ALWAN_SPORT_2_________2.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/dyifuvyzgslg/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/dyifuvyzgslg/index.html",
           "headers": {}
         }
       ]
@@ -137,13 +137,13 @@
     "ALWAN SPORT 3 | الوان 3": {
       "id": "live_tv_panel_7b6fb9cf2640af7bbd8601b32e455ffb",
       "name": "ALWAN SPORT 3 | الوان 3",
-      "logo": "logos/ALWAN_SPORT_3_________3.png",
+      "logo": "logos/ALWAN_SPORT_3_________3.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://bac10.backendcloud.cyou/sokaspr/mcqfbxzswdyn/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/mcqfbxzswdyn/index.html",
           "headers": {}
         }
       ]
@@ -151,13 +151,13 @@
     "ALWAN SPORT 4 | الوان 4": {
       "id": "live_tv_panel_5eef9db481b3fbdeea149cde5d57f2d3",
       "name": "ALWAN SPORT 4 | الوان 4",
-      "logo": "logos/ALWAN_SPORT_4_________4.png",
+      "logo": "logos/ALWAN_SPORT_4_________4.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/bayuvkzahjeh/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/bayuvkzahjeh/index.html",
           "headers": {}
         }
       ]
@@ -165,13 +165,13 @@
     "ALWAN SPORT 5 | الوان 5": {
       "id": "live_tv_panel_b1b5e8abc911830387f5d508d74e04a6",
       "name": "ALWAN SPORT 5 | الوان 5",
-      "logo": "logos/ALWAN_SPORT_5_________5.png",
+      "logo": "logos/ALWAN_SPORT_5_________5.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/vrdfaklzvemg/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/vrdfaklzvemg/index.html",
           "headers": {}
         }
       ]
@@ -179,13 +179,13 @@
     "ALWAN SPORT 6 | الوان 6": {
       "id": "live_tv_panel_422094ee009638e65e671fc509ebd93d",
       "name": "ALWAN SPORT 6 | الوان 6",
-      "logo": "logos/ALWAN_SPORT_6_________6.png",
+      "logo": "logos/ALWAN_SPORT_6_________6.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/bgplxcjizeds/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/bgplxcjizeds/index.html",
           "headers": {}
         }
       ]
@@ -213,7 +213,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/zetulehfmgxm/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/zetulehfmgxm/index.html",
           "headers": {}
         }
       ]
@@ -235,13 +235,13 @@
     "ALWAN SPORT 10 | الوان 10": {
       "id": "live_tv_panel_5dcdaef7f316e8ffb9a5fc4c21f9e988",
       "name": "ALWAN SPORT 10 | الوان 10",
-      "logo": "logos/ALWAN_SPORT_10_________10.png",
+      "logo": "logos/ALWAN_SPORT_10_________10.jpg",
       "category": "-Oz-D3gFEv7WZ3nQYrSt",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cyou/sokaspr/quwgujwrhpwv/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/quwgujwrhpwv/index.html",
           "headers": {}
         }
       ]

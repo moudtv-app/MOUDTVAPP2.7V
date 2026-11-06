@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "3.0 Ultimate",
+  "version": "4.0 Ultimate",
   "source": "bein",
-  "updatedAt": "2026-11-05T16:18:57.986166+00:00",
+  "updatedAt": "2026-11-06T01:39:58.627007+00:00",
   "channels": {
     "Bein S. News": {
       "id": "live_tv_beinsportnews",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://con10.connectapis.cfd/pages/bmlcddqeutbl/index.html",
+          "url": "https://clo10.clouddataspeed.shop/pages/bmlcddqeutbl/index.html",
           "headers": {}
         }
       ]
@@ -27,19 +27,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dep8.deployapihub.cfd/sd/fqymfphqxasg/index.html",
+          "url": "https://spe8.speedaicenter.cyou/sd/wpxhyogntyey/index.html",
           "headers": {}
         },
         {
-          "url": "https://aif7.aifastcenter.cfd/hd/xykvjqpvuirq/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/xykvjqpvuirq/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/vxjqcocwybim/index.html",
+          "url": "https://ult11.ultrafreeopeniosstarsfeedmoon.shop/fk/vxjqcocwybim/index.html",
           "headers": {}
         },
         {
-          "url": "https://bac8.backendfactory.cyou/sd/fqymfphqxasg/index.html",
+          "url": "https://ult11.ultrahardsoftstarsfeedmoonos.shop/fk/vxjqcocwybim/index.html",
           "headers": {}
         },
         {
@@ -57,19 +57,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult6.ultraossoftstarsfeedmoon.shop/pages/xtbrimcowgjw/index.html",
+          "url": "https://ult6.ultrahardsoftstarsfeedmoonios.shop/pages/xtbrimcowgjw/index.html",
           "headers": {}
         },
         {
-          "url": "https://use10.useapiplatform.cfd/pages/ioybvoiqbaak/index.html",
+          "url": "https://ult10.ultrasystemsstarsfeedmoonhard.shop/pages/ioybvoiqbaak/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrabuildossoftstarsfeed.shop/fk/qkiyolmfwvhq/index.html",
+          "url": "https://ult11.ultrafreeopenmoonandroidbuild.shop/fk/qkiyolmfwvhq/index.html",
           "headers": {}
         },
         {
-          "url": "https://sup6.superspeedai.cfd/pages/xtbrimcowgjw/index.html",
+          "url": "https://ult10.ultrasystemsoshardsoftstars.shop/pages/ioybvoiqbaak/index.html",
           "headers": {}
         },
         {
@@ -91,15 +91,15 @@
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/wifauwbjxexg/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/wifauwbjxexg/index.html",
           "headers": {}
         },
         {
-          "url": "https://bus11.businessapihostingplatform.shop/fk/dkgxxbomgzqp/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/dkgxxbomgzqp/index.html",
           "headers": {}
         },
         {
-          "url": "https://bac9.backendworks.cyou/sd2/scmyhepzcima/index.html",
+          "url": "https://dat9.datafastai.cfd/sd2/scmyhepzcima/index.html",
           "headers": {}
         },
         {
@@ -117,15 +117,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.datasupernet.cyou/sd2/fzvvqqsxmdkr/index.html",
+          "url": "https://dat9.datafastai.cfd/sd2/fzvvqqsxmdkr/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/wguvgwuojypf/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/wguvgwuojypf/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/mpglkcsdvzen/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/mpglkcsdvzen/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://spe7.speeddatacenter.cyou/hd/wguvgwuojypf/index.html",
           "headers": {}
         },
         {
@@ -143,19 +147,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://spe8.speedaicenter.cfd/sd/guxxjojbouii/index.html",
+          "url": "https://rap8.rapidbackend.shop/sd/guxxjojbouii/index.html",
           "headers": {}
         },
         {
-          "url": "https://aif7.aifastcenter.cfd/hd/gfdezonxgfdi/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/gfdezonxgfdi/index.html",
           "headers": {}
         },
         {
           "url": "https://rel11.reliableapidatahosting.shop/fk/bfrsroaksqoz/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://aid7.aidatacenter.cfd/hd/gfdezonxgfdi/index.html",
           "headers": {}
         },
         {
@@ -173,15 +173,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/xcswljfsvika/index.html",
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/xcswljfsvika/index.html",
           "headers": {}
         },
         {
-          "url": "https://aid7.aidatacenter.cfd/hd/rfqhtixulbbr/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/rfqhtixulbbr/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/ujyjqtnhxfwt/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/ujyjqtnhxfwt/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult11.ultrafreeopeniosstarsfeedmoon.shop/fk/ujyjqtnhxfwt/index.html",
           "headers": {}
         },
         {
@@ -203,7 +207,7 @@
           "headers": {}
         },
         {
-          "url": "https://aif7.aifastcenter.cfd/hd/wvvxhqoaevsb/index.html",
+          "url": "https://spe7.speeddatacenter.cyou/hd/wvvxhqoaevsb/index.html",
           "headers": {}
         },
         {
@@ -221,11 +225,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/bvxmfphminod/index.html",
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/bvxmfphminod/index.html",
           "headers": {}
         },
         {
-          "url": "https://aif7.aifastcenter.cfd/hd/xwvajfaeyaph/index.html",
+          "url": "https://spe7.speeddatacenter.cyou/hd/xwvajfaeyaph/index.html",
           "headers": {}
         },
         {
@@ -243,7 +247,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://aif7.aifastcenter.cfd/hd/tvvpktookatk/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/tvvpktookatk/index.html",
           "headers": {}
         },
         {
@@ -265,7 +269,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/pxjkqgzargvf/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/pxjkqgzargvf/index.html",
           "headers": {}
         },
         {
@@ -287,7 +291,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/eyblrffihpfe/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/eyblrffihpfe/index.html",
           "headers": {}
         },
         {
@@ -337,7 +341,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/fcltqvqkbeug/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/fcltqvqkbeug/index.html",
           "headers": {}
         },
         {
@@ -359,7 +363,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/shxtvjlzeykf/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/shxtvjlzeykf/index.html",
           "headers": {}
         },
         {
@@ -381,7 +385,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/vpklqsetrwab/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/vpklqsetrwab/index.html",
           "headers": {}
         },
         {
@@ -457,7 +461,7 @@
           "headers": {}
         },
         {
-          "url": "https://man9.manageapiplatform.cfd/malasp2/zlzkiakxahix/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/zlzkiakxahix/index.html",
           "headers": {}
         }
       ]
@@ -475,7 +479,7 @@
           "headers": {}
         },
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/lpqgydyulxao/index.html",
+          "url": "https://ult11.ultraandroidstarsfeedmoonhard.shop/adashnorm/lpqgydyulxao/index.html",
           "headers": {}
         }
       ]
@@ -489,7 +493,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/lpmezvqieshb/index.html",
+          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/lpmezvqieshb/index.html",
           "headers": {}
         }
       ]
@@ -503,7 +507,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/abrnomjbjmdc/index.html",
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/abrnomjbjmdc/index.html",
           "headers": {}
         }
       ]
@@ -517,7 +521,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/ztcwnwclchpw/index.html",
+          "url": "https://ult11.ultraandroidfeedmoonhardsoft.shop/adashnorm/ztcwnwclchpw/index.html",
           "headers": {}
         }
       ]
@@ -531,7 +535,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/hhodjukxrbow/index.html",
+          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/hhodjukxrbow/index.html",
           "headers": {}
         }
       ]
@@ -545,7 +549,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/jxsjuqyktmpm/index.html",
+          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/jxsjuqyktmpm/index.html",
           "headers": {}
         }
       ]
@@ -559,7 +563,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/jgnqtsvzdomr/index.html",
+          "url": "https://ult11.ultraandroidstarsfeedmoonhard.shop/adashnorm/jgnqtsvzdomr/index.html",
           "headers": {}
         }
       ]
@@ -573,7 +577,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/btgoumskclxy/index.html",
+          "url": "https://ult11.ultrahardsoftstarsfeedmoonandroid.shop/adashnorm/btgoumskclxy/index.html",
           "headers": {}
         }
       ]
@@ -587,7 +591,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api11.apidatahostingplatform.online/adashnorm/lkwxhvylclqn/index.html",
+          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/lkwxhvylclqn/index.html",
           "headers": {}
         }
       ]
@@ -609,7 +613,7 @@
           "headers": {}
         },
         {
-          "url": "https://con10.connectapis.cfd/pages/bmlcddqeutbl/index.html",
+          "url": "https://cen10.centerfastnet.cfd/pages/bmlcddqeutbl/index.html",
           "headers": {}
         },
         {
@@ -635,7 +639,7 @@
           "headers": {}
         },
         {
-          "url": "https://clo10.cloudbackend.cyou/pages/bmlcddqeutbl/index.html",
+          "url": "https://clo10.cloudapidatahostingservices.shop/pages/bmlcddqeutbl/index.html",
           "headers": {}
         },
         {
