@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "6.0 Ultimate",
+  "version": "7.0 Ultimate",
   "source": "bein_oztv",
-  "updatedAt": "2026-11-06T01:47:36.389991+00:00",
+  "updatedAt": "2026-11-06T02:04:22.247922+00:00",
   "channels": {
     "beIN SPORTS 1": {
       "id": "bein_sport_1",
@@ -13,9 +13,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
           "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+            "x-auth-token": "AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -30,9 +30,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
           "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+            "x-auth-token": "AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -47,9 +47,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_3/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+          "url": "https://sr.oz-tv.space/bein_sport_3/index.m3u8?token=AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
           "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+            "x-auth-token": "AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -64,26 +64,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
           "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
-            "User-Agent": "Mozilla/5.0"
-          }
-        }
-      ]
-    },
-    "beIN SPORTS 5": {
-      "id": "bein_sport_5",
-      "name": "beIN SPORTS 5",
-      "logo": "logos/beIN_SPORTS_5.png",
-      "category": "-Oy71oID8jDKWM314zRb",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://sr.oz-tv.space/bein_sport_5/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
-          "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+            "x-auth-token": "AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -98,9 +81,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
           "headers": {
-            "x-auth-token": "4/Ve/iWcBVNn8qcpTEQMagjngoacDyLEM9nl1iqoyFAtNTIuMTY1LjI1MS4xNzUtMTc5MzkyOTY0Ny0xNzkzOTUxMjQ3",
+            "x-auth-token": "AJTzaGcaQEVLTtPAUU+Bgi4lr6qGhSkeZRWnVo7AY3wtMTcyLjE5MC4xMDIuMTQ2LTE3OTM5MzA2NDktMTc5Mzk1MjI0OQ==",
             "User-Agent": "Mozilla/5.0"
           }
         }

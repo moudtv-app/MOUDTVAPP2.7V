@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "6.0 Ultimate",
+  "version": "7.0 Ultimate",
   "source": "alwan_dramalive",
-  "updatedAt": "2026-11-06T01:48:52.215665+00:00",
+  "updatedAt": "2026-11-06T02:05:14.708533+00:00",
   "channels": {
     "ALWAN SPORT 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/dmmvytpyqmrp/index.html",
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/dmmvytpyqmrp/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/dyifuvyzgslg/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/dyifuvyzgslg/index.html",
           "headers": {}
         }
       ]
@@ -41,7 +41,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/mcqfbxzswdyn/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/mcqfbxzswdyn/index.html",
           "headers": {}
         }
       ]
@@ -55,7 +55,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/bayuvkzahjeh/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/bayuvkzahjeh/index.html",
           "headers": {}
         }
       ]
@@ -83,7 +83,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/bgplxcjizeds/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/bgplxcjizeds/index.html",
           "headers": {}
         }
       ]
@@ -97,7 +97,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/bxtkohczvvea/index.html",
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/bxtkohczvvea/index.html",
           "headers": {}
         }
       ]
@@ -111,7 +111,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/zetulehfmgxm/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/zetulehfmgxm/index.html",
           "headers": {}
         }
       ]
@@ -139,7 +139,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cfd/sokaspr/quwgujwrhpwv/index.html",
+          "url": "https://api10.apidatahostingsolutions.shop/sokaspr/quwgujwrhpwv/index.html",
           "headers": {}
         }
       ]
