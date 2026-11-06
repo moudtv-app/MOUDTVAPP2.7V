@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MOUD TV - ULTIMATE COLLECTOR V6.0
-- كل مصدر منفصل تماماً (JSON و M3U8 خاص به)
-- جلب الشعارات الحقيقية وتنزيلها
-- فحص ذكي وحفظ التاريخ
+MOUD TV - ULTIMATE COLLECTOR V7.0
+- جلب الشعارات مباشرة من API (إذا توفرت)
+- فصل كل مصدر في ملفاته الخاصة
+- تنزيل الشعارات محلياً
 """
 
 import os
@@ -16,7 +16,6 @@ import hashlib
 import logging
 import requests
 
-from copy import deepcopy
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
@@ -36,7 +35,7 @@ except ImportError:
 # SETTINGS
 # ==================================================
 APP_NAME = "MOUD TV"
-VERSION = "6.0 Ultimate"
+VERSION = "7.0 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
@@ -58,7 +57,7 @@ DOWNLOAD_LOGOS = True
 KEEP_HISTORY = True
 
 # ==================================================
-# قاموس الشعارات
+# قاموس الشعارات الاحتياطي (Fallback)
 # ==================================================
 CHANNEL_LOGOS = {
     "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
@@ -112,7 +111,11 @@ def save_json(path, data):
     with open(temp_path, "w", encoding="utf-8") as f: json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(temp_path, path)
 
-def get_logo_for_channel(name):
+def get_logo_for_channel(name, api_logo=""):
+    """إذا كان الـ API يوفر شعاراً، استخدمه. وإلا ابحث في القاموس."""
+    if api_logo and is_http_url(api_logo):
+        return api_logo
+        
     name_upper = name.upper().strip()
     if name_upper in CHANNEL_LOGOS: return CHANNEL_LOGOS[name_upper]
     for key, logo in CHANNEL_LOGOS.items():
@@ -223,7 +226,7 @@ def fetch_oz_tv():
             if r.status_code == 200 and "#EXTM3U" in r.text:
                 print("✅")
                 results[ch_name] = {
-                    "id": ch_id, "name": ch_name, "logo": get_logo_for_channel(ch_name),
+                    "id": ch_id, "name": ch_name, "logo": get_logo_for_channel(ch_name, ""), # لا يوجد شعار في API
                     "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
                     "servers": [{"url": url, "headers": {"x-auth-token": TOKEN, "User-Agent": "Mozilla/5.0"}}]
                 }
@@ -249,6 +252,11 @@ def fetch_bein_dl():
                         custom_name = b_name
                         break
                 ch_id = c.get("id_live")
+                
+                # جلب الشعار من الـ API إذا وجد
+                api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
+                final_logo = get_logo_for_channel(custom_name, api_logo)
+                
                 print(f"  {custom_name}...", end=" ", flush=True)
                 live = get_channel_data(ch_id)
                 if live:
@@ -260,7 +268,7 @@ def fetch_bein_dl():
                     if links:
                         print(f"✅ {len(links)}")
                         results[custom_name] = {
-                            "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
+                            "id": ch_id, "name": custom_name, "logo": final_logo,
                             "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
                             "servers": [{"url": l, "headers": {}} for l in links]
                         }
@@ -282,6 +290,11 @@ def fetch_arabic():
         if not any(ar in n_lower for ar in ARABIC_SPORTS) and not re.search(r"[\u0600-\u06FF]", n_lower): continue
         ch_id = c.get("id_live")
         custom_name = name.title()
+        
+        # جلب الشعار من الـ API إذا وجد
+        api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
+        final_logo = get_logo_for_channel(custom_name, api_logo)
+        
         print(f"  {custom_name}...", end=" ", flush=True)
         live = get_channel_data(ch_id)
         if live:
@@ -293,7 +306,7 @@ def fetch_arabic():
             if links:
                 print(f"✅ {len(links)}")
                 results[custom_name] = {
-                    "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
+                    "id": ch_id, "name": custom_name, "logo": final_logo,
                     "category": "-OzEkaXpB8w2bevneCNC", "live": True, "streamType": "m3u8",
                     "servers": [{"url": l, "headers": {}} for l in links]
                 }
@@ -310,7 +323,7 @@ def fetch_alwan_prime():
         headers = {"User-Agent": "VLC/3.0", "X-Media-Access-Token": "StreamAuthorized_Native_App"}
         print(f"  {name}... ✅")
         results[name] = {
-            "id": f"alwan_prime_{i}", "name": name, "logo": get_logo_for_channel(name),
+            "id": f"alwan_prime_{i}", "name": name, "logo": get_logo_for_channel(name, ""),
             "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
             "servers": [{"url": url, "headers": headers}]
         }
@@ -326,6 +339,11 @@ def fetch_alwan_dl():
             if "alwan" in name.lower():
                 ch_id = c.get("id_live")
                 custom_name = name.title().replace("Alwan", "ALWAN SPORT")
+                
+                # جلب الشعار من الـ API إذا وجد
+                api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
+                final_logo = get_logo_for_channel(custom_name, api_logo)
+                
                 print(f"  {custom_name}...", end=" ", flush=True)
                 live = get_channel_data(ch_id)
                 if live:
@@ -339,7 +357,7 @@ def fetch_alwan_dl():
                         if custom_name in results: results[custom_name]["servers"].extend([{"url": l, "headers": {}} for l in links])
                         else:
                             results[custom_name] = {
-                                "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
+                                "id": ch_id, "name": custom_name, "logo": final_logo,
                                 "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
                                 "servers": [{"url": l, "headers": {}} for l in links]
                             }
@@ -405,10 +423,9 @@ def monitor_source(source_name, fetcher_func):
 # ==================================================
 def main():
     print("=" * 50)
-    print("MOUD TV ULTIMATE COLLECTOR V6.0")
+    print("MOUD TV ULTIMATE COLLECTOR V7.0")
     print("=" * 50)
 
-    # كل مصدر سيحصل على ملفاته الخاصة تماماً
     monitor_source("bein_dramalive", fetch_bein_dl)
     monitor_source("bein_oztv", fetch_oz_tv)
     monitor_source("arabic_dramalive", fetch_arabic)
