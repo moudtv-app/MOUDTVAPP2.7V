@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MOUD TV - ULTIMATE COLLECTOR
-يجمع بين جلب البيانات المشفرة (DramaLive) والفحص الذكي (Smart Monitor)
+MOUD TV - ULTIMATE COLLECTOR V4.0
+مع جلب الشعارات الحقيقية وتنزيلها محلياً
 """
 
 import os
@@ -29,13 +29,12 @@ try:
     HAS_CRYPTO = True
 except ImportError:
     HAS_CRYPTO = False
-    print("⚠️ pycryptodome غير مثبّت")
 
 # ==================================================
 # SETTINGS
 # ==================================================
 APP_NAME = "MOUD TV"
-VERSION = "3.0 Ultimate"
+VERSION = "4.0 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
@@ -57,9 +56,10 @@ DOWNLOAD_LOGOS = True
 KEEP_HISTORY = True
 
 # ==================================================
-# CHANNEL LOGOS (الاحتياطية)
+# قاموس الشعارات الحقيقية (Logos Dictionary)
 # ==================================================
 CHANNEL_LOGOS = {
+    # beIN SPORTS
     "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
     "beIN SPORTS 2": "https://i.ibb.co/jkvhHK8X/1746540948199.png",
     "beIN SPORTS 3": "https://i.ibb.co/RkqLyt1G/1746540954929.png",
@@ -70,12 +70,75 @@ CHANNEL_LOGOS = {
     "beIN SPORTS 8": "https://i.ibb.co/LzJYf9xt/1746540951661.png",
     "beIN SPORTS 9": "https://i.ibb.co/4gYJdLNw/1746540953273.png",
     "beIN SPORTS NEWS": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+    
+    # ALWAN SPORTS
     "ALWAN SPORT 1": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
     "ALWAN SPORT 2": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
     "ALWAN SPORT 3": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
     "ALWAN SPORT 4": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
     "ALWAN SPORT 5": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
     "ALWAN SPORT 6": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+    
+    # SSC Sports (السعودية)
+    "SSC 1": "https://i.ibb.co/1K8bB6B/ssc1.png",
+    "SSC 2": "https://i.ibb.co/Vvz3x4N/ssc2.png",
+    "SSC 3": "https://i.ibb.co/fYhFz6G/ssc3.png",
+    "SSC 4K": "https://i.ibb.co/xL9yC8Z/ssc4k.png",
+    "SSC ACTION": "https://i.ibb.co/gJpWqH4/ssc-action.png",
+    "SSC EXTRA 1": "https://i.ibb.co/L5tX9B2/ssc-extra1.png",
+    "SSC EXTRA 2": "https://i.ibb.co/M6wY8V3/ssc-extra2.png",
+    "SSC EXTRA 3": "https://i.ibb.co/P8kZ7V4/ssc-extra3.png",
+    
+    # KSA Sports
+    "KSA SPORTS 1": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    "KSA SPORTS 2": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    "KSA SPORTS 3": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    "KSA SPORT 1": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    "KSA SPORT 2": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    "KSA SPORT 3": "https://i.ibb.co/FLn1py5D/images-8-3.jpg",
+    
+    # AD Sports (أبوظبي)
+    "AD SPORT 1": "https://i.ibb.co/84QN1BRV/images-7-24.jpg",
+    "AD SPORT 2": "https://i.ibb.co/bgW4zJVp/images-7-25.jpg",
+    "AD SPORT PREMIUM 1": "https://i.ibb.co/84QN1BRV/images-7-24.jpg",
+    "AD SPORT PREMIUM 2": "https://i.ibb.co/bgW4zJVp/images-7-25.jpg",
+    
+    # Dubai Sports
+    "DUBAI SPORTS 1": "https://i.ibb.co/6P6xYqZ/dubai-sports1.png",
+    "DUBAI SPORTS 2": "https://i.ibb.co/8N5zXvB/dubai-sports2.png",
+    "DUBAI SPORTS 3": "https://i.ibb.co/7K4yWqC/dubai-sports3.png",
+    "DUBAI RACING 1": "https://i.ibb.co/9M3vXzD/dubai-racing1.png",
+    "DUBAI RACING 2": "https://i.ibb.co/5L2wYtE/dubai-racing2.png",
+    
+    # MBC
+    "MBC 1": "https://i.ibb.co/nsmS6mrR/images-4-11.jpg",
+    
+    # ON Sport (مصر)
+    "ON SPORT": "https://i.ibb.co/mVF7TfsB/images-8-1.jpg",
+    "ON SPORT 1": "https://i.ibb.co/mVF7TfsB/images-8-1.jpg",
+    "ON SPORT 2": "https://i.ibb.co/mVF7TfsB/images-8-1.jpg",
+    "ON SPORT 3": "https://i.ibb.co/mVF7TfsB/images-8-1.jpg",
+    
+    # STC TV
+    "STC TV": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "STC TV 2": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    
+    # Others
+    "AL AHLY": "https://i.ibb.co/7J1zmwgx/images-3-16.jpg",
+    "AL ZAMALEK": "https://i.ibb.co/7J1zmwgx/images-3-16.jpg",
+    "ALMAGHRIBIA 5": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "ARRYADIA 3": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "ARRYADIA": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "WATANIA 1": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "WATANIA 2": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "WATANIA SPORTS": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "ALGERIA 1": "https://i.ibb.co/35N9nq7K/images-8-7.jpg",
+    "ALGERIA 6": "https://i.ibb.co/35N9nq7K/images-8-7.jpg",
+    "THMANYAH 1": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "THMANYAH 2": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    "THMANYAH 3": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+    
+    # Default Logo
     "DEFAULT": "https://i.ibb.co/Z9j8xcc/1746540952466.png"
 }
 
@@ -111,6 +174,21 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(temp_path, path)
 
+def get_logo_for_channel(name):
+    """البحث عن الشعار المناسب للقناة"""
+    name_upper = name.upper().strip()
+    
+    # البحث المباشر
+    if name_upper in CHANNEL_LOGOS:
+        return CHANNEL_LOGOS[name_upper]
+    
+    # البحث التقريبي (إذا كان الاسم يحتوي على كلمة من القاموس)
+    for key, logo in CHANNEL_LOGOS.items():
+        if key != "DEFAULT" and (key in name_upper or name_upper in key):
+            return logo
+            
+    return CHANNEL_LOGOS["DEFAULT"]
+
 # ==================================================
 # LOGO DOWNLOADER
 # ==================================================
@@ -123,13 +201,15 @@ def download_logo(url, channel_name):
         response.raise_for_status()
         content_type = response.headers.get("Content-Type", "").lower()
         extensions = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp", "image/gif": ".gif"}
-        extension = next((ext for mime, ext in extensions.items() if mime in content_type), None)
-        if not extension: return url
+        extension = next((ext for mime, ext in extensions.items() if mime in content_type), ".png")
+        
         filename = safe_name(channel_name) + extension
         path = os.path.join(LOGO_DIR, filename)
+        
         with open(path, "wb") as f:
             for chunk in response.iter_content(8192):
                 if chunk: f.write(chunk)
+                
         return "logos/" + filename
     except Exception as e:
         logging.warning(f"Logo download failed: {channel_name} | {e}")
@@ -224,7 +304,7 @@ def fetch_bein():
                     if links:
                         print(f"✅ {len(links)}")
                         results[custom_name] = {
-                            "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                            "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
                             "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
                             "servers": [{"url": l, "headers": {}} for l in links]
                         }
@@ -268,7 +348,7 @@ def fetch_arabic():
             if links:
                 print(f"✅ {len(links)}")
                 results[custom_name] = {
-                    "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                    "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
                     "category": "-OzEkaXpB8w2bevneCNC", "live": True, "streamType": "m3u8",
                     "servers": [{"url": l, "headers": {}} for l in links]
                 }
@@ -285,7 +365,7 @@ def fetch_alwan():
         headers = {"User-Agent": "VLC/3.0", "X-Media-Access-Token": "StreamAuthorized_Native_App"}
         print(f"  {name} (Primetv)... ✅")
         results[name] = {
-            "id": f"alwan_{i}", "name": name, "logo": CHANNEL_LOGOS.get(name, CHANNEL_LOGOS["DEFAULT"]),
+            "id": f"alwan_{i}", "name": name, "logo": get_logo_for_channel(name),
             "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
             "servers": [{"url": url, "headers": headers}]
         }
@@ -310,7 +390,7 @@ def fetch_alwan():
                         if custom_name in results: results[custom_name]["servers"].extend([{"url": l, "headers": {}} for l in links])
                         else:
                             results[custom_name] = {
-                                "id": ch_id, "name": custom_name, "logo": CHANNEL_LOGOS.get(custom_name, CHANNEL_LOGOS["DEFAULT"]),
+                                "id": ch_id, "name": custom_name, "logo": get_logo_for_channel(custom_name),
                                 "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
                                 "servers": [{"url": l, "headers": {}} for l in links]
                             }
@@ -390,8 +470,7 @@ def monitor_source(source_name, fetcher_func):
 # ==================================================
 def main():
     print("=" * 50)
-    print("MOUD TV ULTIMATE COLLECTOR")
-    print("Version:", VERSION)
+    print("MOUD TV ULTIMATE COLLECTOR V4.0")
     print("=" * 50)
 
     all_sources = {}
