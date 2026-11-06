@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MOUD TV - ULTIMATE COLLECTOR V9.0
-- إصلاح الشعارات لتظهر في تطبيقك (M3U8) بنسبة 100%
+MOUD TV - ULTIMATE COLLECTOR V10.0
+يدمج: DramaLive + OZ-TV + Alwan Live + Redperch
 """
 
 import os
@@ -13,6 +13,7 @@ import base64
 import hashlib
 import logging
 import requests
+import subprocess
 
 from datetime import datetime, timezone
 from urllib.parse import urlparse
@@ -33,13 +34,15 @@ except ImportError:
 # SETTINGS
 # ==================================================
 APP_NAME = "MOUD TV"
-VERSION = "9.0 Ultimate"
+VERSION = "10.0 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
+TEMP_DIR = os.path.join(OUTPUT_DIR, "temp")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(HISTORY_DIR, exist_ok=True)
+os.makedirs(TEMP_DIR, exist_ok=True)
 
 logging.basicConfig(
     filename=os.path.join(OUTPUT_DIR, "changes.log"),
@@ -49,7 +52,7 @@ logging.basicConfig(
 )
 
 # ==================================================
-# قاموس الشعارات (روابط مباشرة)
+# الشعارات
 # ==================================================
 CHANNEL_LOGOS = {
     "beIN SPORTS 1": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
@@ -61,7 +64,6 @@ CHANNEL_LOGOS = {
     "beIN SPORTS 7": "https://i.ibb.co/LDf6XWy5/1746540947397.png",
     "beIN SPORTS 8": "https://i.ibb.co/LzJYf9xt/1746540951661.png",
     "beIN SPORTS 9": "https://i.ibb.co/4gYJdLNw/1746540953273.png",
-    "beIN SPORTS NEWS": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
     "ALWAN SPORT 1": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
     "ALWAN SPORT 2": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
     "ALWAN SPORT 3": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
@@ -111,7 +113,7 @@ def get_logo_for_channel(name, api_logo=""):
     return CHANNEL_LOGOS["DEFAULT"]
 
 # ==================================================
-# المصدر 1: DramaLive (Decryption)
+# 1. DramaLive Decryption
 # ==================================================
 KEY = b"0123456789abcdef"
 IV  = b"fedcba9876543210"
@@ -166,7 +168,127 @@ def get_channel_data(channel_id):
     return None
 
 # ==================================================
-# FETCHERS
+# 2. OZ-TV Token
+# ==================================================
+def fetch_oz_tv():
+    print("\n🎯 [جلب قنوات OZ-TV]")
+    KEY_OZ = bytes.fromhex("4b7c9f2ae58d1b6c3f9a7e2d5c8b4f1a")
+    MAGIC = b"GFEDCBA@ONMLKJIH"
+    SECRET = bytes(KEY_OZ[i] ^ MAGIC[i] for i in range(16))
+    
+    try: IP = requests.get("https://api.ipify.org", timeout=10).text.strip()
+    except: IP = "196.70.148.78"
+        
+    NOW = int(time.time())
+    EXPIRES = NOW + 21600
+    data = f"{IP}-{NOW}-{EXPIRES}".encode()
+    h = hashlib.sha256(SECRET + data).digest()
+    TOKEN = base64.b64encode(h + b"-" + data).decode()
+    
+    CHANNELS = {
+        "bein_sport_1": "beIN SPORTS 1", "bein_sport_2": "beIN SPORTS 2",
+        "bein_sport_3": "beIN SPORTS 3", "bein_sport_4": "beIN SPORTS 4",
+        "bein_sport_5": "beIN SPORTS 5", "bein_sport_7": "beIN SPORTS 7",
+    }
+    results = {}
+    for ch_id, ch_name in CHANNELS.items():
+        url = f"https://sr.oz-tv.space/{ch_id}/index.m3u8?token={TOKEN}"
+        print(f"  {ch_name}...", end=" ", flush=True)
+        try:
+            r = requests.get(url, headers={"user-agent": "Mozilla/5.0", "x-auth-token": TOKEN}, timeout=15)
+            if r.status_code == 200 and "#EXTM3U" in r.text:
+                print("✅")
+                results[ch_name] = {
+                    "id": ch_id, "name": ch_name, "logo": get_logo_for_channel(ch_name),
+                    "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
+                    "servers": [{"url": url, "headers": {"x-auth-token": TOKEN, "User-Agent": "Mozilla/5.0"}}]
+                }
+            else: print("❌")
+        except: print("❌")
+    return results
+
+# ==================================================
+# 3. Alwan Live (Bash Script Converted to Python)
+# ==================================================
+def fetch_alwan_live():
+    print("\n🎯 [جلب قنوات Alwan Live]")
+    UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+    BASE = "https://live.alwan.live/api_v3/service/getcardinal"
+    results = {}
+
+    for i in range(1, 10):
+        ch_id = f"becardinal{i}"
+        name = f"ALWAN SPORT {i}"
+        print(f"  {name}...", end=" ", flush=True)
+        
+        try:
+            r = requests.get(f"{BASE}/{ch_id}", headers={"user-agent": UA, "weare": "rtvcardinal", "accept": "text/html,application/json,*/*"}, timeout=15)
+            if r.status_code == 200:
+                # استخراج الـ meta tag
+                match = re.search(r'name="sc-session-profile" content="([^"]+)"', r.text)
+                if match:
+                    # فك التشفير (الـ unicode والـ hex)
+                    data = match.group(1)
+                    data = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1),16)), data)
+                    data = re.sub(r'\\x([0-9a-fA-F]{2})', lambda m: chr(int(m.group(1),16)), data)
+                    
+                    if data.startswith("http"):
+                        print("✅")
+                        results[name] = {
+                            "id": ch_id, "name": name, "logo": get_logo_for_channel(name),
+                            "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
+                            "servers": [{"url": data, "headers": {"User-Agent": UA}}]
+                        }
+                    else:
+                        print("❌ (صيغة غير صالحة)")
+                else:
+                    print("❌ (لم يتم العثور على المفتاح)")
+            else:
+                print(f"❌ (الحالة: {r.status_code})")
+        except Exception as e:
+            print(f"❌ ({str(e)[:30]})")
+        time.sleep(1)
+    return results
+
+# ==================================================
+# 4. Redperch Scanner
+# ==================================================
+def fetch_redperch():
+    print("\n🎯 [جلب قنوات Redperch]")
+    COOKIE = 'rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606'
+    HEADERS = {'Cookie': COOKIE, 'User-Agent': 'okhttp/4.12.0', 'Accept': '*/*'}
+    
+    ids_to_test = []
+    for i in range(1, 10):
+        ids_to_test += [f"beinsport{i}_4K", f"beinsport{i}_HD", f"beinsport{i}"]
+    ids_to_test += ["beinsportxtra1"]
+    
+    results = {}
+    for channel_id in ids_to_test:
+        url = f"https://redperch.space/dramacardinalv2.php?id={channel_id}"
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            if r.status_code == 200 and 'mpegurl' in r.headers.get('Content-Type', ''):
+                # استخراج اسم القناة الأساسي (مثلاً beinsport1_HD -> beIN SPORTS 1)
+                base_name = channel_id.split('_')[0].replace("beinsport", "beIN SPORTS ")
+                if "xtra" in base_name: base_name = "beIN SPORTS XTRA"
+                
+                print(f"  {channel_id}... ✅")
+                if base_name not in results:
+                    results[base_name] = {
+                        "id": channel_id, "name": base_name, "logo": get_logo_for_channel(base_name),
+                        "category": "-Oy71oID8jDKWM314zRb", "live": True, "streamType": "m3u8",
+                        "servers": []
+                    }
+                results[base_name]["servers"].append({
+                    "url": f"{url}|User-Agent=Rplayerv2.0.16&Cookie={COOKIE}",
+                    "headers": {"User-Agent": "Rplayerv2.0.16", "Cookie": COOKIE}
+                })
+        except: pass
+    return results
+
+# ==================================================
+# FETCHERS (BeIN, Arabic, Alwan DL)
 # ==================================================
 def fetch_bein_dl():
     print("\n🎯 [جلب قنوات beIN من DramaLive]")
@@ -183,7 +305,6 @@ def fetch_bein_dl():
                         custom_name = b_name
                         break
                 ch_id = c.get("id_live")
-                
                 api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
                 final_logo = get_logo_for_channel(custom_name, api_logo)
                 
@@ -220,7 +341,6 @@ def fetch_arabic():
         if not any(ar in n_lower for ar in ARABIC_SPORTS) and not re.search(r"[\u0600-\u06FF]", n_lower): continue
         ch_id = c.get("id_live")
         custom_name = name.title()
-        
         api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
         final_logo = get_logo_for_channel(custom_name, api_logo)
         
@@ -243,21 +363,6 @@ def fetch_arabic():
         else: print("❌")
     return results
 
-def fetch_alwan_prime():
-    print("\n🎯 [جلب قنوات ALWAN من Primetv]")
-    results = {}
-    for i in range(1, 7):
-        name = f"ALWAN SPORT {i}"
-        url = f"https://primetv.cc.cd/alwhd{i}/index.m3u8"
-        headers = {"User-Agent": "VLC/3.0", "X-Media-Access-Token": "StreamAuthorized_Native_App"}
-        print(f"  {name}... ✅")
-        results[name] = {
-            "id": f"alwan_prime_{i}", "name": name, "logo": get_logo_for_channel(name, ""),
-            "category": "-Oz-D3gFEv7WZ3nQYrSt", "live": True, "streamType": "m3u8",
-            "servers": [{"url": url, "headers": headers}]
-        }
-    return results
-
 def fetch_alwan_dl():
     print("\n🎯 [جلب قنوات ALWAN من DramaLive]")
     results = {}
@@ -268,7 +373,6 @@ def fetch_alwan_dl():
             if "alwan" in name.lower():
                 ch_id = c.get("id_live")
                 custom_name = name.title().replace("Alwan", "ALWAN SPORT")
-                
                 api_logo = c.get("logo", "") or c.get("image", "") or c.get("icon", "")
                 final_logo = get_logo_for_channel(custom_name, api_logo)
                 
@@ -294,21 +398,17 @@ def fetch_alwan_dl():
     return results
 
 # ==================================================
-# M3U EXPORT & SAVE (تم إصلاح الشعارات هنا)
+# M3U & SAVE
 # ==================================================
 def create_m3u(channels):
     lines = ["#EXTM3U"]
     for channel in channels.values():
         name = channel["name"]
-        logo = channel.get("logo", "") # هذا الآن رابط كامل 100%
-        
+        logo = channel.get("logo", "")
         for server in channel["servers"]:
             url = server["url"]
             headers = server.get("headers", {})
-            
-            # إضافة الشعار كرابط كامل داخل ملف M3U8
             lines.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}",{name}')
-            
             if headers:
                 if headers.get("User-Agent"): lines.append("#EXTVLCOPT:http-user-agent=" + headers["User-Agent"])
                 if headers.get("Referer"): lines.append("#EXTVLCOPT:http-referrer=" + headers["Referer"])
@@ -330,7 +430,6 @@ def monitor_source(source_name, fetcher_func):
     try:
         channels = fetcher_func()
         if not channels: return {}
-        
         json_path = os.path.join(OUTPUT_DIR, source_name + ".json")
         old_file = load_json(json_path)
         old_channels = old_file.get("channels", {}) if isinstance(old_file, dict) else {}
@@ -354,13 +453,18 @@ def monitor_source(source_name, fetcher_func):
 # ==================================================
 def main():
     print("=" * 50)
-    print("MOUD TV ULTIMATE COLLECTOR V9.0")
+    print("MOUD TV ULTIMATE COLLECTOR V10.0")
     print("=" * 50)
 
+    # 1. DramaLive (BeIN, Arabic, Alwan)
     monitor_source("bein_dramalive", fetch_bein_dl)
     monitor_source("arabic_dramalive", fetch_arabic)
-    monitor_source("alwan_primetv", fetch_alwan_prime)
     monitor_source("alwan_dramalive", fetch_alwan_dl)
+    
+    # 2. المصادر الجديدة التي أضفتها
+    monitor_source("bein_oztv", fetch_oz_tv)
+    monitor_source("alwan_live", fetch_alwan_live)
+    monitor_source("bein_redperch", fetch_redperch)
 
     print("\n✅ Done!")
 
