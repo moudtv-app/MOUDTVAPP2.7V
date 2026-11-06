@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MOUD TV - ULTIMATE COLLECTOR V10.0
+MOUD TV - ULTIMATE COLLECTOR V10.1
 يدمج: DramaLive + OZ-TV + Alwan Live + Redperch
+تم إصلاح خطأ KEEP_HISTORY
 """
 
 import os
@@ -13,7 +14,6 @@ import base64
 import hashlib
 import logging
 import requests
-import subprocess
 
 from datetime import datetime, timezone
 from urllib.parse import urlparse
@@ -34,7 +34,7 @@ except ImportError:
 # SETTINGS
 # ==================================================
 APP_NAME = "MOUD TV"
-VERSION = "10.0 Ultimate"
+VERSION = "10.1 Ultimate"
 
 OUTPUT_DIR = "output"
 HISTORY_DIR = os.path.join(OUTPUT_DIR, "history")
@@ -43,6 +43,10 @@ TEMP_DIR = os.path.join(OUTPUT_DIR, "temp")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(HISTORY_DIR, exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
+
+# الإعدادات التي تم إصلاحها
+KEEP_HISTORY = True
+CHECK_TIMEOUT = 8
 
 logging.basicConfig(
     filename=os.path.join(OUTPUT_DIR, "changes.log"),
@@ -224,10 +228,8 @@ def fetch_alwan_live():
         try:
             r = requests.get(f"{BASE}/{ch_id}", headers={"user-agent": UA, "weare": "rtvcardinal", "accept": "text/html,application/json,*/*"}, timeout=15)
             if r.status_code == 200:
-                # استخراج الـ meta tag
                 match = re.search(r'name="sc-session-profile" content="([^"]+)"', r.text)
                 if match:
-                    # فك التشفير (الـ unicode والـ hex)
                     data = match.group(1)
                     data = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1),16)), data)
                     data = re.sub(r'\\x([0-9a-fA-F]{2})', lambda m: chr(int(m.group(1),16)), data)
@@ -269,7 +271,6 @@ def fetch_redperch():
         try:
             r = requests.get(url, headers=HEADERS, timeout=10)
             if r.status_code == 200 and 'mpegurl' in r.headers.get('Content-Type', ''):
-                # استخراج اسم القناة الأساسي (مثلاً beinsport1_HD -> beIN SPORTS 1)
                 base_name = channel_id.split('_')[0].replace("beinsport", "beIN SPORTS ")
                 if "xtra" in base_name: base_name = "beIN SPORTS XTRA"
                 
@@ -453,15 +454,13 @@ def monitor_source(source_name, fetcher_func):
 # ==================================================
 def main():
     print("=" * 50)
-    print("MOUD TV ULTIMATE COLLECTOR V10.0")
+    print("MOUD TV ULTIMATE COLLECTOR V10.1")
     print("=" * 50)
 
-    # 1. DramaLive (BeIN, Arabic, Alwan)
     monitor_source("bein_dramalive", fetch_bein_dl)
     monitor_source("arabic_dramalive", fetch_arabic)
     monitor_source("alwan_dramalive", fetch_alwan_dl)
     
-    # 2. المصادر الجديدة التي أضفتها
     monitor_source("bein_oztv", fetch_oz_tv)
     monitor_source("alwan_live", fetch_alwan_live)
     monitor_source("bein_redperch", fetch_redperch)
