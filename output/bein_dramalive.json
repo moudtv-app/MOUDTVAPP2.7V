@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "10.1 Ultimate",
+  "version": "11.1 Ultimate",
   "source": "bein_dramalive",
-  "updatedAt": "2026-11-06T05:45:30.523231+00:00",
+  "updatedAt": "2026-11-07T04:31:11.027130+00:00",
   "channels": {
     "Bein S. News": {
       "id": "live_tv_beinsportnews",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://con10.connectapis.cfd/pages/jxgoyzzjugwy/index.html",
+          "url": "https://cen10.centerfastnet.cfd/pages/dkbwgevmxmlt/index.html",
           "headers": {}
         }
       ]
@@ -27,19 +27,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://spe8.speedaicenter.cyou/sd/erdxzccggclq/index.html",
+          "url": "https://spe8.speedaidata.cfd/sd/kpjcryfzzksz/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedsuperai.cfd/hd/xykvjqpvuirq/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/fqlllfohuway/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrafreeopeniosstarsfeedmoon.shop/fk/qtxshtjitmzj/index.html",
+          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/ybvqapcftzvh/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/xykvjqpvuirq/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/fqlllfohuway/index.html",
           "headers": {}
         },
         {
@@ -57,15 +57,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult6.ultrahardsoftstarsfeedmoonios.shop/pages/xtbrimcowgjw/index.html",
+          "url": "https://ult6.ultraosstarsopenmoonhardbuild.shop/pages/qzgpbkeghult/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult10.ultrasystemsoshardsoftstars.shop/pages/xclenhwunmrj/index.html",
+          "url": "https://ult10.ultrasystemsoshardsoftstars.shop/pages/sqbiwjfkzdcv/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultraandroidmoonhardsoftstars.shop/fk/ycxodwjydoxq/index.html",
+          "url": "https://ult11.ultraandroidmoonhardsoftstars.shop/fk/ziarksggobnk/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult6.ultraopenandroidiosstarsfeedmoon.shop/pages/qzgpbkeghult/index.html",
           "headers": {}
         },
         {
@@ -83,19 +87,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.dataengine.cyou/sd2/ulpkrpljbciz/index.html",
+          "url": "https://dat9.dataengine.cyou/sd2/pdlvkdcxphqw/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speeddatacenter.cyou/hd/wifauwbjxexg/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/keajjclvfomg/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/glprwrnehwiu/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://dat9.dataresources.cyou/sd2/ulpkrpljbciz/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/ggtazmehwacn/index.html",
           "headers": {}
         },
         {
@@ -113,19 +113,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.dataengineer.cyou/sd2/nshazulwvbsg/index.html",
+          "url": "https://dat9.dataresources.cyou/sd2/zhhjlhnsdsvp/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speeddatacenter.cyou/hd/wguvgwuojypf/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/tzjjfxpazcmd/index.html",
           "headers": {}
         },
         {
-          "url": "https://sca11.scalableapidatahostingplatform.shop/fk/hvfvoshvnrua/index.html",
+          "url": "https://glo11.globalapidatahostingnetwork.shop/fk/qhbzzwpzzdjt/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/wguvgwuojypf/index.html",
+          "url": "https://pro11.professionalapidatahosting.shop/fk/qhbzzwpzzdjt/index.html",
           "headers": {}
         },
         {
@@ -143,15 +143,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://rap8.rapidbackend.shop/sd/cccjkocrtiyv/index.html",
+          "url": "https://spe8.speedaicenter.cfd/sd/gllmhkunsmrr/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedsuperai.cfd/hd/gfdezonxgfdi/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/pjysxdopbten/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrahardsoftstarsfeedmoonos.shop/fk/pmoovdhqzuji/index.html",
+          "url": "https://pro11.professionalapidatahosting.shop/fk/mnspccsbsxpa/index.html",
           "headers": {}
         },
         {
@@ -169,15 +169,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/lktjvbrtlexr/index.html",
+          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/iztevjyrpedw/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/rfqhtixulbbr/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/nucpzfhwaxdp/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrafreeopeniosstarsfeedmoon.shop/fk/aoqqilhbckmv/index.html",
+          "url": "https://rel11.reliableapidatahosting.shop/fk/kdlghikzfdlg/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/iztevjyrpedw/index.html",
           "headers": {}
         },
         {
@@ -195,11 +199,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/zizdvwaduqno/index.html",
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/ccquiwulvxij/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedsuperai.cfd/hd/wvvxhqoaevsb/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/zipbtaxbvhme/index.html",
           "headers": {}
         },
         {
@@ -217,11 +221,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult8.ultraopenmoonhardsoftstars.shop/sd/riquhokhiaeq/index.html",
+          "url": "https://ult8.ultraopenhardstarsiossystems.shop/sd/drboqhtybovs/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedsuperai.cfd/hd/xwvajfaeyaph/index.html",
+          "url": "https://spe7.speedsuperai.cfd/hd/ycwisdwpodqh/index.html",
           "headers": {}
         },
         {
@@ -239,7 +243,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://spe7.speeddatacenter.cyou/hd/tvvpktookatk/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/sfbwfnztplee/index.html",
           "headers": {}
         },
         {
@@ -261,7 +265,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/jwuimoadpvht/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/gzujhdusermp/index.html",
           "headers": {}
         },
         {
@@ -283,7 +287,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/kksabjzfodug/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/himuexqdygor/index.html",
           "headers": {}
         },
         {
@@ -333,7 +337,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/avxxiajyjkum/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/rngkpdblffkb/index.html",
           "headers": {}
         },
         {
@@ -355,7 +359,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/yzltbdraudcl/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/yumwyukdmyfd/index.html",
           "headers": {}
         },
         {
@@ -377,7 +381,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/ghrmxmhgnrqa/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/azdzwhvcswpp/index.html",
           "headers": {}
         },
         {
@@ -453,7 +457,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/dpiuemxgsojp/index.html",
+          "url": "https://ult9.ultraiosfeedmoonhardsoft.shop/malasp2/mjedcjymuofe/index.html",
           "headers": {}
         }
       ]
@@ -471,7 +475,7 @@
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/ldavzxfyryhw/index.html",
+          "url": "https://ult11.ultraandroidfeedmoonhardsoft.shop/adashnorm/qjjbtndmppmg/index.html",
           "headers": {}
         }
       ]
@@ -485,7 +489,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrahardsoftstarsfeedmoonandroid.shop/adashnorm/bwlxenbfighe/index.html",
+          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/oklecqoowuay/index.html",
           "headers": {}
         }
       ]
@@ -499,7 +503,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/luwyylkhxvqg/index.html",
+          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/bmfsmwlkdxgr/index.html",
           "headers": {}
         }
       ]
@@ -513,7 +517,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/oojerujdepdd/index.html",
+          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/liosipwrqqsq/index.html",
           "headers": {}
         }
       ]
@@ -527,7 +531,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/cqpayryuagtl/index.html",
+          "url": "https://ult11.ultraandroidfeedmoonhardsoft.shop/adashnorm/lkznrjtntzdc/index.html",
           "headers": {}
         }
       ]
@@ -541,7 +545,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrahardsoftstarsfeedmoonandroid.shop/adashnorm/rqoayfmoevja/index.html",
+          "url": "https://ult11.ultraandroidstarsfeedmoonhard.shop/adashnorm/nvnxtqfuasod/index.html",
           "headers": {}
         }
       ]
@@ -555,7 +559,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/ausmyhiyqbup/index.html",
+          "url": "https://ult11.ultrafreeopenandroidhardsoftstars.shop/adashnorm/ysrhgvegxpam/index.html",
           "headers": {}
         }
       ]
@@ -569,7 +573,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultraandroidstarsfeedmoonhard.shop/adashnorm/pqfkifnypcty/index.html",
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/yonnnnnhimoi/index.html",
           "headers": {}
         }
       ]
@@ -583,7 +587,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultraandroidfeedmoonhardsoft.shop/adashnorm/qbwsypmqjddu/index.html",
+          "url": "https://ult11.ultraandroidhardstarsfeedmoon.shop/adashnorm/mltigeeepxou/index.html",
           "headers": {}
         }
       ]
@@ -605,7 +609,7 @@
           "headers": {}
         },
         {
-          "url": "https://con10.connectapis.cfd/pages/jxgoyzzjugwy/index.html",
+          "url": "https://cre10.createapihub.cfd/pages/dkbwgevmxmlt/index.html",
           "headers": {}
         },
         {
@@ -631,7 +635,7 @@
           "headers": {}
         },
         {
-          "url": "https://cen10.centerfastnet.cfd/pages/jxgoyzzjugwy/index.html",
+          "url": "https://cen10.centerspeednet.cfd/pages/dkbwgevmxmlt/index.html",
           "headers": {}
         },
         {
@@ -654,30 +658,30 @@
         }
       ]
     },
-    "beIN SPORTS 2": {
-      "id": "live_tv_new_auto_1cfea04ed47cef11892641f8dbfed034",
-      "name": "beIN SPORTS 2",
+    "Bein Sports 2 Australia ": {
+      "id": "live_tv_sport_beINSPORTS2Australia",
+      "name": "Bein Sports 2 Australia ",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "headers": {}
         }
       ]
     },
-    "beIN SPORTS 3": {
-      "id": "live_tv_new_auto_e5e7457a641febc76361c09985bf27b6",
-      "name": "beIN SPORTS 3",
+    "Bein Sports 3 Australia ": {
+      "id": "live_tv_sport_beINSPORTS3Australia",
+      "name": "Bein Sports 3 Australia ",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8",
+          "url": "https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "headers": {}
         }
       ]
@@ -696,16 +700,58 @@
         }
       ]
     },
-    "beIN SPORTS 1": {
-      "id": "live_tv_new_auto_83090a45836201840d6b5fcb2e1de21e",
-      "name": "beIN SPORTS 1",
+    "Bein Sports 1 Australia ": {
+      "id": "live_tv_sport_beINSports1Australia",
+      "name": "Bein Sports 1 Australia ",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 1 France ": {
+      "id": "live_tv_sport_beINSports1France",
+      "name": "Bein Sports 1 France ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/ul205qusekq4g",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 2 France ": {
+      "id": "live_tv_sport_beINSports2France",
+      "name": "Bein Sports 2 France ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/sudwk915fxxop",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 3 France ": {
+      "id": "live_tv_sport_beINSports3France",
+      "name": "Bein Sports 3 France ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/k5aiehhfwt26d",
           "headers": {}
         }
       ]
@@ -836,9 +882,93 @@
         }
       ]
     },
-    "beIN SPORTS 4": {
+    "Bein Sports 1 Turk": {
+      "id": "live_tv_new_auto_83090a45836201840d6b5fcb2e1de21e",
+      "name": "Bein Sports 1 Turk",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 2 Malaysia": {
+      "id": "live_tv_sport_beINSports2Malaysia",
+      "name": "Bein Sports 2 Malaysia",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/qjn8igtpbq8b",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 2 Turk": {
+      "id": "live_tv_new_auto_1cfea04ed47cef11892641f8dbfed034",
+      "name": "Bein Sports 2 Turk",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 3 Malaysia": {
+      "id": "live_tv_sport_beINSports3Malaysia",
+      "name": "Bein Sports 3 Malaysia",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/03parluwdud4p",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 3 Turk": {
+      "id": "live_tv_new_auto_e5e7457a641febc76361c09985bf27b6",
+      "name": "Bein Sports 3 Turk",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 4 Max France ": {
+      "id": "live_tv_sport_beINSports4MaxFrance",
+      "name": "Bein Sports 4 Max France ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/qjn8ws6pu3r8c",
+          "headers": {}
+        }
+      ]
+    },
+    "Bein Sports 4 Turk": {
       "id": "live_tv_new_auto_b0d80bc209ad6222009b5187a6fd39f9",
-      "name": "beIN SPORTS 4",
+      "name": "Bein Sports 4 Turk",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
       "live": true,
@@ -850,9 +980,9 @@
         }
       ]
     },
-    "beIN SPORTS 5": {
+    "Bein Sports 5 Turk": {
       "id": "live_tv_new_auto_1982cf9df4ef9c08dae3fa462609824f",
-      "name": "beIN SPORTS 5",
+      "name": "Bein Sports 5 Turk",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
       "live": true,

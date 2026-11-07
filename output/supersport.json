@@ -1,0 +1,236 @@
+{
+  "app": "MOUD TV",
+  "version": "11.1 Ultimate",
+  "source": "supersport",
+  "updatedAt": "2026-11-07T04:32:53.620701+00:00",
+  "channels": {
+    "Supersport Premier League ": {
+      "id": "live_tv_sport_SuperSportPremierLeague",
+      "name": "Supersport Premier League ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=alJA3XW1juKfRCckx7k-CA\\u0026e=1760295061\\u0026scheme=https",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/4yindgwrh97af",
+          "headers": {}
+        }
+      ]
+    },
+    "Astro Supersport 2": {
+      "id": "live_tv_sport_AstroSuperSport2",
+      "name": "Astro Supersport 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/cd8olcyahausy",
+          "headers": {}
+        }
+      ]
+    },
+    "Astro Supersport 1 ": {
+      "id": "live_tv_sport_AstroSupersport1",
+      "name": "Astro Supersport 1 ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/b1k4jb4m0kva0",
+          "headers": {}
+        }
+      ]
+    },
+    "Astro Supersport 3 ": {
+      "id": "live_tv_sport_AstroSupersport3",
+      "name": "Astro Supersport 3 ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/k5aine8fwp7dg",
+          "headers": {}
+        }
+      ]
+    },
+    "Astro Supersport 4 ": {
+      "id": "live_tv_sport_AstroSupersport4",
+      "name": "Astro Supersport 4 ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/xzwfrriyuxskx",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport 2 Digitalb ": {
+      "id": "live_tv_sport_SuperSport2Digitalb",
+      "name": "Supersport 2 Digitalb ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://isstnjz4.megogo.xyz/iptv/SNZC9Z4RPEYGA3/2522/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport 3 Digitalb ": {
+      "id": "live_tv_sport_SuperSport3Digitalb",
+      "name": "Supersport 3 Digitalb ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://isstnjz4.megogo.xyz/iptv/SNZC9Z4RPEYGA3/2524/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Action ": {
+      "id": "live_tv_sport_SuperSportAction",
+      "name": "Supersport Action ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/sudwbbb5ftflg",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Cricket ": {
+      "id": "live_tv_sport_SuperSportCricket",
+      "name": "Supersport Cricket ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/d2695xwckcmp",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Football ": {
+      "id": "live_tv_sport_SuperSportFootball",
+      "name": "Supersport Football ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/7i3s7b0znjoec",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Grandstand ": {
+      "id": "live_tv_sport_SuperSportGrandstand",
+      "name": "Supersport Grandstand ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/xzwfv6ayf9m7n",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Psl ": {
+      "id": "live_tv_sport_SuperSportPSL",
+      "name": "Supersport Psl ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/03pay7sws2gvb",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Variety 3 ": {
+      "id": "live_tv_sport_SuperSportVariety3",
+      "name": "Supersport Variety 3 ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/r471cdk6lmsef",
+          "headers": {}
+        }
+      ]
+    },
+    "Supersport Variety 4 ": {
+      "id": "live_tv_sport_SuperSportVariety4",
+      "name": "Supersport Variety 4 ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/2vrp5s4dj3fk",
+          "headers": {}
+        }
+      ]
+    },
+    "Super Tennis (1080P)": {
+      "id": "live_tv_new_auto_5fad230714556d6c105e519180c88b20",
+      "name": "Super Tennis (1080P)",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://supertennix-l3-live1.secure.footprint.net/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Supertennis": {
+      "id": "live_tv_new_auto_a810ffa4e00dc00768db0dd08df1962f",
+      "name": "Supertennis",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "app": "MOUD TV",
-  "version": "10.1 Ultimate",
+  "version": "11.1 Ultimate",
   "source": "bein_oztv",
-  "updatedAt": "2026-11-06T05:46:37.662537+00:00",
+  "updatedAt": "2026-11-07T04:32:15.637326+00:00",
   "channels": {
     "beIN SPORTS 1": {
       "id": "bein_sport_1",
@@ -13,9 +13,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
           "headers": {
-            "x-auth-token": "qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+            "x-auth-token": "rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -30,9 +30,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
           "headers": {
-            "x-auth-token": "qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+            "x-auth-token": "rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -47,9 +47,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_3/index.m3u8?token=qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+          "url": "https://sr.oz-tv.space/bein_sport_3/index.m3u8?token=rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
           "headers": {
-            "x-auth-token": "qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+            "x-auth-token": "rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -64,9 +64,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
           "headers": {
-            "x-auth-token": "qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+            "x-auth-token": "rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -81,9 +81,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
           "headers": {
-            "x-auth-token": "qMd0XG9KKEaf/ayOcqhj0FnV7FERmvSaJ4qYjFjAisMtMTM1LjIzMi4xNzcuMTc3LTE3OTM5NDM5ODUtMTc5Mzk2NTU4NQ==",
+            "x-auth-token": "rE+rztSNga+0QeSE1eKbt1YIfXYD/T/xT/aK0E1UZQMtMjAuNTkuMjIxLjUwLTE3OTQwMjU5MjMtMTc5NDA0NzUyMw==",
             "User-Agent": "Mozilla/5.0"
           }
         }
