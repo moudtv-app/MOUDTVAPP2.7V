@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "bein_oztv",
-  "updatedAt": "2026-11-07T20:02:27.083207+00:00",
+  "updatedAt": "2026-11-08T05:14:23.192348+00:00",
   "channels": {
     "beIN SPORTS 1": {
       "id": "bein_sport_1",
@@ -13,9 +13,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
           "headers": {
-            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -30,9 +30,26 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
           "headers": {
-            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    "beIN SPORTS 3": {
+      "id": "bein_sport_3",
+      "name": "beIN SPORTS 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_3/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
+          "headers": {
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -47,9 +64,26 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
           "headers": {
-            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    "beIN SPORTS 5": {
+      "id": "bein_sport_5",
+      "name": "beIN SPORTS 5",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_5/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
+          "headers": {
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
             "User-Agent": "Mozilla/5.0"
           }
         }
@@ -64,9 +98,9 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
           "headers": {
-            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "x-auth-token": "FKlWdQdBTU9eMLB1xQywjjlt75OuSxAlVnntE4rmgGEtMjAuODAuNzkuMTgtMTc5NDExNDg2MC0xNzk0MTM2NDYw",
             "User-Agent": "Mozilla/5.0"
           }
         }

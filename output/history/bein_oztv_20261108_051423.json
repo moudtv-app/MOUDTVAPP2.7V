@@ -1,0 +1,76 @@
+{
+  "app": "MOUD TV",
+  "version": "11.1 Ultimate",
+  "source": "bein_oztv",
+  "updatedAt": "2026-11-07T20:02:27.083207+00:00",
+  "channels": {
+    "beIN SPORTS 1": {
+      "id": "bein_sport_1",
+      "name": "beIN SPORTS 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_1/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "headers": {
+            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    "beIN SPORTS 2": {
+      "id": "bein_sport_2",
+      "name": "beIN SPORTS 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_2/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "headers": {
+            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    "beIN SPORTS 4": {
+      "id": "bein_sport_4",
+      "name": "beIN SPORTS 4",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_4/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "headers": {
+            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    },
+    "beIN SPORTS 7": {
+      "id": "bein_sport_7",
+      "name": "beIN SPORTS 7",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oy71oID8jDKWM314zRb",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://sr.oz-tv.space/bein_sport_7/index.m3u8?token=ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+          "headers": {
+            "x-auth-token": "ZWPlt/kd1fNZa/9UAPv68SB1R6WbDnegLO/LSszohswtNC4xNTUuNjMuMTUwLTE3OTQwODE3MjMtMTc5NDEwMzMyMw==",
+            "User-Agent": "Mozilla/5.0"
+          }
+        }
+      ]
+    }
+  }
+}
