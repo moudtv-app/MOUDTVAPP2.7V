@@ -1,0 +1,64 @@
+{
+  "app": "MOUD TV",
+  "version": "11.1 Ultimate",
+  "source": "azam_sports",
+  "updatedAt": "2026-11-08T20:20:40.877749+00:00",
+  "channels": {
+    "Azam Sports 1": {
+      "id": "live_tv_panel_bd2bcb781f672613abc7bb5e5e54ef65",
+      "name": "Azam Sports 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "azam",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult11.ultraiosmoonhardsoftstars.shop/adashnorm/fvazqkrqklgz/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Azam Sports 2": {
+      "id": "live_tv_panel_308f779803ce7cec11fb025d322e3f6a",
+      "name": "Azam Sports 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "azam",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max11.maxdatawordsonline.shop/adashnorm/thbvxrmysxek/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Azam Sports 3": {
+      "id": "live_tv_panel_4c5cfe5f35d9da85aac2f4fe5aaceb94",
+      "name": "Azam Sports 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "azam",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/tsisuvsnkgxt/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Azam Sports 4": {
+      "id": "live_tv_panel_344f4ba24ea216f0ae3576a0f632d334",
+      "name": "Azam Sports 4",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "azam",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ult11.ultraiosmoonhardsoftstars.shop/adashnorm/ourcrpermzkw/index.html",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}
