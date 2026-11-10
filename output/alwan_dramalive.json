@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "alwan_dramalive",
-  "updatedAt": "2026-11-10T06:38:23.343134+00:00",
+  "updatedAt": "2026-11-10T16:17:09.650618+00:00",
   "channels": {
     "Alwan 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/ipnomxyvvubn/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/ipnomxyvvubn/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/euqscigxinoc/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/euqscigxinoc/index.html",
           "headers": {}
         }
       ]
@@ -41,7 +41,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/qqifwqjqbeby/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/qqifwqjqbeby/index.html",
           "headers": {}
         }
       ]
@@ -69,7 +69,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/igikeqxfprru/index.html",
+          "url": "https://max10.maxwordsandroidpc.shop/sokaspr/igikeqxfprru/index.html",
           "headers": {}
         }
       ]
@@ -83,7 +83,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/lqqnpfkyllin/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/lqqnpfkyllin/index.html",
           "headers": {}
         }
       ]

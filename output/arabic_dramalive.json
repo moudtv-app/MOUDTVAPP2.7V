@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "arabic_dramalive",
-  "updatedAt": "2026-11-10T06:38:11.667044+00:00",
+  "updatedAt": "2026-11-10T16:17:02.001645+00:00",
   "channels": {
     "Oman Sport | عمان الرياضية": {
       "id": "live_tv_omansport",
@@ -101,7 +101,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/swabhldikdla/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/swabhldikdla/index.html",
           "headers": {}
         }
       ]
@@ -143,7 +143,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/rqkiwdtgitzn/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/rqkiwdtgitzn/index.html",
           "headers": {}
         }
       ]
@@ -157,7 +157,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/vzqfihdnmgvn/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/vzqfihdnmgvn/index.html",
           "headers": {}
         }
       ]
@@ -171,7 +171,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/xxsqoygftbrz/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/xxsqoygftbrz/index.html",
           "headers": {}
         }
       ]
@@ -185,7 +185,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/rfnozqxxwwld/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/rfnozqxxwwld/index.html",
           "headers": {}
         }
       ]
@@ -199,7 +199,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/gdutweftcpqb/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/gdutweftcpqb/index.html",
           "headers": {}
         }
       ]
@@ -213,7 +213,39 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/wvrhjdgsxdai/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/wvrhjdgsxdai/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Arryadia 3 | الرياضية المغربية 3": {
+      "id": "live_tv_morrowcowsport",
+      "name": "Arryadia 3 | الرياضية المغربية 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://149.100.11.252:8000/play/a065/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Almaghribia 5 | المغربية 5": {
+      "id": "live_tv_morrowcow5",
+      "name": "Almaghribia 5 | المغربية 5",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://185.9.2.18/chid_205/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_205/index.m3u8",
           "headers": {}
         }
       ]
@@ -235,7 +267,7 @@
           "headers": {}
         },
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/tyosdsumtuhe/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/tyosdsumtuhe/index.html",
           "headers": {}
         }
       ]
@@ -275,11 +307,11 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/tbdoxiqwqgel/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/tbdoxiqwqgel/index.html",
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/tbdoxiqwqgel/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/tbdoxiqwqgel/index.html",
           "headers": {}
         },
         {
@@ -301,7 +333,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/miuvbatilvtl/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/miuvbatilvtl/index.html",
           "headers": {}
         },
         {
@@ -319,7 +351,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/xadqjtedbvhk/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/xadqjtedbvhk/index.html",
           "headers": {}
         }
       ]
@@ -333,7 +365,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/nfxavsolckkl/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/nfxavsolckkl/index.html",
           "headers": {}
         }
       ]
@@ -436,38 +468,6 @@
         }
       ]
     },
-    "Almaghribia 5 | المغربية 5": {
-      "id": "live_tv_morrowcow5",
-      "name": "Almaghribia 5 | المغربية 5",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "http://185.9.2.18/chid_205/mono.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "http://185.9.2.18/chid_205/index.m3u8",
-          "headers": {}
-        }
-      ]
-    },
-    "Arryadia 3 | الرياضية المغربية 3": {
-      "id": "live_tv_morrowcowsport",
-      "name": "Arryadia 3 | الرياضية المغربية 3",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "http://149.100.11.252:8000/play/a065/index.m3u8",
-          "headers": {}
-        }
-      ]
-    },
     "Mbc 1 | ام بي سي 1": {
       "id": "live_tv_mbc1",
       "name": "Mbc 1 | ام بي سي 1",
@@ -539,7 +539,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/unysxnxsxrnd/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/unysxnxsxrnd/index.html",
           "headers": {}
         }
       ]
@@ -571,7 +571,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.online/mirsp/ofbzfhqtlvnw/index.html",
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/ofbzfhqtlvnw/index.html",
           "headers": {}
         }
       ]
@@ -585,7 +585,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/bodlxbgfcuos/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/bodlxbgfcuos/index.html",
           "headers": {}
         }
       ]
@@ -604,6 +604,10 @@
         },
         {
           "url": "https://dat3.datahostingapiservices.store/mirsp/vcwegofnbrdo/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/vcwegofnbrdo/index.html",
           "headers": {}
         }
       ]
@@ -731,7 +735,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/jdjqntrexzmv/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/jdjqntrexzmv/index.html",
           "headers": {}
         }
       ]
@@ -753,7 +757,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.monster/mirsp/oazyxtiwcotj/index.html",
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/oazyxtiwcotj/index.html",
           "headers": {}
         }
       ]
@@ -771,7 +775,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.monster/mirsp/yjpgqaiteina/index.html",
+          "url": "https://dat3.datahostingapihub.monster/mirsp/yjpgqaiteina/index.html",
           "headers": {}
         }
       ]
@@ -813,7 +817,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawordsonline.shop/adashnorm/nwjndbuhzxze/index.html",
+          "url": "https://ult11.ultraiosmoonhardsoftstars.shop/adashnorm/nwjndbuhzxze/index.html",
           "headers": {}
         }
       ]
@@ -857,7 +861,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.site/mirsp/ihcznlpqeocm/index.html",
+          "url": "https://dat3.datahostingapiservices.store/mirsp/ihcznlpqeocm/index.html",
           "headers": {}
         }
       ]
