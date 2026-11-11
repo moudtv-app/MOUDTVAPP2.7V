@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "bein_dramalive",
-  "updatedAt": "2026-11-11T05:23:11.181389+00:00",
+  "updatedAt": "2026-11-11T15:58:00.641851+00:00",
   "channels": {
     "Bein S. News": {
       "id": "live_tv_beinsportnews",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxpcioscontent.shop/pages/gipvildxxfea/index.html",
+          "url": "https://cen10.centerfastnet.cfd/pages/gipvildxxfea/index.html",
           "headers": {}
         }
       ]
@@ -27,19 +27,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://sup6.superspeednet.cfd/pages/jvriundjcknu/index.html",
+          "url": "https://max6.maxcontentandroidpc.shop/pages/oetiixsbxdkj/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/yzpnliwblzul/index.html",
+          "url": "https://cen7.centerainet.cyou/hd/kuqichyxrlrr/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrabuildfreehardfeedandroid.shop/fk/tqxsogpbolqd/index.html",
+          "url": "https://ult11.ultrabuildhardstarsfeedmoon.shop/fk/tqxsogpbolqd/index.html",
           "headers": {}
         },
         {
-          "url": "https://max6.maxandroidinfo.shop/pages/jvriundjcknu/index.html",
+          "url": "https://max6.maxcontentandroidios.shop/pages/oetiixsbxdkj/index.html",
           "headers": {}
         },
         {
@@ -57,15 +57,19 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max8.maxinfocontentworld.shop/sd/jersqhymznnu/index.html",
+          "url": "https://max8.maxinfoandroid.shop/sd/jersqhymznnu/index.html",
           "headers": {}
         },
         {
-          "url": "https://cen7.centerainet.cyou/hd/ugrabzavmtzj/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/ugrabzavmtzj/index.html",
           "headers": {}
         },
         {
           "url": "https://ult11.ultrasystemsstarsfeedmoonhard.shop/fk/sauglwnjdlnc/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://max8.maxinfoandroidios.shop/sd/jersqhymznnu/index.html",
           "headers": {}
         },
         {
@@ -83,19 +87,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.dataengineer.cyou/sd2/mhmeqkmhgpkd/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://spe7.speedfastnet.cfd/hd/twthiuuuvqms/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://ult11.ultrasystemsstarsfeedmoonhard.shop/fk/kpehpxpqurhc/index.html",
-          "headers": {}
-        },
-        {
           "url": "https://max9.maxinfoios.shop/sd2/mhmeqkmhgpkd/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://cen7.centerainet.cyou/hd/czjebraxcrfm/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://ult11.ultrasystemsstarsmooniossoft.shop/fk/kpehpxpqurhc/index.html",
           "headers": {}
         },
         {
@@ -113,11 +113,11 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat9.dataengineer.cyou/sd2/odvqzcxbpzao/index.html",
+          "url": "https://max9.maxinfoios.shop/sd2/odvqzcxbpzao/index.html",
           "headers": {}
         },
         {
-          "url": "https://cen7.centerainet.cyou/hd/sqgfilkjmowf/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/vwphxsheoxta/index.html",
           "headers": {}
         },
         {
@@ -139,19 +139,15 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://aid8.aidatanet.cfd/sd/udwjxuhktoat/index.html",
+          "url": "https://spe8.speedaicenter.cfd/sd/udwjxuhktoat/index.html",
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/thtizqravaic/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/qvnlxasxsjnx/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrasystemsstarsfeedmoonhard.shop/fk/gvlcymzcunzf/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://cen7.centerainet.cyou/hd/thtizqravaic/index.html",
+          "url": "https://ult11.ultrasystemsstarsmooniossoft.shop/fk/gvlcymzcunzf/index.html",
           "headers": {}
         },
         {
@@ -173,11 +169,11 @@
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/zecqftiggtdw/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/zlafiazsqejq/index.html",
           "headers": {}
         },
         {
-          "url": "https://ult11.ultrasystemsstarsfeedmoonhard.shop/fk/uwzvmkmfnpmk/index.html",
+          "url": "https://ult11.ultrasystemsstarsmooniossoft.shop/fk/uwzvmkmfnpmk/index.html",
           "headers": {}
         },
         {
@@ -199,7 +195,7 @@
           "headers": {}
         },
         {
-          "url": "https://cen7.centerainet.cyou/hd/fnfvjjvcxwmm/index.html",
+          "url": "https://spe7.speedfastnet.cfd/hd/qijwpgaxznup/index.html",
           "headers": {}
         },
         {
@@ -221,7 +217,7 @@
           "headers": {}
         },
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/hhylpzbnyamk/index.html",
+          "url": "https://cen7.centerainet.cyou/hd/vxrxtwluhqmx/index.html",
           "headers": {}
         },
         {
@@ -239,7 +235,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://spe7.speedfastnet.cfd/hd/dztfmxaarlhu/index.html",
+          "url": "https://cen7.centerainet.cyou/hd/cnpibwprezgf/index.html",
           "headers": {}
         },
         {
@@ -485,7 +481,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawordsonline.shop/adashnorm/yfdjrurkmriu/index.html",
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/yfdjrurkmriu/index.html",
           "headers": {}
         }
       ]
@@ -513,7 +509,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/abktoucpxrdg/index.html",
+          "url": "https://ult11.ultraiosmoonhardsoftstars.shop/adashnorm/abktoucpxrdg/index.html",
           "headers": {}
         }
       ]
@@ -527,7 +523,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawords.shop/adashnorm/gftuiwicvpnt/index.html",
+          "url": "https://max11.maxdatawordsonline.shop/adashnorm/gftuiwicvpnt/index.html",
           "headers": {}
         }
       ]
@@ -541,7 +537,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawords.shop/adashnorm/ijynrypiggcs/index.html",
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/ijynrypiggcs/index.html",
           "headers": {}
         }
       ]
@@ -555,7 +551,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/guorakyhimbl/index.html",
+          "url": "https://max11.maxdatawordsonline.shop/adashnorm/guorakyhimbl/index.html",
           "headers": {}
         }
       ]
@@ -569,7 +565,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawords.shop/adashnorm/sokklrkmtvsm/index.html",
+          "url": "https://ult11.ultraiosmoonhardsoftstars.shop/adashnorm/sokklrkmtvsm/index.html",
           "headers": {}
         }
       ]
@@ -583,7 +579,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawordsonline.shop/adashnorm/sasalcvlmbvi/index.html",
+          "url": "https://max11.maxdatawords.shop/adashnorm/sasalcvlmbvi/index.html",
           "headers": {}
         }
       ]
@@ -631,7 +627,7 @@
           "headers": {}
         },
         {
-          "url": "https://max10.maxpcwords.shop/pages/gipvildxxfea/index.html",
+          "url": "https://max10.maxwordsandroid.shop/pages/gipvildxxfea/index.html",
           "headers": {}
         },
         {
