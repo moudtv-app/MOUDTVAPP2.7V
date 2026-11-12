@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "alwan_dramalive",
-  "updatedAt": "2026-11-12T06:28:25.005158+00:00",
+  "updatedAt": "2026-11-12T16:42:19.124725+00:00",
   "channels": {
     "Alwan 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/tbrlwtcyeqoc/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/tbrlwtcyeqoc/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cfd/sokaspr/hzspmrqwgblo/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/hzspmrqwgblo/index.html",
           "headers": {}
         }
       ]
@@ -41,7 +41,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/tqskatpjmkpb/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/tqskatpjmkpb/index.html",
           "headers": {}
         }
       ]
@@ -55,7 +55,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/xhdkzvicvrym/index.html",
+          "url": "https://max10.maxwordsandroidpc.shop/sokaspr/xhdkzvicvrym/index.html",
           "headers": {}
         }
       ]
@@ -69,7 +69,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cfd/sokaspr/cxzmwagxxdmi/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/cxzmwagxxdmi/index.html",
           "headers": {}
         }
       ]
@@ -83,7 +83,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cfd/sokaspr/qocjmnbyxzvu/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/qocjmnbyxzvu/index.html",
           "headers": {}
         }
       ]
