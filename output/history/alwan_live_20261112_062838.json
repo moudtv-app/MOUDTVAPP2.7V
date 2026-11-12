@@ -1,0 +1,152 @@
+{
+  "app": "MOUD TV",
+  "version": "11.1 Ultimate",
+  "source": "alwan_live",
+  "updatedAt": "2026-11-11T22:38:27.196794+00:00",
+  "channels": {
+    "ALWAN SPORT 1": {
+      "id": "becardinal1",
+      "name": "ALWAN SPORT 1",
+      "logo": "https://i.ibb.co/xSY5mrj5/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5068/index.mpd?hdnts=exp%3D1794451095~hmac%3Dafc79e9da8dbd5f263df7d030e66cf8e354354f44182678dbeefea0bfacb8be7",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 2": {
+      "id": "becardinal2",
+      "name": "ALWAN SPORT 2",
+      "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5069/index.mpd?hdnts=exp%3D1794451097~hmac%3D0a9cdb18d30f2a522b938e930d7242e504a9e20b05c6438946b691bb2dcd6047",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 3": {
+      "id": "becardinal3",
+      "name": "ALWAN SPORT 3",
+      "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5070/index.mpd?hdnts=exp%3D1794451098~hmac%3D9b3319341f127332a3bb61614771b7fd2761c823d741cb1734b922843a5f3cb0",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 4": {
+      "id": "becardinal4",
+      "name": "ALWAN SPORT 4",
+      "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5071/index.mpd?hdnts=exp%3D1794451099~hmac%3Da88d79be750e2b468e2bf676d69bfafee0c592e9ab9687956b6899f6625c0c43",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 5": {
+      "id": "becardinal5",
+      "name": "ALWAN SPORT 5",
+      "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5072/index.mpd?hdnts=exp%3D1794451101~hmac%3De7a37bd0641dd5f940d66668d9c3ef2db6904007e893e1caa9840d6b0e90b41c",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 6": {
+      "id": "becardinal6",
+      "name": "ALWAN SPORT 6",
+      "logo": "https://i.ibb.co/N6zLf9N2/1761851652531-1.jpg",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5073/index.mpd?hdnts=exp%3D1794451102~hmac%3D7326d4e19a096d2468a110505ad4ec247efb9d891e5ac692925e4b0d109a8b8d",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 7": {
+      "id": "becardinal7",
+      "name": "ALWAN SPORT 7",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5074/index.mpd?hdnts=exp%3D1794451103~hmac%3D3abd08125997ace228699fbcb0ebd7d72ceb366c08d6a6e6af37c6f4305f9451",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 8": {
+      "id": "becardinal8",
+      "name": "ALWAN SPORT 8",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5101/index.mpd?hdnts=exp%3D1794451104~hmac%3D8fa20c5e8b445e7127b57e2efd70581ce3e21a6ab1964c83b0d7b24bee19e8c5",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    },
+    "ALWAN SPORT 9": {
+      "id": "becardinal9",
+      "name": "ALWAN SPORT 9",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5102/index.mpd?hdnts=exp%3D1794451106~hmac%3D99acd62b44709ff609754871f5c84a21549e70d24ee86ae577847c4a2343f217",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+          }
+        }
+      ]
+    }
+  }
+}
