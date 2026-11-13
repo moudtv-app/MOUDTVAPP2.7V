@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "arabic_dramalive",
-  "updatedAt": "2026-11-12T16:42:07.688271+00:00",
+  "updatedAt": "2026-11-13T05:47:57.184696+00:00",
   "channels": {
     "Oman Sport | عمان الرياضية": {
       "id": "live_tv_omansport",
@@ -32,6 +32,192 @@
         },
         {
           "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8?v=531453698",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 1 | الكاس 1": {
+      "id": "live_tv_alkaas1",
+      "name": "Alkass 1 | الكاس 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pldeqqmfzrgn/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 2 | الكاس 2": {
+      "id": "live_tv_alkaas2",
+      "name": "Alkass 2 | الكاس 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/qmoqgbcvubam/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 3 | الكاس 3": {
+      "id": "live_tv_alkaas3",
+      "name": "Alkass 3 | الكاس 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/rtrnlpadyads/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 4 | الكاس 4": {
+      "id": "live_tv_alkaas4",
+      "name": "Alkass 4 | الكاس 4",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/xrbvegokflgw/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 5 | الكاس 5": {
+      "id": "live_tv_alkaas5",
+      "name": "Alkass 5 | الكاس 5",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/udrcmtqujtgl/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 6 | الكاس 6": {
+      "id": "live_tv_alkaas6",
+      "name": "Alkass 6 | الكاس 6",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/sluinauinjqe/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 7 | الكاس 7": {
+      "id": "live_tv_alkaas7",
+      "name": "Alkass 7 | الكاس 7",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/jkuuknzwbpvc/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alkass 8 | الكاس 8": {
+      "id": "live_tv_panel_6fab914aad266fad1917de79c0615fee",
+      "name": "Alkass 8 | الكاس 8",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/jqtxalmyntta/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Shasha 1 | شاشا 1": {
+      "id": "live_tv_panel_7e16e23a4360f798dd1db9f330fdb170",
+      "name": "Shasha 1 | شاشا 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/rhwbxuufiixy/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Shasha 2 | شاشا 2": {
+      "id": "live_tv_panel_0baae01698e34ddffa019e4d7cd1a5a9",
+      "name": "Shasha 2 | شاشا 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/iaivueksporw/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Thmanyah 1 | ثمانية 1": {
+      "id": "live_tv_panel_9df3b16322fceee120cf2f1493d86bf6",
+      "name": "Thmanyah 1 | ثمانية 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/xohhyohacmry/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/xohhyohacmry/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Thmanyah 2 | ثمانية 2": {
+      "id": "live_tv_panel_3be9ec6c73ec25174edae53bca13d544",
+      "name": "Thmanyah 2 | ثمانية 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/wrjrtitnihww/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Thmanyah 3 | ثمانية 3": {
+      "id": "live_tv_panel_dd37ff862b7845bd1dbe86c6e2b6cc1d",
+      "name": "Thmanyah 3 | ثمانية 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/zmbpmkvbnknn/index.html",
           "headers": {}
         }
       ]
@@ -83,6 +269,10 @@
         {
           "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
           "headers": {}
+        },
+        {
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/jcoadlugarbo/index.html",
+          "headers": {}
         }
       ]
     },
@@ -101,6 +291,10 @@
         {
           "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/jnadiyofbteu/index.html",
+          "headers": {}
         }
       ]
     },
@@ -114,6 +308,14 @@
       "servers": [
         {
           "url": "https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/mzyrunnwrzmu/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/7i35gncz55izi",
           "headers": {}
         }
       ]
@@ -129,6 +331,42 @@
         {
           "url": "https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/udfjhdeoaply/index.html",
+          "headers": {}
+        },
+        {
+          "url": "https://tossequip.net/e/acghntilvln30",
+          "headers": {}
+        }
+      ]
+    },
+    "Dubai Sports 1 | دبي الرياضية 1": {
+      "id": "live_tv_dubaispoort1",
+      "name": "Dubai Sports 1 | دبي الرياضية 1",
+      "logo": "https://i.ibb.co/6P6xYqZ/dubai-sports1.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/tjcxeckknkpf/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Dubai Sports 2 | دبي الرياضية 2": {
+      "id": "live_tv_dubaispoort2",
+      "name": "Dubai Sports 2 | دبي الرياضية 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/dkdobnpmmnon/index.html",
+          "headers": {}
         }
       ]
     },
@@ -142,6 +380,34 @@
       "servers": [
         {
           "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Al Rabiaa Iraq Sport | الرابعة العراقية الرياضية": {
+      "id": "live_tv_iraq4sport",
+      "name": "Al Rabiaa Iraq Sport | الرابعة العراقية الرياضية",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/oanovryrmbwg/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Al Rabiaa Iraq | الرابعة العراقية": {
+      "id": "live_tv_iraq4",
+      "name": "Al Rabiaa Iraq | الرابعة العراقية",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourbusiness.cfd/sokanorm/emjjjjuqchgb/index.html",
           "headers": {}
         }
       ]
@@ -170,6 +436,34 @@
       "servers": [
         {
           "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Libya Sport 1 | ليبيا الرياضية 1": {
+      "id": "live_tv_panel_fa6bb49ad0c64b807bdd5cf579f37c8d",
+      "name": "Libya Sport 1 | ليبيا الرياضية 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/tcgrtnsnzbip/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Libya Sport 2 | ليبيا الرياضية 2": {
+      "id": "live_tv_panel_6451581726e7837a9181f164e311e315",
+      "name": "Libya Sport 2 | ليبيا الرياضية 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/iqiahrwexsdf/index.html",
           "headers": {}
         }
       ]
@@ -236,6 +530,34 @@
         }
       ]
     },
+    "Al Ahly | الاهلي": {
+      "id": "live_tv_alahlytv",
+      "name": "Al Ahly | الاهلي",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/gtywlgumtwlb/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Al Zamalek | الزمالك": {
+      "id": "live_tv_egzamalek",
+      "name": "Al Zamalek | الزمالك",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapisystems.monster/miranorm/kqbvxosbkbso/index.html",
+          "headers": {}
+        }
+      ]
+    },
     "On Sport 2 | اون سبورت 2": {
       "id": "live_tv_onsport2",
       "name": "On Sport 2 | اون سبورت 2",
@@ -246,6 +568,24 @@
       "servers": [
         {
           "url": "https://fastly.live.brightcove.com/6386122937112/us-east-1/6416013238001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWN3Ymx1LmVncmVzcy5zenkzeHgiLCJhY2NvdW50X2lkIjoiNjQxNjAxMzIzODAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE2MDEzMjM4MDAxIl0sImp0aSI6IjYzODYxMjI5MzcxMTIifQ.HPPHHVyUxLnEyCqaO6AP7j1iCOBrMGE-zTe-7mV1-24/playlist-hls.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.site/mirsp/ltcpgdkvsljq/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "On Sport 3 | اون سبورت 3": {
+      "id": "live_tv_onsport3",
+      "name": "On Sport 3 | اون سبورت 3",
+      "logo": "https://i.ibb.co/mVF7TfsB/images-8-1.jpg",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/sczydjojqtxy/index.html",
           "headers": {}
         }
       ]
@@ -260,6 +600,10 @@
       "servers": [
         {
           "url": "https://fastly.live.brightcove.com/6386030131112/us-east-1/6416013238001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWN3Ymx1LmVncmVzcy5zenkzeHgiLCJhY2NvdW50X2lkIjoiNjQxNjAxMzIzODAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE2MDEzMjM4MDAxIl0sImp0aSI6IjYzODYwMzAxMzExMTIifQ.aZa3dfTqySgbsPGs64c0_JTfvR1mKUmvdlDJ1WTeDgo/playlist-hls.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/vfhydysyudwn/index.html",
           "headers": {}
         }
       ]
@@ -337,6 +681,10 @@
         {
           "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/iagoiryccbxr/index.html",
+          "headers": {}
         }
       ]
     },
@@ -367,6 +715,24 @@
         {
           "url": "https://ythls.armelin.one/channel/UCJW9gatYczI191TunQxMGbA.m3u8",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/ihilvlklgsmk/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Watania Sports | الوطنية الرياضية": {
+      "id": "live_tv_panel_9fc42f4d613f510677c5fbc7cc18bece",
+      "name": "Watania Sports | الوطنية الرياضية",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/hrdxolvrnizv/index.html",
+          "headers": {}
         }
       ]
     },
@@ -385,6 +751,10 @@
         {
           "url": "https://cdn02.hta.dz/abr_htatv/PROGRAMME_NATIONAL/playlist.m3u8",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.online/mirsp/hsoghzduxczf/index.html",
+          "headers": {}
         }
       ]
     },
@@ -398,6 +768,10 @@
       "servers": [
         {
           "url": "https://cdn02.hta.dz/abr_htatv/TV_6_HD/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapihub.monster/mirsp/fqegchtncvkr/index.html",
           "headers": {}
         }
       ]
@@ -426,6 +800,20 @@
       "servers": [
         {
           "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Fajer Tv 1 | الفجر 1": {
+      "id": "live_tv_sportalfajer1",
+      "name": "Fajer Tv 1 | الفجر 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max11.maxdatawords.shop/adashnorm/gljldczjofnz/index.html",
           "headers": {}
         }
       ]
@@ -469,7 +857,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.store/mirsp/euutytaxzghm/index.html",
+          "url": "https://dat3.datahostingapihub.monster/mirsp/xinvllmbslra/index.html",
           "headers": {}
         }
       ]
