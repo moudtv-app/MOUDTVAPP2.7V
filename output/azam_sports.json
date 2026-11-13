@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "azam_sports",
-  "updatedAt": "2026-11-13T16:02:14.199757+00:00",
+  "updatedAt": "2026-11-13T21:57:28.110431+00:00",
   "channels": {
     "Azam Sports 1": {
       "id": "live_tv_panel_bd2bcb781f672613abc7bb5e5e54ef65",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/btcbwiqqnwvp/index.html",
+          "url": "https://max11.maxdatawords.shop/adashnorm/btcbwiqqnwvp/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawordsonline.shop/adashnorm/qputjdarrnrx/index.html",
+          "url": "https://max11.maxdatawords.shop/adashnorm/qputjdarrnrx/index.html",
           "headers": {}
         }
       ]
@@ -55,7 +55,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawordsonline.shop/adashnorm/dnjnrvgkbret/index.html",
+          "url": "https://ult11.ultrabuildfeedmoonhardsoft.shop/adashnorm/dnjnrvgkbret/index.html",
           "headers": {}
         }
       ]
