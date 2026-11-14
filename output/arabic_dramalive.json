@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "arabic_dramalive",
-  "updatedAt": "2026-11-14T05:38:14.080893+00:00",
+  "updatedAt": "2026-11-14T14:54:07.442551+00:00",
   "channels": {
     "Oman Sport | عمان الرياضية": {
       "id": "live_tv_omansport",
@@ -59,7 +59,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/blhwlcedrjnu/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/blhwlcedrjnu/index.html",
           "headers": {}
         }
       ]
@@ -101,7 +101,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/nyxeyyaqlbla/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/nyxeyyaqlbla/index.html",
           "headers": {}
         }
       ]
@@ -115,7 +115,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/broxgcfwjsbx/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/broxgcfwjsbx/index.html",
           "headers": {}
         }
       ]
@@ -176,6 +176,34 @@
         }
       ]
     },
+    "Stc Tv 2 | اس تي سي 2": {
+      "id": "live_tv_panel_6318043e297af250693d6c2ee239aee0",
+      "name": "Stc Tv 2 | اس تي سي 2",
+      "logo": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/ofyxadbeadda/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Stc Tv | اس تي سي ": {
+      "id": "live_tv_sport_STCTV",
+      "name": "Stc Tv | اس تي سي ",
+      "logo": "https://i.ibb.co/6R1Xg0hz/images-3-29.jpg",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://dat3.datahostingapihub.monster/mirsp/xzokyyebslke/index.html",
+          "headers": {}
+        }
+      ]
+    },
     "Thmanyah 1 | ثمانية 1": {
       "id": "live_tv_panel_9df3b16322fceee120cf2f1493d86bf6",
       "name": "Thmanyah 1 | ثمانية 1",
@@ -186,10 +214,6 @@
       "servers": [
         {
           "url": "https://dat3.datahostingapimanagement.monster/mirsp/byruztnwecpk/index.html",
-          "headers": {}
-        },
-        {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/byruztnwecpk/index.html",
           "headers": {}
         }
       ]
@@ -203,7 +227,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/nmqvduevxsrc/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/nmqvduevxsrc/index.html",
           "headers": {}
         }
       ]
@@ -217,7 +241,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/kimfgayacctb/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/kimfgayacctb/index.html",
           "headers": {}
         }
       ]
@@ -271,7 +295,7 @@
           "headers": {}
         },
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/qehcnazwrfxp/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/qehcnazwrfxp/index.html",
           "headers": {}
         }
       ]
@@ -293,7 +317,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/gpuvogkctdfh/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/gpuvogkctdfh/index.html",
           "headers": {}
         }
       ]
@@ -311,7 +335,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/lryvvbjdjfba/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/lryvvbjdjfba/index.html",
           "headers": {}
         },
         {
@@ -379,7 +403,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/zbvyodmxzvhd/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/zbvyodmxzvhd/index.html",
           "headers": {}
         }
       ]
@@ -425,7 +449,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawords.shop/adashnorm/cthmecohedfi/index.html",
+          "url": "https://max11.maxdatawordsonline.shop/adashnorm/cthmecohedfi/index.html",
           "headers": {}
         }
       ]
@@ -562,6 +586,146 @@
         }
       ]
     },
+    "Mbc Action | ام بي سي أكشن": {
+      "id": "live_tv_mbcaction",
+      "name": "Mbc Action | ام بي سي أكشن",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-action/8ea6ca1108d03e03da5e61372354f5c8/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/MBC_Action_HD/DASH/MBC_Action_HD.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBAH/MBAH.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_378/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiservices.online/mirsp/nxcuagsmyrjb/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Mbc Masr 1 |  ام بي سي مصر 1": {
+      "id": "live_tv_mbcmsr",
+      "name": "Mbc Masr 1 |  ام بي سي مصر 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBMS/MBMS.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_742/mono.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-masr-prod-dub.shahid.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://masr-usa-enc.edgenextcdn.net/out/v1/5fcaf05b5cd64b3cb4a969e0470080c8/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Mbc Masr 2 | Mbc مصر 2": {
+      "id": "live_tv_mbcmasr2",
+      "name": "Mbc Masr 2 | Mbc مصر 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-mediacdn-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/7eaa7c0393e9a9637ae311aac75eb40e/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-masr2-enc.edgenextcdn.net/out/v1/4a88c8fc947448b7bcee4961447bf677/index.mpd",
+          "headers": {}
+        },
+        {
+          "url": "https://uselector.cdn.intigral-ott.net/MBMS2/MBMS2.isml/manifest.mpd",
+          "headers": {}
+        },
+        {
+          "url": "http://185.9.2.18/chid_743/mono.m3u8",
+          "headers": {}
+        }
+      ]
+    },
+    "Mbc Iraq | ام بي سي العراق": {
+      "id": "live_tv_mbciraq",
+      "name": "Mbc Iraq | ام بي سي العراق",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
+          "headers": {}
+        },
+        {
+          "url": "https://c78b2b245115439fa65004296fd1d93d.mediatailor.eu-west-1.amazonaws.com/v1/master/065e37dd36f6dc7043679a61592f17340f3617b6/bitmovin-prod-live-apps/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
+          "headers": {}
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://iraq-prod-dub-enc.edgenextcdn.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
     "Al Ahly | الاهلي": {
       "id": "live_tv_alahlytv",
       "name": "Al Ahly | الاهلي",
@@ -571,7 +735,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/kuvrbtawuilk/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/kuvrbtawuilk/index.html",
           "headers": {}
         }
       ]
@@ -603,7 +767,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.monster/mirsp/epqfzyxluvkc/index.html",
+          "url": "https://dat3.datahostingapiservices.site/mirsp/epqfzyxluvkc/index.html",
           "headers": {}
         }
       ]
@@ -632,10 +796,6 @@
       "servers": [
         {
           "url": "https://fastly.live.brightcove.com/6386030131112/us-east-1/6416013238001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieWN3Ymx1LmVncmVzcy5zenkzeHgiLCJhY2NvdW50X2lkIjoiNjQxNjAxMzIzODAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2NDE2MDEzMjM4MDAxIl0sImp0aSI6IjYzODYwMzAxMzExMTIifQ.aZa3dfTqySgbsPGs64c0_JTfvR1mKUmvdlDJ1WTeDgo/playlist-hls.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://dat3.datahostingapicenter.monster/mirsp/gyhijrhwbinv/index.html",
           "headers": {}
         },
         {
@@ -719,7 +879,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/fikfaoexdguy/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/fikfaoexdguy/index.html",
           "headers": {}
         }
       ]
@@ -753,7 +913,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/pnmebonhpudj/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pnmebonhpudj/index.html",
           "headers": {}
         }
       ]
@@ -789,7 +949,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.site/mirsp/ynllsgxydzzx/index.html",
+          "url": "https://dat3.datahostingapicenter.monster/mirsp/ynllsgxydzzx/index.html",
           "headers": {}
         }
       ]
@@ -807,7 +967,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapihub.monster/mirsp/rddcazyyovjw/index.html",
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/rddcazyyovjw/index.html",
           "headers": {}
         }
       ]
@@ -840,6 +1000,24 @@
         }
       ]
     },
+    "Band Sports | باند سبورت": {
+      "id": "live_tv_new_auto_6a0f03874b5bfecdd5637dee44054651",
+      "name": "Band Sports | باند سبورت",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-OzEkaXpB8w2bevneCNC",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8",
+          "headers": {}
+        },
+        {
+          "url": "https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8",
+          "headers": {}
+        }
+      ]
+    },
     "Fajer Tv 1 | الفجر 1": {
       "id": "live_tv_sportalfajer1",
       "name": "Fajer Tv 1 | الفجر 1",
@@ -849,7 +1027,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi11.swiftdatahost.shop/adashnorm/tyqbkogdwkrk/index.html",
+          "url": "https://max11.maxdatawords.shop/adashnorm/tyqbkogdwkrk/index.html",
           "headers": {}
         }
       ]
@@ -864,146 +1042,6 @@
       "servers": [
         {
           "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
-          "headers": {}
-        }
-      ]
-    },
-    "Mbc Action | ام بي سي أكشن": {
-      "id": "live_tv_mbcaction",
-      "name": "Mbc Action | ام بي سي أكشن",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-action/8ea6ca1108d03e03da5e61372354f5c8/index.mpd",
-          "headers": {}
-        },
-        {
-          "url": "https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/MBC_Action_HD/DASH/MBC_Action_HD.mpd",
-          "headers": {}
-        },
-        {
-          "url": "https://uselector.cdn.intigral-ott.net/MBAH/MBAH.isml/manifest.mpd",
-          "headers": {}
-        },
-        {
-          "url": "http://185.9.2.18/chid_378/mono.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://dat3.datahostingapiservices.store/mirsp/nxcuagsmyrjb/index.html",
-          "headers": {}
-        }
-      ]
-    },
-    "Mbc Iraq | ام بي سي العراق": {
-      "id": "live_tv_mbciraq",
-      "name": "Mbc Iraq | ام بي سي العراق",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
-          "headers": {}
-        },
-        {
-          "url": "https://c78b2b245115439fa65004296fd1d93d.mediatailor.eu-west-1.amazonaws.com/v1/master/065e37dd36f6dc7043679a61592f17340f3617b6/bitmovin-prod-live-apps/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8?aws.manifestfilter=video_height:144-720;video_codec:H264&video_height=144-720&video_codec=H264",
-          "headers": {}
-        },
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://iraq-prod-dub-enc.edgenextcdn.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8",
-          "headers": {}
-        }
-      ]
-    },
-    "Mbc Masr 1 |  ام بي سي مصر 1": {
-      "id": "live_tv_mbcmsr",
-      "name": "Mbc Masr 1 |  ام بي سي مصر 1",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://uselector.cdn.intigral-ott.net/MBMS/MBMS.isml/manifest.mpd",
-          "headers": {}
-        },
-        {
-          "url": "http://185.9.2.18/chid_742/mono.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shls-masr-prod-dub.shahid.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://masr-usa-enc.edgenextcdn.net/out/v1/5fcaf05b5cd64b3cb4a969e0470080c8/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
-          "headers": {}
-        }
-      ]
-    },
-    "Mbc Masr 2 | Mbc مصر 2": {
-      "id": "live_tv_mbcmasr2",
-      "name": "Mbc Masr 2 | Mbc مصر 2",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "-OzEkaXpB8w2bevneCNC",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
-          "headers": {}
-        },
-        {
-          "url": "https://shd-mediacdn-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/7eaa7c0393e9a9637ae311aac75eb40e/index.mpd",
-          "headers": {}
-        },
-        {
-          "url": "https://shls-masr2-enc.edgenextcdn.net/out/v1/4a88c8fc947448b7bcee4961447bf677/index.mpd",
-          "headers": {}
-        },
-        {
-          "url": "https://uselector.cdn.intigral-ott.net/MBMS2/MBMS2.isml/manifest.mpd",
-          "headers": {}
-        },
-        {
-          "url": "http://185.9.2.18/chid_743/mono.m3u8",
           "headers": {}
         }
       ]

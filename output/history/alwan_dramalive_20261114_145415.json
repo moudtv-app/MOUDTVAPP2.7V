@@ -1,0 +1,148 @@
+{
+  "app": "MOUD TV",
+  "version": "11.1 Ultimate",
+  "source": "alwan_dramalive",
+  "updatedAt": "2026-11-14T05:38:23.655106+00:00",
+  "channels": {
+    "Alwan 1 | الوان 1": {
+      "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
+      "name": "Alwan 1 | الوان 1",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/xkvbsrucojbf/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 2 | الوان 2": {
+      "id": "live_tv_panel_ef7d778167c988ca75470ce5db8427b0",
+      "name": "Alwan 2 | الوان 2",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://ais10.aisupernet.cfd/sokaspr/ztwrtegukbdt/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 3 | الوان 3": {
+      "id": "live_tv_panel_7b6fb9cf2640af7bbd8601b32e455ffb",
+      "name": "Alwan 3 | الوان 3",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/nuswmecgojwr/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 4 | الوان 4": {
+      "id": "live_tv_panel_5eef9db481b3fbdeea149cde5d57f2d3",
+      "name": "Alwan 4 | الوان 4",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/uygjqhhlywnq/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 5 | الوان 5": {
+      "id": "live_tv_panel_b1b5e8abc911830387f5d508d74e04a6",
+      "name": "Alwan 5 | الوان 5",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/llktadnqoioa/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 6 | الوان 6": {
+      "id": "live_tv_panel_422094ee009638e65e671fc509ebd93d",
+      "name": "Alwan 6 | الوان 6",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max10.maxwordsandroidpc.shop/sokaspr/drecigfdgbfe/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 7 | الوان 7": {
+      "id": "live_tv_panel_d34db3a50e972154d6a434967590e6ef",
+      "name": "Alwan 7 | الوان 7",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/kvfpdtfyocyn/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 8 | الوان 8": {
+      "id": "live_tv_panel_2e54ad7eafec0cbb5941eb00584287a8",
+      "name": "Alwan 8 | الوان 8",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/ynqnnvmbfjxs/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 9 | الوان 9": {
+      "id": "live_tv_panel_e038053974b209d668902a60346b4e6f",
+      "name": "Alwan 9 | الوان 9",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/yoxokximfmnu/index.html",
+          "headers": {}
+        }
+      ]
+    },
+    "Alwan 10 | الوان 10": {
+      "id": "live_tv_panel_5dcdaef7f316e8ffb9a5fc4c21f9e988",
+      "name": "Alwan 10 | الوان 10",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "-Oz-D3gFEv7WZ3nQYrSt",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/stmohtofnzda/index.html",
+          "headers": {}
+        }
+      ]
+    }
+  }
+}

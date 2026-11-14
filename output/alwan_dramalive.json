@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "alwan_dramalive",
-  "updatedAt": "2026-11-14T05:38:23.655106+00:00",
+  "updatedAt": "2026-11-14T14:54:15.719462+00:00",
   "channels": {
     "Alwan 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/xkvbsrucojbf/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/xkvbsrucojbf/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/ztwrtegukbdt/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/ztwrtegukbdt/index.html",
           "headers": {}
         }
       ]
@@ -41,7 +41,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/nuswmecgojwr/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/nuswmecgojwr/index.html",
           "headers": {}
         }
       ]
@@ -55,7 +55,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://api10.apiforyourproduct.cfd/sokaspr/uygjqhhlywnq/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/uygjqhhlywnq/index.html",
           "headers": {}
         }
       ]
@@ -69,7 +69,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/llktadnqoioa/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/llktadnqoioa/index.html",
           "headers": {}
         }
       ]
@@ -83,7 +83,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxwordsandroidpc.shop/sokaspr/drecigfdgbfe/index.html",
+          "url": "https://swi10.swiftstorageapi.shop/sokaspr/drecigfdgbfe/index.html",
           "headers": {}
         }
       ]
