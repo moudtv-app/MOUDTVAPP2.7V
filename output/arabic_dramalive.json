@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "arabic_dramalive",
-  "updatedAt": "2026-11-16T05:35:17.116679+00:00",
+  "updatedAt": "2026-11-16T18:09:20.285039+00:00",
   "channels": {
     "Oman Sport | عمان الرياضية": {
       "id": "live_tv_omansport",
@@ -59,7 +59,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pmpulbuuxpbe/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/pmpulbuuxpbe/index.html",
           "headers": {}
         }
       ]
@@ -129,7 +129,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/uhmizpmhxaqn/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/uhmizpmhxaqn/index.html",
           "headers": {}
         }
       ]
@@ -143,7 +143,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/lgxzfbfrdjvq/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/lgxzfbfrdjvq/index.html",
           "headers": {}
         }
       ]
@@ -157,7 +157,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/quoxrlllygcc/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/quoxrlllygcc/index.html",
           "headers": {}
         }
       ]
@@ -171,7 +171,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/quvpdinzefae/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/quvpdinzefae/index.html",
           "headers": {}
         }
       ]
@@ -199,7 +199,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/psdzxwbwfukg/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/psdzxwbwfukg/index.html",
           "headers": {}
         }
       ]
@@ -215,6 +215,10 @@
         {
           "url": "https://dat3.datahostingapiplatform.monster/mirsp/olyipvdbqtrd/index.html",
           "headers": {}
+        },
+        {
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/olyipvdbqtrd/index.html",
+          "headers": {}
         }
       ]
     },
@@ -227,7 +231,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/ewnbgxonibqb/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/ewnbgxonibqb/index.html",
           "headers": {}
         }
       ]
@@ -241,7 +245,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/etehzfobxvtl/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/etehzfobxvtl/index.html",
           "headers": {}
         }
       ]
@@ -295,7 +299,7 @@
           "headers": {}
         },
         {
-          "url": "https://bac10.backendcloud.cyou/sokaspr/nnawnlmrxnoo/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/nnawnlmrxnoo/index.html",
           "headers": {}
         }
       ]
@@ -317,7 +321,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/pgjtttoxzwpd/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/pgjtttoxzwpd/index.html",
           "headers": {}
         }
       ]
@@ -335,7 +339,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/saxznrogxfwq/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/saxznrogxfwq/index.html",
           "headers": {}
         },
         {
@@ -357,7 +361,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/eieblltgurxv/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/eieblltgurxv/index.html",
           "headers": {}
         },
         {
@@ -403,7 +407,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/ghctctugdwhx/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/ghctctugdwhx/index.html",
           "headers": {}
         }
       ]
@@ -449,7 +453,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max11.maxdatawords.shop/adashnorm/ftlbzfuqrjmv/index.html",
+          "url": "https://clo11.cloudapidatahostingservices.shop/adashnorm/ftlbzfuqrjmv/index.html",
           "headers": {}
         }
       ]
@@ -463,7 +467,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tur11.turboapistorage.shop/fk/ihxcehdvjdtf/index.html",
+          "url": "https://max11.maxwordsdatapc.shop/fk/ihxcehdvjdtf/index.html",
           "headers": {}
         }
       ]
@@ -611,7 +615,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.online/mirsp/olfgpxvgvqtz/index.html",
+          "url": "https://dat3.datahostingapiservices.store/mirsp/olfgpxvgvqtz/index.html",
           "headers": {}
         }
       ]
@@ -735,7 +739,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/owbqfdviaogp/index.html",
+          "url": "https://dat3.datahostingapimanagement.monster/mirsp/owbqfdviaogp/index.html",
           "headers": {}
         }
       ]
@@ -767,7 +771,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiservices.site/mirsp/ppssbhacewls/index.html",
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/ppssbhacewls/index.html",
           "headers": {}
         }
       ]
@@ -781,7 +785,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapiportal.monster/mirsp/pzuuoldexdwl/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/pzuuoldexdwl/index.html",
           "headers": {}
         }
       ]
@@ -799,7 +803,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapicenter.monster/mirsp/pahfnlkhhupr/index.html",
+          "url": "https://dat3.datahostingapiservices.store/mirsp/pahfnlkhhupr/index.html",
           "headers": {}
         }
       ]
@@ -879,7 +883,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/upwzhdbjafnl/index.html",
+          "url": "https://dat3.datahostingapiplatform.monster/mirsp/upwzhdbjafnl/index.html",
           "headers": {}
         }
       ]
@@ -913,7 +917,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapiplatform.monster/mirsp/hwwwbspnlhub/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/hwwwbspnlhub/index.html",
           "headers": {}
         }
       ]
@@ -927,7 +931,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://dat3.datahostingapimanagement.monster/mirsp/wwofhupacgsk/index.html",
+          "url": "https://dat3.datahostingapiportal.monster/mirsp/wwofhupacgsk/index.html",
           "headers": {}
         }
       ]
@@ -949,7 +953,7 @@
           "headers": {}
         },
         {
-          "url": "https://dat3.datahostingapicenter.monster/mirsp/fschzxxsoqxy/index.html",
+          "url": "https://dat3.datahostingapiservices.monster/mirsp/fschzxxsoqxy/index.html",
           "headers": {}
         }
       ]
@@ -1027,7 +1031,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://clo11.cloudapidatahostingservices.shop/adashnorm/xbtpnxtgjtrz/index.html",
+          "url": "https://max11.maxdatawords.shop/adashnorm/xbtpnxtgjtrz/index.html",
           "headers": {}
         }
       ]
