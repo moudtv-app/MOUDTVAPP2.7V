@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "supersport",
-  "updatedAt": "2026-11-07T04:32:53.620701+00:00",
+  "updatedAt": "2026-11-16T05:36:11.334465+00:00",
   "channels": {
     "Supersport Premier League ": {
       "id": "live_tv_sport_SuperSportPremierLeague",
@@ -148,6 +148,20 @@
         }
       ]
     },
+    "Supersport Golf ": {
+      "id": "live_tv_sport_SuperSportGolf",
+      "name": "Supersport Golf ",
+      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
+      "category": "supersport",
+      "live": true,
+      "streamType": "m3u8",
+      "servers": [
+        {
+          "url": "https://tossequip.net/e/5sctmmgk62p3k",
+          "headers": {}
+        }
+      ]
+    },
     "Supersport Grandstand ": {
       "id": "live_tv_sport_SuperSportGrandstand",
       "name": "Supersport Grandstand ",
@@ -162,44 +176,16 @@
         }
       ]
     },
-    "Supersport Psl ": {
-      "id": "live_tv_sport_SuperSportPSL",
-      "name": "Supersport Psl ",
+    "Supersport Rugby ": {
+      "id": "live_tv_sport_SuperSportRugby",
+      "name": "Supersport Rugby ",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "supersport",
       "live": true,
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/03pay7sws2gvb",
-          "headers": {}
-        }
-      ]
-    },
-    "Supersport Variety 3 ": {
-      "id": "live_tv_sport_SuperSportVariety3",
-      "name": "Supersport Variety 3 ",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "supersport",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://tossequip.net/e/r471cdk6lmsef",
-          "headers": {}
-        }
-      ]
-    },
-    "Supersport Variety 4 ": {
-      "id": "live_tv_sport_SuperSportVariety4",
-      "name": "Supersport Variety 4 ",
-      "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
-      "category": "supersport",
-      "live": true,
-      "streamType": "m3u8",
-      "servers": [
-        {
-          "url": "https://tossequip.net/e/2vrp5s4dj3fk",
+          "url": "https://tossequip.net/e/7i35885zqfxik",
           "headers": {}
         }
       ]
