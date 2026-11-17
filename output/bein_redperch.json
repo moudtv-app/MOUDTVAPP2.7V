@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "bein_redperch",
-  "updatedAt": "2026-11-15T20:56:59.906934+00:00",
+  "updatedAt": "2026-11-17T17:31:47.147851+00:00",
   "channels": {
     "beIN SPORTS 1": {
       "id": "beinsport1_4K",
@@ -169,13 +169,6 @@
       "servers": [
         {
           "url": "https://redperch.space/dramacardinalv2.php?id=beinsport6_4K|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
-          "headers": {
-            "User-Agent": "Rplayerv2.0.16",
-            "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
-          }
-        },
-        {
-          "url": "https://redperch.space/dramacardinalv2.php?id=beinsport6_HD|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
           "headers": {
             "User-Agent": "Rplayerv2.0.16",
             "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
