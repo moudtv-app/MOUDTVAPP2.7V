@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "alwan_live",
-  "updatedAt": "2026-11-16T18:11:45.174803+00:00",
+  "updatedAt": "2026-11-17T07:15:39.486903+00:00",
   "channels": {
     "ALWAN SPORT 1": {
       "id": "becardinal1",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5068/index.mpd?hdnts=exp%3D1794867092~hmac%3De422b55a1d88ce534ac10b3b19fe675f146487c1a1cc83dd99833417a3767c27",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5068/index.mpd?hdnts=exp%3D1794914127~hmac%3D4f99bf283d7bf0844c9797655ebed6bd2ab2ade0f386f5ba0fd8908778c29d55",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -29,7 +29,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5069/index.mpd?hdnts=exp%3D1794867094~hmac%3D59068805c67859fa7afa406891d62a453372b06b108dd572504e4d43a6f5586b",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5069/index.mpd?hdnts=exp%3D1794914129~hmac%3Daefa4191f9fad75da3255056c97f4f800986a7f8a8e3486e26ccbaaa95a6aa92",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -45,7 +45,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5070/index.mpd?hdnts=exp%3D1794867095~hmac%3D1393eb58f3c71a1fe793dcfbff7a1f908ad09750d0f914d1a52d2b26a497244a",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5070/index.mpd?hdnts=exp%3D1794914130~hmac%3D7a50335444ce2586f5eedd135d1196aed4abfe5972f8b44ecb970b9524a37d63",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -61,7 +61,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5071/index.mpd?hdnts=exp%3D1794867096~hmac%3Dd5a06514f03e0dfe51bbeb95f7ef53ac1608bffa48368f432e560b9d4490d76a",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5071/index.mpd?hdnts=exp%3D1794914131~hmac%3D21697a71bdb60c19060b46728aabe0b32244843f330338d86fd0c18cc463f4c0",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -77,7 +77,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5072/index.mpd?hdnts=exp%3D1794867098~hmac%3D0165ba8ebafe39718b2095a87bbf82acd8ce957594d3fc9de6af5a66c8e8e9e8",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5072/index.mpd?hdnts=exp%3D1794914132~hmac%3D6d8087b8257ddb0133ffffdac5c0257cf38e08e8eb3df4399ae4576b8b18a798",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -93,7 +93,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5073/index.mpd?hdnts=exp%3D1794867099~hmac%3D4d45d3c27f0c2f535e5a765b91315c1203b3b49f58091a64401a0668791366a9",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5073/index.mpd?hdnts=exp%3D1794914134~hmac%3D5fc5509b266c90b4249eab1db1b37945bfc6b416fd4add634e679f590d086148",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -109,7 +109,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5074/index.mpd?hdnts=exp%3D1794867101~hmac%3D6713b7c26894c945b6cdf1458d2ba5b879d0c3273a01cbb8c132ebcfd87a2c86",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5074/index.mpd?hdnts=exp%3D1794914135~hmac%3Dafa4a62e9deb6f8805eba2976ab2c96a7ba9ce6b543e94e6da336ec02e3a3549",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -125,7 +125,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5101/index.mpd?hdnts=exp%3D1794867102~hmac%3De9ec60c33e3875b36d35e6d4207aea4003012dcd00844a28783b91bfdc487988",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5101/index.mpd?hdnts=exp%3D1794914136~hmac%3D72efa937ed0f76a2a98b7ba84a045a1bbb2584fb8ade1759a7d4a1fc19c98846",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
@@ -141,7 +141,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5102/index.mpd?hdnts=exp%3D1794867104~hmac%3D7e6b5837b4e3b1c791907d2ca6d74a6d1b21e0c1a5112ec854bb4fa84ad8747f",
+          "url": "https://reezn-live-prod.boyscardinalhair.workers.dev/5102/index.mpd?hdnts=exp%3D1794914138~hmac%3D025de5bcd7b26e3dfa02bcc6c22a91a17f0a6b000226431f3102a4c4ee9f7726",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
           }
