@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "supersport",
-  "updatedAt": "2026-11-16T05:36:11.334465+00:00",
+  "updatedAt": "2026-11-20T16:52:24.213492+00:00",
   "channels": {
     "Supersport Premier League ": {
       "id": "live_tv_sport_SuperSportPremierLeague",
@@ -129,7 +129,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/d2695xwckcmp",
+          "url": "https://waterera.net/e/d2695xwckcmp",
           "headers": {}
         }
       ]
@@ -157,7 +157,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/5sctmmgk62p3k",
+          "url": "https://waterera.net/e/5sctmmgk62p3k",
           "headers": {}
         }
       ]
@@ -171,7 +171,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/xzwfv6ayf9m7n",
+          "url": "https://waterera.net/e/xzwfv6ayf9m7n",
           "headers": {}
         }
       ]
