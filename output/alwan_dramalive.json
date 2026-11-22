@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "alwan_dramalive",
-  "updatedAt": "2026-11-21T21:37:52.953047+00:00",
+  "updatedAt": "2026-11-22T05:49:30.541855+00:00",
   "channels": {
     "Alwan 1 | الوان 1": {
       "id": "live_tv_panel_985d709fdd1ab07f9f51c32558b49a50",
@@ -13,7 +13,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/lzjjlvhpcsbm/index.html",
+          "url": "https://ais10.aisupernet.cfd/sokaspr/pbgvqiqfiydn/index.html",
           "headers": {}
         }
       ]
@@ -27,7 +27,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://swi10.swiftstorageapi.shop/sokaspr/axxvrwglipnn/index.html",
+          "url": "https://api10.apiforyourwebsite.cfd/sokaspr/ykjipnfqpxtn/index.html",
           "headers": {}
         }
       ]
@@ -41,7 +41,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aispeednet.cfd/sokaspr/ipufrckhnqjq/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/isqmkbtyckge/index.html",
           "headers": {}
         }
       ]
@@ -55,7 +55,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/xnkvfakvtgnd/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/kqkjcsamwjen/index.html",
           "headers": {}
         }
       ]
@@ -69,7 +69,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/tljzkvwbkxpi/index.html",
+          "url": "https://ais10.aispeednet.cfd/sokaspr/lpmswtpxsmpm/index.html",
           "headers": {}
         }
       ]
@@ -83,7 +83,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://ais10.aisupernet.cfd/sokaspr/prajtrwzrhxh/index.html",
+          "url": "https://api10.apiforyourproduct.cfd/sokaspr/xkeomgpcerxm/index.html",
           "headers": {}
         }
       ]
@@ -97,7 +97,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxandroidpcinfo.shop/nextlev/nhaktzamqwnp/index.html",
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/prttoyftyslh/index.html",
           "headers": {}
         }
       ]
@@ -111,7 +111,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxandroidpcinfo.shop/nextlev/exrjsezonlkk/index.html",
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/cjcfmfisrjfl/index.html",
           "headers": {}
         }
       ]
@@ -125,7 +125,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxandroidpcinfo.shop/nextlev/zpoemdfteovz/index.html",
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/fwhzwsnllsbn/index.html",
           "headers": {}
         }
       ]
@@ -139,7 +139,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://max10.maxandroidpcinfo.shop/nextlev/whrbemjodmmv/index.html",
+          "url": "https://max10.maxandroidpcinfo.shop/nextlev/kkryktalpqbi/index.html",
           "headers": {}
         }
       ]

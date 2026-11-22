@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "supersport",
-  "updatedAt": "2026-11-20T16:52:24.213492+00:00",
+  "updatedAt": "2026-11-22T05:51:07.163019+00:00",
   "channels": {
     "Supersport Premier League ": {
       "id": "live_tv_sport_SuperSportPremierLeague",
@@ -17,7 +17,7 @@
           "headers": {}
         },
         {
-          "url": "https://tossequip.net/e/4yindgwrh97af",
+          "url": "https://waterera.net/e/4yindgwrh97af",
           "headers": {}
         }
       ]
@@ -31,7 +31,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/cd8olcyahausy",
+          "url": "https://waterera.net/e/cd8olcyahausy",
           "headers": {}
         }
       ]
@@ -45,7 +45,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/b1k4jb4m0kva0",
+          "url": "https://waterera.net/e/b1k4jb4m0kva0",
           "headers": {}
         }
       ]
@@ -59,7 +59,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/k5aine8fwp7dg",
+          "url": "https://waterera.net/e/k5aine8fwp7dg",
           "headers": {}
         }
       ]
@@ -73,7 +73,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/xzwfrriyuxskx",
+          "url": "https://waterera.net/e/xzwfrriyuxskx",
           "headers": {}
         }
       ]
@@ -115,7 +115,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/sudwbbb5ftflg",
+          "url": "https://waterera.net/e/sudwbbb5ftflg",
           "headers": {}
         }
       ]
@@ -143,7 +143,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/7i3s7b0znjoec",
+          "url": "https://waterera.net/e/7i3s7b0znjoec",
           "headers": {}
         }
       ]
@@ -185,7 +185,7 @@
       "streamType": "m3u8",
       "servers": [
         {
-          "url": "https://tossequip.net/e/7i35885zqfxik",
+          "url": "https://waterera.net/e/7i35885zqfxik",
           "headers": {}
         }
       ]
