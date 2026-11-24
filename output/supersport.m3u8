@@ -25,9 +25,9 @@ https://waterera.net/e/7i3s7b0znjoec
 https://waterera.net/e/5sctmmgk62p3k
 #EXTINF:-1 tvg-name="Supersport Grandstand " tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",Supersport Grandstand 
 https://waterera.net/e/xzwfv6ayf9m7n
-#EXTINF:-1 tvg-name="Supersport Rugby " tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",Supersport Rugby 
-https://waterera.net/e/7i35885zqfxik
+#EXTINF:-1 tvg-name="Supersport Variety 4 " tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",Supersport Variety 4 
+https://waterera.net/e/2vrp5s4dj3fk
 #EXTINF:-1 tvg-name="Super Tennis (1080P)" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",Super Tennis (1080P)
 https://supertennix-l3-live1.secure.footprint.net/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8
 #EXTINF:-1 tvg-name="Supertennis" tvg-logo="https://i.ibb.co/Z9j8xcc/1746540952466.png",Supertennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+http://57.128.225.206/stream/7/index.m3u8

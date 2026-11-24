@@ -2,7 +2,7 @@
   "app": "MOUD TV",
   "version": "11.1 Ultimate",
   "source": "bein_redperch",
-  "updatedAt": "2026-11-23T20:01:33.782855+00:00",
+  "updatedAt": "2026-11-24T09:06:18.157662+00:00",
   "channels": {
     "beIN SPORTS 1": {
       "id": "beinsport1_4K",
@@ -14,6 +14,13 @@
       "servers": [
         {
           "url": "https://redperch.space/dramacardinalv2.php?id=beinsport1_4K|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
+          "headers": {
+            "User-Agent": "Rplayerv2.0.16",
+            "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
+          }
+        },
+        {
+          "url": "https://redperch.space/dramacardinalv2.php?id=beinsport1_HD|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
           "headers": {
             "User-Agent": "Rplayerv2.0.16",
             "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
@@ -122,7 +129,7 @@
       ]
     },
     "beIN SPORTS 5": {
-      "id": "beinsport5_HD",
+      "id": "beinsport5_4K",
       "name": "beIN SPORTS 5",
       "logo": "https://i.ibb.co/Z9j8xcc/1746540952466.png",
       "category": "-Oy71oID8jDKWM314zRb",
@@ -130,7 +137,21 @@
       "streamType": "m3u8",
       "servers": [
         {
+          "url": "https://redperch.space/dramacardinalv2.php?id=beinsport5_4K|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
+          "headers": {
+            "User-Agent": "Rplayerv2.0.16",
+            "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
+          }
+        },
+        {
           "url": "https://redperch.space/dramacardinalv2.php?id=beinsport5_HD|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
+          "headers": {
+            "User-Agent": "Rplayerv2.0.16",
+            "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
+          }
+        },
+        {
+          "url": "https://redperch.space/dramacardinalv2.php?id=beinsport5|User-Agent=Rplayerv2.0.16&Cookie=rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606",
           "headers": {
             "User-Agent": "Rplayerv2.0.16",
             "Cookie": "rplayer_access=1d442accd87af8a69978d18e1r65ca559683678661313c722667ce79dd905606"
